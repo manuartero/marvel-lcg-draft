@@ -1,6 +1,6 @@
 import cards from "./data/cards.json";
 
-type CardPackage =
+export type CardPackage =
   | "Core Set"
   | "Captain America"
   | "The Rise of Red Skull"
@@ -40,7 +40,7 @@ type CardPackage =
   | "Psylocke"
   | "Angel";
 
-type CardType =
+export type CardType =
   | "Ally"
   | "Event"
   | "Support"
@@ -50,7 +50,7 @@ type CardType =
 
 type _CardType = CardType & ("Hero" | "Alter-Ego");
 
-type CardFaction =
+export type CardFaction =
   | "Aggression"
   | "Justice"
   | "Leadership"
@@ -59,7 +59,7 @@ type CardFaction =
 
 type _CardFaction = CardFaction & ("Hero" | "Campaign");
 
-type Card = {
+export type Card = {
   code: string; // id
   name: string;
   type: CardType;

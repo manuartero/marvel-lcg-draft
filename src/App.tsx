@@ -1,17 +1,26 @@
+import { useState } from "react";
+import { PlayerSelection } from "./components/player-selection";
+
+import type { CardFaction } from "./services/cards";
+
 import "./App.css";
-import { getCards } from "./services/cards";
 
 export function App() {
-  const cards = getCards();
+  const [appState, setAppState] = useState<
+    "player-selection" | "deck-building"
+  >("player-selection");
 
-  return (
-    <>
-      <h1>Marvel Mulligan</h1>
-      {cards.map((card) => (
-        <div key={card.code}>
-          <h2>{card.name}</h2>
-        </div>
-      ))}
-    </>
-  );
+  const playersReady = (selection: {
+    player1Faction: CardFaction;
+    player2Faction: CardFaction;
+  }) => {
+    console.log(selection);
+    setAppState("deck-building");
+  };
+
+  if (appState === "player-selection") {
+    return <PlayerSelection onReady={playersReady} />;
+  }
+
+  return <>TODO</>;
 }
