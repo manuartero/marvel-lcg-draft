@@ -1,0 +1,6010 @@
+[
+  {
+    "code": "01050",
+    "name": "Hulk",
+    "type": "Ally",
+    "package": "Core Set",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "01051",
+    "name": "Tigra",
+    "type": "Ally",
+    "package": "Core Set",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "01052",
+    "name": "Chase Them Down",
+    "type": "Event",
+    "package": "Core Set",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "01053",
+    "name": "Relentless Assault",
+    "type": "Event",
+    "package": "Core Set",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "01054",
+    "name": "Uppercut",
+    "type": "Event",
+    "package": "Core Set",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "01055",
+    "name": "The Power of Aggression",
+    "type": "Resource",
+    "package": "Core Set",
+    "faction": "Aggression",
+    "deckLimit": 2
+  },
+  {
+    "code": "01056",
+    "name": "Tac Team",
+    "type": "Support",
+    "package": "Core Set",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "01057",
+    "name": "Combat Training",
+    "type": "Upgrade",
+    "package": "Core Set",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "01058",
+    "name": "Daredevil",
+    "type": "Ally",
+    "package": "Core Set",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "01059",
+    "name": "Jessica Jones",
+    "type": "Ally",
+    "package": "Core Set",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "01060",
+    "name": "For Justice!",
+    "type": "Event",
+    "package": "Core Set",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "01061",
+    "name": "Great Responsibility",
+    "type": "Event",
+    "package": "Core Set",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "01062",
+    "name": "The Power of Justice",
+    "type": "Resource",
+    "package": "Core Set",
+    "faction": "Justice",
+    "deckLimit": 2
+  },
+  {
+    "code": "01063",
+    "name": "Interrogation Room",
+    "type": "Support",
+    "package": "Core Set",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "01064",
+    "name": "Surveillance Team",
+    "type": "Support",
+    "package": "Core Set",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "01065",
+    "name": "Heroic Intuition",
+    "type": "Upgrade",
+    "package": "Core Set",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "01066",
+    "name": "Hawkeye",
+    "type": "Ally",
+    "package": "Core Set",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "01067",
+    "name": "Maria Hill",
+    "type": "Ally",
+    "package": "Core Set",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "01068",
+    "name": "Vision",
+    "type": "Ally",
+    "package": "Core Set",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "01069",
+    "name": "Get Ready",
+    "type": "Event",
+    "package": "Core Set",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "01070",
+    "name": "Lead from the Front",
+    "type": "Event",
+    "package": "Core Set",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "01071",
+    "name": "Make the Call",
+    "type": "Event",
+    "package": "Core Set",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "01072",
+    "name": "The Power of Leadership",
+    "type": "Resource",
+    "package": "Core Set",
+    "faction": "Leadership",
+    "deckLimit": 2
+  },
+  {
+    "code": "01073",
+    "name": "The Triskelion",
+    "type": "Support",
+    "package": "Core Set",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "01074",
+    "name": "Inspired",
+    "type": "Upgrade",
+    "package": "Core Set",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "01075",
+    "name": "Black Widow",
+    "type": "Ally",
+    "package": "Core Set",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "01076",
+    "name": "Luke Cage",
+    "type": "Ally",
+    "package": "Core Set",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "01077",
+    "name": "Counter-Punch",
+    "type": "Event",
+    "package": "Core Set",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "01078",
+    "name": "Get Behind Me!",
+    "type": "Event",
+    "package": "Core Set",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "01079",
+    "name": "The Power of Protection",
+    "type": "Resource",
+    "package": "Core Set",
+    "faction": "Protection",
+    "deckLimit": 2
+  },
+  {
+    "code": "01080",
+    "name": "Med Team",
+    "type": "Support",
+    "package": "Core Set",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "01081",
+    "name": "Armored Vest",
+    "type": "Upgrade",
+    "package": "Core Set",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "01082",
+    "name": "Indomitable",
+    "type": "Upgrade",
+    "package": "Core Set",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "01083",
+    "name": "Mockingbird",
+    "type": "Ally",
+    "package": "Core Set",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "01084",
+    "name": "Nick Fury",
+    "type": "Ally",
+    "package": "Core Set",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "01085",
+    "name": "Emergency",
+    "type": "Event",
+    "package": "Core Set",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "01086",
+    "name": "First Aid",
+    "type": "Event",
+    "package": "Core Set",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "01087",
+    "name": "Haymaker",
+    "type": "Event",
+    "package": "Core Set",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "01088",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Core Set",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "01089",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Core Set",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "01090",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Core Set",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "01091",
+    "name": "Avengers Mansion",
+    "type": "Support",
+    "package": "Core Set",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "01092",
+    "name": "Helicarrier",
+    "type": "Support",
+    "package": "Core Set",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "01093",
+    "name": "Tenacity",
+    "type": "Upgrade",
+    "package": "Core Set",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "03011",
+    "name": "Falcon",
+    "type": "Ally",
+    "package": "Captain America",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "03012",
+    "name": "Hawkeye",
+    "type": "Ally",
+    "package": "Captain America",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "03013",
+    "name": "Squirrel Girl",
+    "type": "Ally",
+    "package": "Captain America",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "03014",
+    "name": "Wonder Man",
+    "type": "Ally",
+    "package": "Captain America",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "03015",
+    "name": "Avengers Assemble!",
+    "type": "Event",
+    "package": "Captain America",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "03016",
+    "name": "Make the Call",
+    "type": "Event",
+    "package": "Captain America",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "03017",
+    "name": "Strength In Numbers",
+    "type": "Event",
+    "package": "Captain America",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "03018",
+    "name": "The Power of Leadership",
+    "type": "Resource",
+    "package": "Captain America",
+    "faction": "Leadership",
+    "deckLimit": 2
+  },
+  {
+    "code": "03019",
+    "name": "Quinjet",
+    "type": "Support",
+    "package": "Captain America",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "03020",
+    "name": "Mockingbird",
+    "type": "Ally",
+    "package": "Captain America",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "03021",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Captain America",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "03022",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Captain America",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "03023",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Captain America",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "03024",
+    "name": "Avengers Tower",
+    "type": "Support",
+    "package": "Captain America",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "03025",
+    "name": "Honorary Avenger",
+    "type": "Upgrade",
+    "package": "Captain America",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "03031",
+    "name": "Enraged",
+    "type": "Upgrade",
+    "package": "Captain America",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "03032",
+    "name": "Followed",
+    "type": "Upgrade",
+    "package": "Captain America",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "03033",
+    "name": "Expert Defense",
+    "type": "Event",
+    "package": "Captain America",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "03034",
+    "name": "Enhanced Awareness",
+    "type": "Upgrade",
+    "package": "Captain America",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "04011",
+    "name": "Hawkeye",
+    "type": "Ally",
+    "package": "The Rise of Red Skull",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "04012",
+    "name": "Black Knight",
+    "type": "Ally",
+    "package": "The Rise of Red Skull",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "04013",
+    "name": "Goliath",
+    "type": "Ally",
+    "package": "The Rise of Red Skull",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "04014",
+    "name": "U.S. Agent",
+    "type": "Ally",
+    "package": "The Rise of Red Skull",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "04015",
+    "name": "Sky Cycle",
+    "type": "Upgrade",
+    "package": "The Rise of Red Skull",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "04016",
+    "name": "Team Training",
+    "type": "Support",
+    "package": "The Rise of Red Skull",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "04017",
+    "name": "Ready for Action",
+    "type": "Event",
+    "package": "The Rise of Red Skull",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "04018",
+    "name": "Lead from the Front",
+    "type": "Event",
+    "package": "The Rise of Red Skull",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "04019",
+    "name": "The Power of Leadership",
+    "type": "Resource",
+    "package": "The Rise of Red Skull",
+    "faction": "Leadership",
+    "deckLimit": 2
+  },
+  {
+    "code": "04020",
+    "name": "War Machine",
+    "type": "Ally",
+    "package": "The Rise of Red Skull",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "04021",
+    "name": "Avengers Tower",
+    "type": "Support",
+    "package": "The Rise of Red Skull",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "04022",
+    "name": "Earth's Mightiest Heroes",
+    "type": "Event",
+    "package": "The Rise of Red Skull",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "04023",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "The Rise of Red Skull",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "04024",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "The Rise of Red Skull",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "04025",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "The Rise of Red Skull",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "04035",
+    "name": "Venom Blast",
+    "type": "Event",
+    "package": "The Rise of Red Skull",
+    "faction": "Aggression",
+    "deckLimit": 2
+  },
+  {
+    "code": "04036",
+    "name": "Pheromones",
+    "type": "Event",
+    "package": "The Rise of Red Skull",
+    "faction": "Leadership",
+    "deckLimit": 2
+  },
+  {
+    "code": "04037",
+    "name": "Contaminant Immunity",
+    "type": "Event",
+    "package": "The Rise of Red Skull",
+    "faction": "Protection",
+    "deckLimit": 2
+  },
+  {
+    "code": "04038",
+    "name": "Inconspicuous",
+    "type": "Event",
+    "package": "The Rise of Red Skull",
+    "faction": "Justice",
+    "deckLimit": 2
+  },
+  {
+    "code": "04040",
+    "name": "Spider-Girl",
+    "type": "Ally",
+    "package": "The Rise of Red Skull",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "04041",
+    "name": "Combat Training",
+    "type": "Upgrade",
+    "package": "The Rise of Red Skull",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "04042",
+    "name": "Tac Team",
+    "type": "Support",
+    "package": "The Rise of Red Skull",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "04043",
+    "name": "Press the Advantage",
+    "type": "Event",
+    "package": "The Rise of Red Skull",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "04044",
+    "name": "Piercing Strike",
+    "type": "Event",
+    "package": "The Rise of Red Skull",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "04045",
+    "name": "Spider-Man",
+    "type": "Ally",
+    "package": "The Rise of Red Skull",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "04046",
+    "name": "Heroic Intuition",
+    "type": "Upgrade",
+    "package": "The Rise of Red Skull",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "04047",
+    "name": "Skilled Investigator",
+    "type": "Upgrade",
+    "package": "The Rise of Red Skull",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "04048",
+    "name": "Interrogation Room",
+    "type": "Support",
+    "package": "The Rise of Red Skull",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "04049",
+    "name": "Clear the Area",
+    "type": "Event",
+    "package": "The Rise of Red Skull",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "04050",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "The Rise of Red Skull",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "04051",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "The Rise of Red Skull",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "04052",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "The Rise of Red Skull",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "05012",
+    "name": "Nova",
+    "type": "Ally",
+    "package": "Ms. Marvel",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "05013",
+    "name": "Get Behind Me!",
+    "type": "Event",
+    "package": "Ms. Marvel",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "05014",
+    "name": "Preemptive Strike",
+    "type": "Event",
+    "package": "Ms. Marvel",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "05015",
+    "name": "Tackle",
+    "type": "Event",
+    "package": "Ms. Marvel",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "05016",
+    "name": "The Power of Protection",
+    "type": "Resource",
+    "package": "Ms. Marvel",
+    "faction": "Protection",
+    "deckLimit": 2
+  },
+  {
+    "code": "05017",
+    "name": "Energy Barrier",
+    "type": "Upgrade",
+    "package": "Ms. Marvel",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "05018",
+    "name": "Lockjaw",
+    "type": "Ally",
+    "package": "Ms. Marvel",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "05019",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Ms. Marvel",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "05020",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Ms. Marvel",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "05021",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Ms. Marvel",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "05022",
+    "name": "Avengers Mansion",
+    "type": "Support",
+    "package": "Ms. Marvel",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "05023",
+    "name": "Endurance",
+    "type": "Upgrade",
+    "package": "Ms. Marvel",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "05024",
+    "name": "Enhanced Reflexes",
+    "type": "Upgrade",
+    "package": "Ms. Marvel",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "05030",
+    "name": "Melee",
+    "type": "Event",
+    "package": "Ms. Marvel",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "05031",
+    "name": "Concussive Blow",
+    "type": "Event",
+    "package": "Ms. Marvel",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "05032",
+    "name": "Morale Boost",
+    "type": "Event",
+    "package": "Ms. Marvel",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "05033",
+    "name": "Down Time",
+    "type": "Upgrade",
+    "package": "Ms. Marvel",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "06011",
+    "name": "Hercules",
+    "type": "Ally",
+    "package": "Thor",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "06012",
+    "name": "Valkyrie",
+    "type": "Ally",
+    "package": "Thor",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "06013",
+    "name": "Chase Them Down",
+    "type": "Event",
+    "package": "Thor",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "06014",
+    "name": "Get Over Here!",
+    "type": "Event",
+    "package": "Thor",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "06015",
+    "name": "Mean Swing",
+    "type": "Event",
+    "package": "Thor",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "06016",
+    "name": "The Power of Aggression",
+    "type": "Resource",
+    "package": "Thor",
+    "faction": "Aggression",
+    "deckLimit": 2
+  },
+  {
+    "code": "06017",
+    "name": "Hall of Heroes",
+    "type": "Support",
+    "package": "Thor",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "06018",
+    "name": "Battle Fury",
+    "type": "Upgrade",
+    "package": "Thor",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "06019",
+    "name": "Jarnbjorn",
+    "type": "Upgrade",
+    "package": "Thor",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "06020",
+    "name": "Heimdall",
+    "type": "Ally",
+    "package": "Thor",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "06021",
+    "name": "Invulnerability",
+    "type": "Event",
+    "package": "Thor",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "06022",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Thor",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "06023",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Thor",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "06024",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Thor",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "06025",
+    "name": "Avengers Mansion",
+    "type": "Support",
+    "package": "Thor",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "06031",
+    "name": "Under Surveillance",
+    "type": "Upgrade",
+    "package": "Thor",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "06032",
+    "name": "Teamwork",
+    "type": "Event",
+    "package": "Thor",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "06033",
+    "name": "Second Wind",
+    "type": "Event",
+    "package": "Thor",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "06034",
+    "name": "Enhanced Physique",
+    "type": "Upgrade",
+    "package": "Thor",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "08011",
+    "name": "Agent Coulson",
+    "type": "Ally",
+    "package": "Black Widow",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "08012",
+    "name": "Quake",
+    "type": "Ally",
+    "package": "Black Widow",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "08013",
+    "name": "Stealth Strike",
+    "type": "Event",
+    "package": "Black Widow",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "08014",
+    "name": "The Power of Justice",
+    "type": "Resource",
+    "package": "Black Widow",
+    "faction": "Justice",
+    "deckLimit": 2
+  },
+  {
+    "code": "08015",
+    "name": "Interrogation Room",
+    "type": "Support",
+    "package": "Black Widow",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "08016",
+    "name": "Surveillance Team",
+    "type": "Support",
+    "package": "Black Widow",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "08017",
+    "name": "Counterintelligence",
+    "type": "Upgrade",
+    "package": "Black Widow",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "08018",
+    "name": "Spycraft",
+    "type": "Upgrade",
+    "package": "Black Widow",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "08019",
+    "name": "Nick Fury",
+    "type": "Ally",
+    "package": "Black Widow",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "08020",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Black Widow",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "08021",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Black Widow",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "08022",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Black Widow",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "08023",
+    "name": "Quincarrier",
+    "type": "Support",
+    "package": "Black Widow",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "08024",
+    "name": "Target Acquired",
+    "type": "Upgrade",
+    "package": "Black Widow",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "08030",
+    "name": "Counterattack",
+    "type": "Upgrade",
+    "package": "Black Widow",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "08031",
+    "name": "Rapid Response",
+    "type": "Upgrade",
+    "package": "Black Widow",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "08032",
+    "name": "Defensive Stance",
+    "type": "Upgrade",
+    "package": "Black Widow",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "08033",
+    "name": "Espionage",
+    "type": "Upgrade",
+    "package": "Black Widow",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "09012",
+    "name": "Brother Voodoo",
+    "type": "Ally",
+    "package": "Doctor Strange",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "09013",
+    "name": "Clea",
+    "type": "Ally",
+    "package": "Doctor Strange",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "09014",
+    "name": "Iron Fist",
+    "type": "Ally",
+    "package": "Doctor Strange",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "09015",
+    "name": "Desperate Defense",
+    "type": "Event",
+    "package": "Doctor Strange",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "09016",
+    "name": "Momentum Shift",
+    "type": "Event",
+    "package": "Doctor Strange",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "09017",
+    "name": "The Power of Protection",
+    "type": "Resource",
+    "package": "Doctor Strange",
+    "faction": "Protection",
+    "deckLimit": 2
+  },
+  {
+    "code": "09018",
+    "name": "Med Team",
+    "type": "Support",
+    "package": "Doctor Strange",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "09019",
+    "name": "The Night Nurse",
+    "type": "Support",
+    "package": "Doctor Strange",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "09020",
+    "name": "Unflappable",
+    "type": "Upgrade",
+    "package": "Doctor Strange",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "09021",
+    "name": "Warning",
+    "type": "Event",
+    "package": "Doctor Strange",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "09022",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Doctor Strange",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "09023",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Doctor Strange",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "09024",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Doctor Strange",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "09025",
+    "name": "Avengers Mansion",
+    "type": "Support",
+    "package": "Doctor Strange",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "09026",
+    "name": "The Sorcerer Supreme",
+    "type": "Upgrade",
+    "package": "Doctor Strange",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "09037",
+    "name": "Skilled Strike",
+    "type": "Event",
+    "package": "Doctor Strange",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "09038",
+    "name": "Foiled!",
+    "type": "Event",
+    "package": "Doctor Strange",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "09039",
+    "name": "Iron Man",
+    "type": "Ally",
+    "package": "Doctor Strange",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "10011",
+    "name": "Brawn",
+    "type": "Ally",
+    "package": "Hulk",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "10012",
+    "name": "Sentry",
+    "type": "Ally",
+    "package": "Hulk",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "10013",
+    "name": "She-Hulk",
+    "type": "Ally",
+    "package": "Hulk",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "10014",
+    "name": "Drop Kick",
+    "type": "Event",
+    "package": "Hulk",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "10015",
+    "name": "Toe to Toe",
+    "type": "Event",
+    "package": "Hulk",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "10016",
+    "name": "\"You'll Pay for That!\"",
+    "type": "Event",
+    "package": "Hulk",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "10017",
+    "name": "The Power of Aggression",
+    "type": "Resource",
+    "package": "Hulk",
+    "faction": "Aggression",
+    "deckLimit": 2
+  },
+  {
+    "code": "10018",
+    "name": "Martial Prowess",
+    "type": "Upgrade",
+    "package": "Hulk",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "10019",
+    "name": "To the Rescue!",
+    "type": "Event",
+    "package": "Hulk",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "10020",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Hulk",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "10021",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Hulk",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "10022",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Hulk",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "10023",
+    "name": "Avengers Mansion",
+    "type": "Support",
+    "package": "Hulk",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "10024",
+    "name": "Helicarrier",
+    "type": "Support",
+    "package": "Hulk",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "10029",
+    "name": "Beat Cop",
+    "type": "Support",
+    "package": "Hulk",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "10030",
+    "name": "Inspiring Presence",
+    "type": "Event",
+    "package": "Hulk",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "10031",
+    "name": "Electrostatic Armor",
+    "type": "Upgrade",
+    "package": "Hulk",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "10032",
+    "name": "Resourceful",
+    "type": "Upgrade",
+    "package": "Hulk",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "12011",
+    "name": "Ant-Man",
+    "type": "Ally",
+    "package": "Ant-Man",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "12012",
+    "name": "Giant-Man",
+    "type": "Ally",
+    "package": "Ant-Man",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "12013",
+    "name": "Ronin",
+    "type": "Ally",
+    "package": "Ant-Man",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "12014",
+    "name": "Stinger",
+    "type": "Ally",
+    "package": "Ant-Man",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "12015",
+    "name": "Call for Aid",
+    "type": "Event",
+    "package": "Ant-Man",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "12016",
+    "name": "Moxie",
+    "type": "Event",
+    "package": "Ant-Man",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "12017",
+    "name": "Power Gloves",
+    "type": "Upgrade",
+    "package": "Ant-Man",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "12018",
+    "name": "Reinforced Suit",
+    "type": "Upgrade",
+    "package": "Ant-Man",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "12019",
+    "name": "First Aid",
+    "type": "Event",
+    "package": "Ant-Man",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "12020",
+    "name": "Swarm Tactics",
+    "type": "Event",
+    "package": "Ant-Man",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "12021",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Ant-Man",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "12022",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Ant-Man",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "12023",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Ant-Man",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "12024",
+    "name": "Team-Building Exercise",
+    "type": "Support",
+    "package": "Ant-Man",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "12030",
+    "name": "Moment of Triumph",
+    "type": "Event",
+    "package": "Ant-Man",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "12031",
+    "name": "Lay Down the Law",
+    "type": "Event",
+    "package": "Ant-Man",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "12032",
+    "name": "Muster Courage",
+    "type": "Event",
+    "package": "Ant-Man",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "12033",
+    "name": "Assess the Situation",
+    "type": "Event",
+    "package": "Ant-Man",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "13011",
+    "name": "Thor",
+    "type": "Ally",
+    "package": "Wasp",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "13012",
+    "name": "Wasp",
+    "type": "Ally",
+    "package": "Wasp",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "13013",
+    "name": "Into the Fray",
+    "type": "Event",
+    "package": "Wasp",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "13014",
+    "name": "Surprise Attack",
+    "type": "Event",
+    "package": "Wasp",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "13015",
+    "name": "The Power of Aggression",
+    "type": "Resource",
+    "package": "Wasp",
+    "faction": "Aggression",
+    "deckLimit": 2
+  },
+  {
+    "code": "13016",
+    "name": "Boot Camp",
+    "type": "Support",
+    "package": "Wasp",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "13017",
+    "name": "Lie in Wait",
+    "type": "Upgrade",
+    "package": "Wasp",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "13018",
+    "name": "Ironheart",
+    "type": "Ally",
+    "package": "Wasp",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "13019",
+    "name": "Spider-Man",
+    "type": "Ally",
+    "package": "Wasp",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "13020",
+    "name": "Swarm Tactics",
+    "type": "Event",
+    "package": "Wasp",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "13021",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Wasp",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "13022",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Wasp",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "13023",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Wasp",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "13024",
+    "name": "The Power in All of Us",
+    "type": "Resource",
+    "package": "Wasp",
+    "faction": "Basic",
+    "deckLimit": 2
+  },
+  {
+    "code": "13025",
+    "name": "Quincarrier",
+    "type": "Support",
+    "package": "Wasp",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "13031",
+    "name": "Running Interference",
+    "type": "Event",
+    "package": "Wasp",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "13032",
+    "name": "All for One",
+    "type": "Event",
+    "package": "Wasp",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "13033",
+    "name": "Perseverance",
+    "type": "Event",
+    "package": "Wasp",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "13034",
+    "name": "Athletic Conditioning",
+    "type": "Event",
+    "package": "Wasp",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "14012",
+    "name": "Multiple Man",
+    "type": "Ally",
+    "package": "Quicksilver",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "14013",
+    "name": "Warlock",
+    "type": "Ally",
+    "package": "Quicksilver",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "14014",
+    "name": "Never Back Down",
+    "type": "Event",
+    "package": "Quicksilver",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "14015",
+    "name": "Side Step",
+    "type": "Event",
+    "package": "Quicksilver",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "14016",
+    "name": "Armored Vest",
+    "type": "Upgrade",
+    "package": "Quicksilver",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "14017",
+    "name": "Nerves of Steel",
+    "type": "Upgrade",
+    "package": "Quicksilver",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "14018",
+    "name": "Order and Chaos",
+    "type": "Event",
+    "package": "Quicksilver",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "14019",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Quicksilver",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "14020",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Quicksilver",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "14021",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Quicksilver",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "14022",
+    "name": "Adrenaline Rush",
+    "type": "Upgrade",
+    "package": "Quicksilver",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "14023",
+    "name": "Civic Duty",
+    "type": "Upgrade",
+    "package": "Quicksilver",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "14029",
+    "name": "Brute Force",
+    "type": "Upgrade",
+    "package": "Quicksilver",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "14030",
+    "name": "Sense of Justice",
+    "type": "Upgrade",
+    "package": "Quicksilver",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "14031",
+    "name": "United We Stand",
+    "type": "Event",
+    "package": "Quicksilver",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "14032",
+    "name": "Beat 'Em Up",
+    "type": "Event",
+    "package": "Quicksilver",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "15010",
+    "name": "Speed",
+    "type": "Ally",
+    "package": "Scarlet Witch",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "15011",
+    "name": "Wiccan",
+    "type": "Ally",
+    "package": "Scarlet Witch",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "15012",
+    "name": "Crisis Averted",
+    "type": "Event",
+    "package": "Scarlet Witch",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "15013",
+    "name": "Multitasking",
+    "type": "Event",
+    "package": "Scarlet Witch",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "15014",
+    "name": "Swift Retribution",
+    "type": "Event",
+    "package": "Scarlet Witch",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "15015",
+    "name": "Turn the Tide",
+    "type": "Event",
+    "package": "Scarlet Witch",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "15016",
+    "name": "The Power of Justice",
+    "type": "Resource",
+    "package": "Scarlet Witch",
+    "faction": "Justice",
+    "deckLimit": 2
+  },
+  {
+    "code": "15017",
+    "name": "Heroic Intuition",
+    "type": "Upgrade",
+    "package": "Scarlet Witch",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "15018",
+    "name": "Order and Chaos",
+    "type": "Event",
+    "package": "Scarlet Witch",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "15019",
+    "name": "Spiritual Meditation",
+    "type": "Event",
+    "package": "Scarlet Witch",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "15020",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Scarlet Witch",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "15021",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Scarlet Witch",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "15022",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Scarlet Witch",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "15028",
+    "name": "Browbeat",
+    "type": "Event",
+    "package": "Scarlet Witch",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "15029",
+    "name": "Last Stand",
+    "type": "Event",
+    "package": "Scarlet Witch",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "15030",
+    "name": "Bait and Switch",
+    "type": "Event",
+    "package": "Scarlet Witch",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "15031",
+    "name": "Recuperation",
+    "type": "Event",
+    "package": "Scarlet Witch",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "16012",
+    "name": "Starhawk",
+    "type": "Ally",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "16013",
+    "name": "Desperate Defense",
+    "type": "Event",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "16014",
+    "name": "Fighting Fit",
+    "type": "Event",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "16015",
+    "name": "The Power of Protection",
+    "type": "Resource",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Protection",
+    "deckLimit": 2
+  },
+  {
+    "code": "16016",
+    "name": "Dauntless",
+    "type": "Upgrade",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "16017",
+    "name": "Hard to Ignore",
+    "type": "Upgrade",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "16018",
+    "name": "Indomitable",
+    "type": "Upgrade",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "16019",
+    "name": "Rocket Raccoon",
+    "type": "Ally",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "16020",
+    "name": "Flora and Fauna",
+    "type": "Event",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "16021",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "16022",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "16023",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "16024",
+    "name": "Deft Focus",
+    "type": "Upgrade",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "16040",
+    "name": "Bug",
+    "type": "Ally",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "16041",
+    "name": "Chase Them Down",
+    "type": "Event",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "16042",
+    "name": "Into the Fray",
+    "type": "Event",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "16043",
+    "name": "Looking for Trouble",
+    "type": "Event",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "16044",
+    "name": "Relentless Assault",
+    "type": "Event",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "16045",
+    "name": "Follow Through",
+    "type": "Upgrade",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "16046",
+    "name": "Hand Cannon",
+    "type": "Upgrade",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "16047",
+    "name": "Groot",
+    "type": "Ally",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "16048",
+    "name": "Flora and Fauna",
+    "type": "Event",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "16049",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "16050",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "16051",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "16052",
+    "name": "Booster Boots",
+    "type": "Upgrade",
+    "package": "Galaxy's Most Wanted",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "17011",
+    "name": "Adam Warlock",
+    "type": "Ally",
+    "package": "Star-Lord",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "17012",
+    "name": "Beta Ray Bill",
+    "type": "Ally",
+    "package": "Star-Lord",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "17013",
+    "name": "Yondu",
+    "type": "Ally",
+    "package": "Star-Lord",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "17014",
+    "name": "Air Supremacy",
+    "type": "Event",
+    "package": "Star-Lord",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "17015",
+    "name": "Blaze of Glory",
+    "type": "Event",
+    "package": "Star-Lord",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "17016",
+    "name": "Get Ready",
+    "type": "Event",
+    "package": "Star-Lord",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "17017",
+    "name": "Target Practice",
+    "type": "Support",
+    "package": "Star-Lord",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "17018",
+    "name": "The Power of Leadership",
+    "type": "Resource",
+    "package": "Star-Lord",
+    "faction": "Leadership",
+    "deckLimit": 2
+  },
+  {
+    "code": "17019",
+    "name": "Laser Blaster",
+    "type": "Upgrade",
+    "package": "Star-Lord",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "17020",
+    "name": "Cosmo",
+    "type": "Ally",
+    "package": "Star-Lord",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "17021",
+    "name": "C.I.T.T.",
+    "type": "Support",
+    "package": "Star-Lord",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "17022",
+    "name": "Knowhere",
+    "type": "Support",
+    "package": "Star-Lord",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "17023",
+    "name": "Pulse Grenade",
+    "type": "Upgrade",
+    "package": "Star-Lord",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "17028",
+    "name": "Dive Bomb",
+    "type": "Event",
+    "package": "Star-Lord",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "17029",
+    "name": "Agile Flight",
+    "type": "Event",
+    "package": "Star-Lord",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "17030",
+    "name": "Ever Vigilant",
+    "type": "Event",
+    "package": "Star-Lord",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "17031",
+    "name": "Enhanced Awareness",
+    "type": "Upgrade",
+    "package": "Star-Lord",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "18011",
+    "name": "Angela",
+    "type": "Ally",
+    "package": "Gamora",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "18012",
+    "name": "Clobber",
+    "type": "Event",
+    "package": "Gamora",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "18013",
+    "name": "Plan of Attack",
+    "type": "Event",
+    "package": "Gamora",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "18014",
+    "name": "Uppercut",
+    "type": "Event",
+    "package": "Gamora",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "18015",
+    "name": "First Hit",
+    "type": "Event",
+    "package": "Gamora",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "18016",
+    "name": "Impede",
+    "type": "Event",
+    "package": "Gamora",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "18017",
+    "name": "Combat Training",
+    "type": "Upgrade",
+    "package": "Gamora",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "18018",
+    "name": "Godslayer",
+    "type": "Upgrade",
+    "package": "Gamora",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "18019",
+    "name": "Drax",
+    "type": "Ally",
+    "package": "Gamora",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "18020",
+    "name": "Hit and Run",
+    "type": "Event",
+    "package": "Gamora",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "18021",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Gamora",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "18022",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Gamora",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "18023",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Gamora",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "18029",
+    "name": "Pivotal Moment",
+    "type": "Event",
+    "package": "Gamora",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "18030",
+    "name": "Comms Implant",
+    "type": "Upgrade",
+    "package": "Gamora",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "18031",
+    "name": "True Grit",
+    "type": "Event",
+    "package": "Gamora",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "18032",
+    "name": "Enhanced Reflexes",
+    "type": "Upgrade",
+    "package": "Gamora",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "19012",
+    "name": "Martyr",
+    "type": "Ally",
+    "package": "Drax",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "19013",
+    "name": "Moondragon",
+    "type": "Ally",
+    "package": "Drax",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "19014",
+    "name": "Counter-Punch",
+    "type": "Event",
+    "package": "Drax",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "19015",
+    "name": "Deflection",
+    "type": "Event",
+    "package": "Drax",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "19016",
+    "name": "Hard Knocks",
+    "type": "Event",
+    "package": "Drax",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "19017",
+    "name": "Leading Blow",
+    "type": "Event",
+    "package": "Drax",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "19018",
+    "name": "Subdue",
+    "type": "Event",
+    "package": "Drax",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "19019",
+    "name": "Indomitable",
+    "type": "Upgrade",
+    "package": "Drax",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "19020",
+    "name": "Gamora",
+    "type": "Ally",
+    "package": "Drax",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "19021",
+    "name": "Athletic Conditioning",
+    "type": "Event",
+    "package": "Drax",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "19022",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Drax",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "19023",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Drax",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "19024",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Drax",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "19030",
+    "name": "\"Bring It!\"",
+    "type": "Event",
+    "package": "Drax",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "19031",
+    "name": "\"Think Fast!\"",
+    "type": "Event",
+    "package": "Drax",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "19032",
+    "name": "Regroup",
+    "type": "Support",
+    "package": "Drax",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "19033",
+    "name": "Enhanced Physique",
+    "type": "Upgrade",
+    "package": "Drax",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "20011",
+    "name": "Jack Flag",
+    "type": "Ally",
+    "package": "Venom",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "20012",
+    "name": "Scare Tactic",
+    "type": "Event",
+    "package": "Venom",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "20013",
+    "name": "Making an Entrance",
+    "type": "Event",
+    "package": "Venom",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "20014",
+    "name": "The Power of Justice",
+    "type": "Resource",
+    "package": "Venom",
+    "faction": "Justice",
+    "deckLimit": 2
+  },
+  {
+    "code": "20015",
+    "name": "Sonic Rifle",
+    "type": "Upgrade",
+    "package": "Venom",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "20016",
+    "name": "Star-Lord",
+    "type": "Ally",
+    "package": "Venom",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "20017",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Venom",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "20018",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Venom",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "20019",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Venom",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "20020",
+    "name": "Resourceful",
+    "type": "Upgrade",
+    "package": "Venom",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "20021",
+    "name": "Side Holster",
+    "type": "Upgrade",
+    "package": "Venom",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "20022",
+    "name": "Plasma Pistol",
+    "type": "Upgrade",
+    "package": "Venom",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "20026",
+    "name": "Fusillade",
+    "type": "Event",
+    "package": "Venom",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "20027",
+    "name": "\"Welcome Aboard\"",
+    "type": "Event",
+    "package": "Venom",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "20028",
+    "name": "Shake it Off",
+    "type": "Event",
+    "package": "Venom",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "20029",
+    "name": "Crew Quarters",
+    "type": "Support",
+    "package": "Venom",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "21011",
+    "name": "Captain America",
+    "type": "Ally",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "21012",
+    "name": "Power Man",
+    "type": "Ally",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "21013",
+    "name": "White Tiger",
+    "type": "Ally",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "21014",
+    "name": "Kaluu",
+    "type": "Ally",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "21015",
+    "name": "Mighty Avengers",
+    "type": "Support",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "21016",
+    "name": "Mass Attack",
+    "type": "Event",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "21017",
+    "name": "Moxie",
+    "type": "Event",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "21018",
+    "name": "Band Together",
+    "type": "Resource",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "21019",
+    "name": "Blade",
+    "type": "Ally",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "21020",
+    "name": "Avengers Tower",
+    "type": "Support",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "21021",
+    "name": "Avengers Mansion",
+    "type": "Support",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "21022",
+    "name": "Ready to Rumble",
+    "type": "Upgrade",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "21023",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "21024",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "21025",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "21041",
+    "name": "Marvel Boy",
+    "type": "Ally",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "21042",
+    "name": "In-Betweener",
+    "type": "Event",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "21043",
+    "name": "Magic Attack",
+    "type": "Event",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "21044",
+    "name": "Uppercut",
+    "type": "Event",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "21045",
+    "name": "Combat Training",
+    "type": "Upgrade",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "21046",
+    "name": "Audacity",
+    "type": "Resource",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "21047",
+    "name": "Quasar",
+    "type": "Ally",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "21048",
+    "name": "Living Tribunal",
+    "type": "Event",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "21049",
+    "name": "For Justice!",
+    "type": "Event",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "21050",
+    "name": "Zone of Silence",
+    "type": "Event",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "21051",
+    "name": "Heroic Intuition",
+    "type": "Upgrade",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "21052",
+    "name": "Determination",
+    "type": "Resource",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "21053",
+    "name": "Major Victory",
+    "type": "Ally",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "21054",
+    "name": "Eternity",
+    "type": "Event",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "21055",
+    "name": "Summoning Spell",
+    "type": "Event",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "21056",
+    "name": "Make the Call",
+    "type": "Event",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "21057",
+    "name": "Inspired",
+    "type": "Upgrade",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "21058",
+    "name": "Innovation",
+    "type": "Resource",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "21059",
+    "name": "Charlie-27",
+    "type": "Ally",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "21060",
+    "name": "The Gardener",
+    "type": "Event",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "21061",
+    "name": "Shield Spell",
+    "type": "Event",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "21062",
+    "name": "Counter-Punch",
+    "type": "Event",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "21063",
+    "name": "Armored Vest",
+    "type": "Upgrade",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "21064",
+    "name": "Preservation",
+    "type": "Resource",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "21065",
+    "name": "Martinex",
+    "type": "Ally",
+    "package": "The Mad Titan's Shadow",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "22011",
+    "name": "Eros",
+    "type": "Ally",
+    "package": "Nebula",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "22012",
+    "name": "Wraith",
+    "type": "Ally",
+    "package": "Nebula",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "22013",
+    "name": "Venom",
+    "type": "Ally",
+    "package": "Nebula",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "22014",
+    "name": "Justice Served",
+    "type": "Upgrade",
+    "package": "Nebula",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "22015",
+    "name": "One Way or Another",
+    "type": "Event",
+    "package": "Nebula",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "22016",
+    "name": "Determination",
+    "type": "Resource",
+    "package": "Nebula",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "22017",
+    "name": "The Power of Justice",
+    "type": "Resource",
+    "package": "Nebula",
+    "faction": "Justice",
+    "deckLimit": 2
+  },
+  {
+    "code": "22018",
+    "name": "Brains Over Brawn",
+    "type": "Event",
+    "package": "Nebula",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "22019",
+    "name": "Heroic Intuition",
+    "type": "Upgrade",
+    "package": "Nebula",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "22020",
+    "name": "Cosmo",
+    "type": "Ally",
+    "package": "Nebula",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "22021",
+    "name": "Knowhere",
+    "type": "Support",
+    "package": "Nebula",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "22022",
+    "name": "Daughters of Thanos",
+    "type": "Event",
+    "package": "Nebula",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "22023",
+    "name": "First Aid",
+    "type": "Event",
+    "package": "Nebula",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "22024",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Nebula",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "22025",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Nebula",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "22026",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Nebula",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "22032",
+    "name": "Energy Spear",
+    "type": "Upgrade",
+    "package": "Nebula",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "22033",
+    "name": "Guardians of the Galaxy",
+    "type": "Support",
+    "package": "Nebula",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "22034",
+    "name": "Defensive Training",
+    "type": "Support",
+    "package": "Nebula",
+    "faction": "Protection",
+    "deckLimit": 2
+  },
+  {
+    "code": "22035",
+    "name": "Honorary Guardian",
+    "type": "Upgrade",
+    "package": "Nebula",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "23012",
+    "name": "Black Panther",
+    "type": "Ally",
+    "package": "War Machine",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "23013",
+    "name": "Captain Marvel",
+    "type": "Ally",
+    "package": "War Machine",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "23014",
+    "name": "Falcon",
+    "type": "Ally",
+    "package": "War Machine",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "23015",
+    "name": "Goliath",
+    "type": "Ally",
+    "package": "War Machine",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "23016",
+    "name": "Command Team",
+    "type": "Support",
+    "package": "War Machine",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "23017",
+    "name": "Sneak Attack",
+    "type": "Event",
+    "package": "War Machine",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "23018",
+    "name": "Save the Day",
+    "type": "Event",
+    "package": "War Machine",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "23019",
+    "name": "Go Down Swinging",
+    "type": "Event",
+    "package": "War Machine",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "23020",
+    "name": "Make the Call",
+    "type": "Event",
+    "package": "War Machine",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "23021",
+    "name": "Innovation",
+    "type": "Resource",
+    "package": "War Machine",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "23022",
+    "name": "Mockingbird",
+    "type": "Ally",
+    "package": "War Machine",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "23023",
+    "name": "Quincarrier",
+    "type": "Support",
+    "package": "War Machine",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "23024",
+    "name": "Two Against the World",
+    "type": "Event",
+    "package": "War Machine",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "23025",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "War Machine",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "23026",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "War Machine",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "23027",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "War Machine",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "23032",
+    "name": "As One!",
+    "type": "Event",
+    "package": "War Machine",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "23033",
+    "name": "Vigilante Training",
+    "type": "Support",
+    "package": "War Machine",
+    "faction": "Justice",
+    "deckLimit": 2
+  },
+  {
+    "code": "23034",
+    "name": "Stand Together",
+    "type": "Event",
+    "package": "War Machine",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "23035",
+    "name": "Sidearm",
+    "type": "Upgrade",
+    "package": "War Machine",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "25013",
+    "name": "Thor",
+    "type": "Ally",
+    "package": "Valkyrie",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "25014",
+    "name": "Throg",
+    "type": "Ally",
+    "package": "Valkyrie",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "25015",
+    "name": "Angela",
+    "type": "Ally",
+    "package": "Valkyrie",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "25016",
+    "name": "Hall of Heroes",
+    "type": "Support",
+    "package": "Valkyrie",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "25017",
+    "name": "Combat Training",
+    "type": "Upgrade",
+    "package": "Valkyrie",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "25018",
+    "name": "Quick Strike",
+    "type": "Event",
+    "package": "Valkyrie",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "25019",
+    "name": "Smash the Problem",
+    "type": "Event",
+    "package": "Valkyrie",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "25020",
+    "name": "The Best Defense…",
+    "type": "Event",
+    "package": "Valkyrie",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "25021",
+    "name": "Audacity",
+    "type": "Resource",
+    "package": "Valkyrie",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "25022",
+    "name": "The Power of Aggression",
+    "type": "Resource",
+    "package": "Valkyrie",
+    "faction": "Aggression",
+    "deckLimit": 2
+  },
+  {
+    "code": "25023",
+    "name": "The Bifrost",
+    "type": "Support",
+    "package": "Valkyrie",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "25024",
+    "name": "Godlike Stamina",
+    "type": "Event",
+    "package": "Valkyrie",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "25025",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Valkyrie",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "25026",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Valkyrie",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "25027",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Valkyrie",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "25033",
+    "name": "Problem Solvers",
+    "type": "Event",
+    "package": "Valkyrie",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "25034",
+    "name": "Leadership Training",
+    "type": "Support",
+    "package": "Valkyrie",
+    "faction": "Leadership",
+    "deckLimit": 2
+  },
+  {
+    "code": "25035",
+    "name": "Anticipation",
+    "type": "Upgrade",
+    "package": "Valkyrie",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "25036",
+    "name": "Cosmic Alliance",
+    "type": "Event",
+    "package": "Valkyrie",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "26013",
+    "name": "Jocasta",
+    "type": "Ally",
+    "package": "Vision",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "26014",
+    "name": "Protector",
+    "type": "Ally",
+    "package": "Vision",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "26015",
+    "name": "Victor Mancha",
+    "type": "Ally",
+    "package": "Vision",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "26016",
+    "name": "Flow Like Water",
+    "type": "Upgrade",
+    "package": "Vision",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "26017",
+    "name": "Indomitable",
+    "type": "Upgrade",
+    "package": "Vision",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "26018",
+    "name": "Defiance",
+    "type": "Event",
+    "package": "Vision",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "26019",
+    "name": "Side Step",
+    "type": "Event",
+    "package": "Vision",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "26020",
+    "name": "Get Behind Me!",
+    "type": "Event",
+    "package": "Vision",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "26021",
+    "name": "Preservation",
+    "type": "Resource",
+    "package": "Vision",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "26022",
+    "name": "Machine Man",
+    "type": "Ally",
+    "package": "Vision",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "26023",
+    "name": "Avengers Mansion",
+    "type": "Support",
+    "package": "Vision",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "26024",
+    "name": "Reboot",
+    "type": "Event",
+    "package": "Vision",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "26025",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Vision",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "26026",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Vision",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "26027",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Vision",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "26033",
+    "name": "Assault Training",
+    "type": "Support",
+    "package": "Vision",
+    "faction": "Aggression",
+    "deckLimit": 2
+  },
+  {
+    "code": "26034",
+    "name": "Chance Encounter",
+    "type": "Upgrade",
+    "package": "Vision",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "26035",
+    "name": "Joining Forces",
+    "type": "Event",
+    "package": "Vision",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "26036",
+    "name": "Meditation",
+    "type": "Event",
+    "package": "Vision",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "27010",
+    "name": "Silk",
+    "type": "Ally",
+    "package": "Sinister Motives",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "27011",
+    "name": "Spider-Man",
+    "type": "Ally",
+    "package": "Sinister Motives",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "27012",
+    "name": "Spider-UK",
+    "type": "Ally",
+    "package": "Sinister Motives",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "27013",
+    "name": "Bait and Switch",
+    "type": "Event",
+    "package": "Sinister Motives",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "27014",
+    "name": "Jump Flip",
+    "type": "Event",
+    "package": "Sinister Motives",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "27015",
+    "name": "Return the Favor",
+    "type": "Event",
+    "package": "Sinister Motives",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "27016",
+    "name": "What Doesn't Kill Me",
+    "type": "Event",
+    "package": "Sinister Motives",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "27017",
+    "name": "Spider-Man",
+    "type": "Ally",
+    "package": "Sinister Motives",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "27018",
+    "name": "Across the Spider-Verse",
+    "type": "Event",
+    "package": "Sinister Motives",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "27019",
+    "name": "Young Love",
+    "type": "Event",
+    "package": "Sinister Motives",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "27020",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Sinister Motives",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "27021",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Sinister Motives",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "27022",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Sinister Motives",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "27023",
+    "name": "Web of Life and Destiny",
+    "type": "Support",
+    "package": "Sinister Motives",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "27024",
+    "name": "Plan B",
+    "type": "Upgrade",
+    "package": "Sinister Motives",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "27040",
+    "name": "Monica Chang",
+    "type": "Ally",
+    "package": "Sinister Motives",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "27041",
+    "name": "Spider-Woman",
+    "type": "Ally",
+    "package": "Sinister Motives",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "27042",
+    "name": "Homeland Intervention",
+    "type": "Event",
+    "package": "Sinister Motives",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "27043",
+    "name": "Global Logistics",
+    "type": "Event",
+    "package": "Sinister Motives",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "27044",
+    "name": "Field Agent",
+    "type": "Support",
+    "package": "Sinister Motives",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "27045",
+    "name": "Surveillance Team",
+    "type": "Support",
+    "package": "Sinister Motives",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "27046",
+    "name": "Agent 13",
+    "type": "Ally",
+    "package": "Sinister Motives",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "27047",
+    "name": "Dum Dum Dugan",
+    "type": "Ally",
+    "package": "Sinister Motives",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "27048",
+    "name": "Ghost-Spider",
+    "type": "Ally",
+    "package": "Sinister Motives",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "27049",
+    "name": "Spider-Man",
+    "type": "Ally",
+    "package": "Sinister Motives",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "27050",
+    "name": "Young Love",
+    "type": "Event",
+    "package": "Sinister Motives",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "27051",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Sinister Motives",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "27052",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Sinister Motives",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "27053",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Sinister Motives",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "27054",
+    "name": "Government Liaison",
+    "type": "Support",
+    "package": "Sinister Motives",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "27055",
+    "name": "Sky-Destroyer",
+    "type": "Support",
+    "package": "Sinister Motives",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "27190",
+    "name": "Venom",
+    "type": "Ally",
+    "package": "Sinister Motives",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "27191",
+    "name": "Symbiote Suit",
+    "type": "Upgrade",
+    "package": "Sinister Motives",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "28010",
+    "name": "The Locust",
+    "type": "Ally",
+    "package": "Nova",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "28011",
+    "name": "Chase Them Down",
+    "type": "Event",
+    "package": "Nova",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "28012",
+    "name": "Pitchback",
+    "type": "Event",
+    "package": "Nova",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "28013",
+    "name": "No Quarter",
+    "type": "Event",
+    "package": "Nova",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "28014",
+    "name": "One by One",
+    "type": "Event",
+    "package": "Nova",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "28015",
+    "name": "The Power of Aggression",
+    "type": "Resource",
+    "package": "Nova",
+    "faction": "Aggression",
+    "deckLimit": 2
+  },
+  {
+    "code": "28016",
+    "name": "Fluid Motion",
+    "type": "Upgrade",
+    "package": "Nova",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "28017",
+    "name": "Honed Technique",
+    "type": "Upgrade",
+    "package": "Nova",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "28018",
+    "name": "Moon Girl",
+    "type": "Ally",
+    "package": "Nova",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "28019",
+    "name": "Everyday Hero",
+    "type": "Resource",
+    "package": "Nova",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "28020",
+    "name": "Champions Mobile Bunker",
+    "type": "Support",
+    "package": "Nova",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "28026",
+    "name": "Yaw and Roll",
+    "type": "Event",
+    "package": "Nova",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "28027",
+    "name": "Height Advantage",
+    "type": "Upgrade",
+    "package": "Nova",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "29014",
+    "name": "Cloud 9",
+    "type": "Ally",
+    "package": "Ironheart",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "29015",
+    "name": "Falcon",
+    "type": "Ally",
+    "package": "Ironheart",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "29016",
+    "name": "Patriot",
+    "type": "Ally",
+    "package": "Ironheart",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "29017",
+    "name": "Go All Out",
+    "type": "Event",
+    "package": "Ironheart",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "29018",
+    "name": "Push Ahead",
+    "type": "Event",
+    "package": "Ironheart",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "29019",
+    "name": "Morale Boost",
+    "type": "Event",
+    "package": "Ironheart",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "29020",
+    "name": "R&D Facility",
+    "type": "Support",
+    "package": "Ironheart",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "29021",
+    "name": "The Power of Leadership",
+    "type": "Resource",
+    "package": "Ironheart",
+    "faction": "Leadership",
+    "deckLimit": 2
+  },
+  {
+    "code": "29022",
+    "name": "Agent 13",
+    "type": "Ally",
+    "package": "Ironheart",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "29023",
+    "name": "Snowguard",
+    "type": "Ally",
+    "package": "Ironheart",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "29024",
+    "name": "Vivian",
+    "type": "Ally",
+    "package": "Ironheart",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "29025",
+    "name": "\"Go for Champions!\"",
+    "type": "Event",
+    "package": "Ironheart",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "29026",
+    "name": "Helicarrier",
+    "type": "Support",
+    "package": "Ironheart",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "29027",
+    "name": "Ingenuity",
+    "type": "Upgrade",
+    "package": "Ironheart",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "29033",
+    "name": "Bombshell",
+    "type": "Ally",
+    "package": "Ironheart",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "29034",
+    "name": "Wasp",
+    "type": "Ally",
+    "package": "Ironheart",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "29035",
+    "name": "Pinpoint",
+    "type": "Ally",
+    "package": "Ironheart",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "30012",
+    "name": "Lady Spider",
+    "type": "Ally",
+    "package": "Spider-Ham",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "30013",
+    "name": "Spider-Man",
+    "type": "Ally",
+    "package": "Spider-Ham",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "30014",
+    "name": "Even the Odds",
+    "type": "Event",
+    "package": "Spider-Ham",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "30015",
+    "name": "Great Responsibility",
+    "type": "Event",
+    "package": "Spider-Ham",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "30016",
+    "name": "Making an Entrance",
+    "type": "Event",
+    "package": "Spider-Ham",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "30017",
+    "name": "One Way or Another",
+    "type": "Event",
+    "package": "Spider-Ham",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "30018",
+    "name": "Followed",
+    "type": "Upgrade",
+    "package": "Spider-Ham",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "30019",
+    "name": "Overwatch",
+    "type": "Upgrade",
+    "package": "Spider-Ham",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "30020",
+    "name": "Scarlet Spider",
+    "type": "Ally",
+    "package": "Spider-Ham",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "30021",
+    "name": "SP//dr",
+    "type": "Ally",
+    "package": "Spider-Ham",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "30022",
+    "name": "Team-Building Exercise",
+    "type": "Support",
+    "package": "Spider-Ham",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "30023",
+    "name": "Web of Life and Destiny",
+    "type": "Support",
+    "package": "Spider-Ham",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "30029",
+    "name": "Warrior of the Great Web",
+    "type": "Upgrade",
+    "package": "Spider-Ham",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "31014",
+    "name": "Daredevil",
+    "type": "Ally",
+    "package": "SP//dr",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "31015",
+    "name": "Spider-Man Noir",
+    "type": "Ally",
+    "package": "SP//dr",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "31016",
+    "name": "Repurpose",
+    "type": "Event",
+    "package": "SP//dr",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "31017",
+    "name": "Thwip! Thwip!",
+    "type": "Event",
+    "package": "SP//dr",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "31018",
+    "name": "Energy Barrier",
+    "type": "Upgrade",
+    "package": "SP//dr",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "31019",
+    "name": "Forcefield Generator",
+    "type": "Upgrade",
+    "package": "SP//dr",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "31020",
+    "name": "Spider-Tingle",
+    "type": "Upgrade",
+    "package": "SP//dr",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "31021",
+    "name": "Spider-Ham",
+    "type": "Ally",
+    "package": "SP//dr",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "31022",
+    "name": "Spider-Man",
+    "type": "Ally",
+    "package": "SP//dr",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "31023",
+    "name": "Limitless Stamina",
+    "type": "Event",
+    "package": "SP//dr",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "31024",
+    "name": "Unshakable",
+    "type": "Upgrade",
+    "package": "SP//dr",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "31029",
+    "name": "Clarity of Purpose",
+    "type": "Upgrade",
+    "package": "SP//dr",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "32011",
+    "name": "Nightcrawler",
+    "type": "Ally",
+    "package": "Mutant Genesis",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "32012",
+    "name": "Polaris",
+    "type": "Ally",
+    "package": "Mutant Genesis",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "32013",
+    "name": "Protective Training",
+    "type": "Upgrade",
+    "package": "Mutant Genesis",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "32014",
+    "name": "Powerful Punch",
+    "type": "Event",
+    "package": "Mutant Genesis",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "32015",
+    "name": "Bait and Switch",
+    "type": "Event",
+    "package": "Mutant Genesis",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "32016",
+    "name": "Perseverance",
+    "type": "Event",
+    "package": "Mutant Genesis",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "32017",
+    "name": "Mutant Protectors",
+    "type": "Event",
+    "package": "Mutant Genesis",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "32018",
+    "name": "Defensive Energy",
+    "type": "Resource",
+    "package": "Mutant Genesis",
+    "faction": "Protection",
+    "deckLimit": 2
+  },
+  {
+    "code": "32019",
+    "name": "Professor X",
+    "type": "Ally",
+    "package": "Mutant Genesis",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "32020",
+    "name": "The X-Jet",
+    "type": "Support",
+    "package": "Mutant Genesis",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "32021",
+    "name": "Shadow and Steel",
+    "type": "Event",
+    "package": "Mutant Genesis",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "32022",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Mutant Genesis",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "32023",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Mutant Genesis",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "32024",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Mutant Genesis",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "32041",
+    "name": "Wolverine",
+    "type": "Ally",
+    "package": "Mutant Genesis",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "32042",
+    "name": "Magik",
+    "type": "Ally",
+    "package": "Mutant Genesis",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "32043",
+    "name": "Attack Training",
+    "type": "Upgrade",
+    "package": "Mutant Genesis",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "32044",
+    "name": "Gatekeeper",
+    "type": "Upgrade",
+    "package": "Mutant Genesis",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "32045",
+    "name": "Team Strike",
+    "type": "Event",
+    "package": "Mutant Genesis",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "32046",
+    "name": "Toe to Toe",
+    "type": "Event",
+    "package": "Mutant Genesis",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "32047",
+    "name": "Aggressive Energy",
+    "type": "Resource",
+    "package": "Mutant Genesis",
+    "faction": "Aggression",
+    "deckLimit": 2
+  },
+  {
+    "code": "32048",
+    "name": "Colossus",
+    "type": "Ally",
+    "package": "Mutant Genesis",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "32049",
+    "name": "X-Mansion",
+    "type": "Support",
+    "package": "Mutant Genesis",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "32050",
+    "name": "Shadow and Steel",
+    "type": "Event",
+    "package": "Mutant Genesis",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "32051",
+    "name": "Ready to Rumble",
+    "type": "Upgrade",
+    "package": "Mutant Genesis",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "32052",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Mutant Genesis",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "32053",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Mutant Genesis",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "32054",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Mutant Genesis",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "33011",
+    "name": "Beast",
+    "type": "Ally",
+    "package": "Cyclops",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "33012",
+    "name": "Dust",
+    "type": "Ally",
+    "package": "Cyclops",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "33013",
+    "name": "Rockslide",
+    "type": "Ally",
+    "package": "Cyclops",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "33014",
+    "name": "Blindfold",
+    "type": "Ally",
+    "package": "Cyclops",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "33015",
+    "name": "Danger Room Training",
+    "type": "Upgrade",
+    "package": "Cyclops",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "33016",
+    "name": "Coordinated Attack",
+    "type": "Upgrade",
+    "package": "Cyclops",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "33017",
+    "name": "Teamwork",
+    "type": "Event",
+    "package": "Cyclops",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "33018",
+    "name": "Effective Leadership",
+    "type": "Resource",
+    "package": "Cyclops",
+    "faction": "Leadership",
+    "deckLimit": 2
+  },
+  {
+    "code": "33019",
+    "name": "Angel",
+    "type": "Ally",
+    "package": "Cyclops",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "33020",
+    "name": "Utopia",
+    "type": "Support",
+    "package": "Cyclops",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "33021",
+    "name": "Danger Room",
+    "type": "Support",
+    "package": "Cyclops",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "33022",
+    "name": "Game Time",
+    "type": "Event",
+    "package": "Cyclops",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "33023",
+    "name": "Psychic Rapport",
+    "type": "Event",
+    "package": "Cyclops",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "33024",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Cyclops",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "33025",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Cyclops",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "33026",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Cyclops",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "33032",
+    "name": "Marked",
+    "type": "Upgrade",
+    "package": "Cyclops",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "33033",
+    "name": "Befuddle",
+    "type": "Upgrade",
+    "package": "Cyclops",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "33034",
+    "name": "Pinned Down",
+    "type": "Upgrade",
+    "package": "Cyclops",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "33035",
+    "name": "Honorary X-Men",
+    "type": "Upgrade",
+    "package": "Cyclops",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "34014",
+    "name": "Banshee",
+    "type": "Ally",
+    "package": "Phoenix",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "34015",
+    "name": "Marvel Girl",
+    "type": "Ally",
+    "package": "Phoenix",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "34016",
+    "name": "Mission Training",
+    "type": "Upgrade",
+    "package": "Phoenix",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "34017",
+    "name": "Psychic Manipulation",
+    "type": "Event",
+    "package": "Phoenix",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "34018",
+    "name": "Mutant Peacekeepers",
+    "type": "Event",
+    "package": "Phoenix",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "34019",
+    "name": "Swift Retribution",
+    "type": "Event",
+    "package": "Phoenix",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "34020",
+    "name": "Passion for Justice",
+    "type": "Resource",
+    "package": "Phoenix",
+    "faction": "Justice",
+    "deckLimit": 2
+  },
+  {
+    "code": "34021",
+    "name": "Storm",
+    "type": "Ally",
+    "package": "Phoenix",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "34022",
+    "name": "Cerebro",
+    "type": "Support",
+    "package": "Phoenix",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "34023",
+    "name": "Psychic Rapport",
+    "type": "Event",
+    "package": "Phoenix",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "34024",
+    "name": "Down Time",
+    "type": "Upgrade",
+    "package": "Phoenix",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "34025",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Phoenix",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "34026",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Phoenix",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "34027",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Phoenix",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "34032",
+    "name": "Psychic Assault",
+    "type": "Event",
+    "package": "Phoenix",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "34033",
+    "name": "Psychic Misdirection",
+    "type": "Event",
+    "package": "Phoenix",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "34034",
+    "name": "Psychic Kicker",
+    "type": "Event",
+    "package": "Phoenix",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "34035",
+    "name": "Soul Sisters",
+    "type": "Event",
+    "package": "Phoenix",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "35013",
+    "name": "Psylocke",
+    "type": "Ally",
+    "package": "Wolverine",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "35014",
+    "name": "Sunfire",
+    "type": "Ally",
+    "package": "Wolverine",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "35015",
+    "name": "Battle Fury",
+    "type": "Upgrade",
+    "package": "Wolverine",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "35016",
+    "name": "Warrior Skill",
+    "type": "Upgrade",
+    "package": "Wolverine",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "35017",
+    "name": "Outta My Way!",
+    "type": "Event",
+    "package": "Wolverine",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "35018",
+    "name": "Precision Strike",
+    "type": "Event",
+    "package": "Wolverine",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "35019",
+    "name": "Mean Swing",
+    "type": "Event",
+    "package": "Wolverine",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "35020",
+    "name": "Aggressive Energy",
+    "type": "Resource",
+    "package": "Wolverine",
+    "faction": "Aggression",
+    "deckLimit": 2
+  },
+  {
+    "code": "35021",
+    "name": "Colossus",
+    "type": "Ally",
+    "package": "Wolverine",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "35022",
+    "name": "Weapon X",
+    "type": "Support",
+    "package": "Wolverine",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "35023",
+    "name": "Fastball Special",
+    "type": "Event",
+    "package": "Wolverine",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "35024",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Wolverine",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "35025",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Wolverine",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "35026",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Wolverine",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "35032",
+    "name": "Command Center",
+    "type": "Support",
+    "package": "Wolverine",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "35033",
+    "name": "Longshot",
+    "type": "Ally",
+    "package": "Wolverine",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "36014",
+    "name": "Havok",
+    "type": "Ally",
+    "package": "Storm",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "36015",
+    "name": "Mirage",
+    "type": "Ally",
+    "package": "Storm",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "36016",
+    "name": "Gentle",
+    "type": "Ally",
+    "package": "Storm",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "36017",
+    "name": "Pixie",
+    "type": "Ally",
+    "package": "Storm",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "36018",
+    "name": "Uncanny X-Men",
+    "type": "Support",
+    "package": "Storm",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "36019",
+    "name": "Leadership Skill",
+    "type": "Upgrade",
+    "package": "Storm",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "36020",
+    "name": "\"To Me, My X-Men!\"",
+    "type": "Event",
+    "package": "Storm",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "36021",
+    "name": "Effective Leadership",
+    "type": "Resource",
+    "package": "Storm",
+    "faction": "Leadership",
+    "deckLimit": 2
+  },
+  {
+    "code": "36022",
+    "name": "Forge",
+    "type": "Ally",
+    "package": "Storm",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "36023",
+    "name": "The X-Jet",
+    "type": "Support",
+    "package": "Storm",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "36024",
+    "name": "Utopia",
+    "type": "Support",
+    "package": "Storm",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "36025",
+    "name": "X-Mansion",
+    "type": "Support",
+    "package": "Storm",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "36026",
+    "name": "Endurance",
+    "type": "Upgrade",
+    "package": "Storm",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "36027",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Storm",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "36028",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Storm",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "36029",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Storm",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "36035",
+    "name": "Hangar Bay",
+    "type": "Support",
+    "package": "Storm",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "37011",
+    "name": "Bishop",
+    "type": "Ally",
+    "package": "Gambit",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "37012",
+    "name": "Dazzler",
+    "type": "Ally",
+    "package": "Gambit",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "37013",
+    "name": "Operative Skill",
+    "type": "Upgrade",
+    "package": "Gambit",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "37014",
+    "name": "Stealth Strike",
+    "type": "Event",
+    "package": "Gambit",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "37015",
+    "name": "Breaking and Entering",
+    "type": "Event",
+    "package": "Gambit",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "37016",
+    "name": "Passion for Justice",
+    "type": "Resource",
+    "package": "Gambit",
+    "faction": "Justice",
+    "deckLimit": 2
+  },
+  {
+    "code": "37017",
+    "name": "Professor X",
+    "type": "Ally",
+    "package": "Gambit",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "37018",
+    "name": "X-Mansion",
+    "type": "Support",
+    "package": "Gambit",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "37019",
+    "name": "Beauty and the Thief",
+    "type": "Event",
+    "package": "Gambit",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "37020",
+    "name": "Hit and Run",
+    "type": "Event",
+    "package": "Gambit",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "37021",
+    "name": "Mutant Education",
+    "type": "Event",
+    "package": "Gambit",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "37022",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Gambit",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "37023",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Gambit",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "37024",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Gambit",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "37030",
+    "name": "War Room",
+    "type": "Support",
+    "package": "Gambit",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "37031",
+    "name": "X-Men Instruction",
+    "type": "Event",
+    "package": "Gambit",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "38010",
+    "name": "Iceman",
+    "type": "Ally",
+    "package": "Rogue",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "38011",
+    "name": "Karma",
+    "type": "Ally",
+    "package": "Rogue",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "38012",
+    "name": "Armor",
+    "type": "Ally",
+    "package": "Rogue",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "38013",
+    "name": "Unflappable",
+    "type": "Upgrade",
+    "package": "Rogue",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "38014",
+    "name": "Judoka Skill",
+    "type": "Upgrade",
+    "package": "Rogue",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "38015",
+    "name": "Preemptive Strike",
+    "type": "Event",
+    "package": "Rogue",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "38016",
+    "name": "Not Today!",
+    "type": "Event",
+    "package": "Rogue",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "38017",
+    "name": "Defensive Energy",
+    "type": "Resource",
+    "package": "Rogue",
+    "faction": "Protection",
+    "deckLimit": 2
+  },
+  {
+    "code": "38018",
+    "name": "Moira MacTaggert",
+    "type": "Support",
+    "package": "Rogue",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "38019",
+    "name": "X-Gene",
+    "type": "Upgrade",
+    "package": "Rogue",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "38020",
+    "name": "Beauty and the Thief",
+    "type": "Event",
+    "package": "Rogue",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "38021",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "Rogue",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "38022",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "Rogue",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "38023",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "Rogue",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "38028",
+    "name": "Med Lab",
+    "type": "Support",
+    "package": "Rogue",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "40014",
+    "name": "Caliban",
+    "type": "Ally",
+    "package": "NeXt Evolution",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "40015",
+    "name": "Fantomex",
+    "type": "Ally",
+    "package": "NeXt Evolution",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "40016",
+    "name": "Sunspot",
+    "type": "Ally",
+    "package": "NeXt Evolution",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "40017",
+    "name": "Mission Planning",
+    "type": "Event",
+    "package": "NeXt Evolution",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "40018",
+    "name": "Call for Backup",
+    "type": "Player Side Scheme",
+    "package": "NeXt Evolution",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "40019",
+    "name": "Lock and Load",
+    "type": "Player Side Scheme",
+    "package": "NeXt Evolution",
+    "faction": "Aggression",
+    "deckLimit": 1
+  },
+  {
+    "code": "40020",
+    "name": "Establish Perimeter",
+    "type": "Player Side Scheme",
+    "package": "NeXt Evolution",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "40021",
+    "name": "E.V.A.",
+    "type": "Support",
+    "package": "NeXt Evolution",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "40022",
+    "name": "Uncanny X-Force",
+    "type": "Support",
+    "package": "NeXt Evolution",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "40023",
+    "name": "Mission Leader",
+    "type": "Upgrade",
+    "package": "NeXt Evolution",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "40024",
+    "name": "Deadpool",
+    "type": "Ally",
+    "package": "NeXt Evolution",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "40025",
+    "name": "Deathlok",
+    "type": "Ally",
+    "package": "NeXt Evolution",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "40026",
+    "name": "Frenemies",
+    "type": "Event",
+    "package": "NeXt Evolution",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "40027",
+    "name": "Build Support",
+    "type": "Player Side Scheme",
+    "package": "NeXt Evolution",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "40028",
+    "name": "The Power of the Mind",
+    "type": "Resource",
+    "package": "NeXt Evolution",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "40029",
+    "name": "Psimitar",
+    "type": "Upgrade",
+    "package": "NeXt Evolution",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "40030",
+    "name": "Sidearm",
+    "type": "Upgrade",
+    "package": "NeXt Evolution",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "40050",
+    "name": "Feral",
+    "type": "Ally",
+    "package": "NeXt Evolution",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "40051",
+    "name": "Wolfsbane",
+    "type": "Ally",
+    "package": "NeXt Evolution",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "40052",
+    "name": "Even the Odds",
+    "type": "Event",
+    "package": "NeXt Evolution",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "40053",
+    "name": "Team Investigation",
+    "type": "Event",
+    "package": "NeXt Evolution",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "40054",
+    "name": "Take Out the Guards",
+    "type": "Player Side Scheme",
+    "package": "NeXt Evolution",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "40055",
+    "name": "Overwatch",
+    "type": "Upgrade",
+    "package": "NeXt Evolution",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "40056",
+    "name": "Atlas Bear",
+    "type": "Ally",
+    "package": "NeXt Evolution",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "40057",
+    "name": "White Fox",
+    "type": "Ally",
+    "package": "NeXt Evolution",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "40058",
+    "name": "The Posse",
+    "type": "Event",
+    "package": "NeXt Evolution",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "40059",
+    "name": "Superpower Training",
+    "type": "Player Side Scheme",
+    "package": "NeXt Evolution",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "40060",
+    "name": "Digging Deep",
+    "type": "Resource",
+    "package": "NeXt Evolution",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "40061",
+    "name": "Energy",
+    "type": "Resource",
+    "package": "NeXt Evolution",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "40062",
+    "name": "Genius",
+    "type": "Resource",
+    "package": "NeXt Evolution",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "40063",
+    "name": "Strength",
+    "type": "Resource",
+    "package": "NeXt Evolution",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "40064",
+    "name": "Sharpshooter",
+    "type": "Upgrade",
+    "package": "NeXt Evolution",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "40204",
+    "name": "Hope Summers",
+    "type": "Ally",
+    "package": "NeXt Evolution",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "41012",
+    "name": "Captain Britain",
+    "type": "Ally",
+    "package": "Psylocke",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "41013",
+    "name": "Cypher",
+    "type": "Ally",
+    "package": "Psylocke",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "41014",
+    "name": "Concussive Blow",
+    "type": "Event",
+    "package": "Psylocke",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "41015",
+    "name": "Upside the Head",
+    "type": "Event",
+    "package": "Psylocke",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "41016",
+    "name": "Lay the Trap",
+    "type": "Player Side Scheme",
+    "package": "Psylocke",
+    "faction": "Justice",
+    "deckLimit": 1
+  },
+  {
+    "code": "41017",
+    "name": "Float Like a Butterfly",
+    "type": "Upgrade",
+    "package": "Psylocke",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "41018",
+    "name": "Pete Wisdom",
+    "type": "Ally",
+    "package": "Psylocke",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "41019",
+    "name": "Directed Force",
+    "type": "Event",
+    "package": "Psylocke",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "41020",
+    "name": "Soaring Hearts",
+    "type": "Event",
+    "package": "Psylocke",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "41021",
+    "name": "The Power of the Mind",
+    "type": "Resource",
+    "package": "Psylocke",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "41022",
+    "name": "IPAC",
+    "type": "Support",
+    "package": "Psylocke",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "41023",
+    "name": "X-Bunker",
+    "type": "Support",
+    "package": "Psylocke",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "41024",
+    "name": "Telepathy",
+    "type": "Upgrade",
+    "package": "Psylocke",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "41030",
+    "name": "Psi-Bow Attack",
+    "type": "Event",
+    "package": "Psylocke",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "41031",
+    "name": "Domino",
+    "type": "Ally",
+    "package": "Psylocke",
+    "faction": "Leadership",
+    "deckLimit": 1
+  },
+  {
+    "code": "41032",
+    "name": "Psi-Flail Strike",
+    "type": "Event",
+    "package": "Psylocke",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "41033",
+    "name": "Telekinesis",
+    "type": "Upgrade",
+    "package": "Psylocke",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "42011",
+    "name": "Elixir",
+    "type": "Ally",
+    "package": "Angel",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "42012",
+    "name": "Siryn",
+    "type": "Ally",
+    "package": "Angel",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "42013",
+    "name": "Warpath",
+    "type": "Ally",
+    "package": "Angel",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "42014",
+    "name": "Aerial Intervention",
+    "type": "Event",
+    "package": "Angel",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "42015",
+    "name": "Ever Vigilant",
+    "type": "Event",
+    "package": "Angel",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "42016",
+    "name": "Taunt",
+    "type": "Event",
+    "package": "Angel",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "42017",
+    "name": "Render Medical Aid",
+    "type": "Player Side Scheme",
+    "package": "Angel",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "42018",
+    "name": "Angel's Aerie",
+    "type": "Support",
+    "package": "Angel",
+    "faction": "Protection",
+    "deckLimit": 1
+  },
+  {
+    "code": "42019",
+    "name": "Containment Strategy",
+    "type": "Upgrade",
+    "package": "Angel",
+    "faction": "Protection",
+    "deckLimit": 3
+  },
+  {
+    "code": "42020",
+    "name": "Cannonball",
+    "type": "Ally",
+    "package": "Angel",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "42021",
+    "name": "Soaring Hearts",
+    "type": "Event",
+    "package": "Angel",
+    "faction": "Basic",
+    "deckLimit": 1
+  },
+  {
+    "code": "42022",
+    "name": "The Power of Flight",
+    "type": "Resource",
+    "package": "Angel",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "42023",
+    "name": "Soaring Acrobatics",
+    "type": "Upgrade",
+    "package": "Angel",
+    "faction": "Basic",
+    "deckLimit": 3
+  },
+  {
+    "code": "42029",
+    "name": "Bombs Away",
+    "type": "Event",
+    "package": "Angel",
+    "faction": "Aggression",
+    "deckLimit": 3
+  },
+  {
+    "code": "42030",
+    "name": "Eyes in the Sky",
+    "type": "Upgrade",
+    "package": "Angel",
+    "faction": "Justice",
+    "deckLimit": 3
+  },
+  {
+    "code": "42031",
+    "name": "Flying Formation",
+    "type": "Event",
+    "package": "Angel",
+    "faction": "Leadership",
+    "deckLimit": 3
+  },
+  {
+    "code": "42032",
+    "name": "X-Force Recruit",
+    "type": "Upgrade",
+    "package": "Angel",
+    "faction": "Basic",
+    "deckLimit": 3
+  }
+]
