@@ -4,12 +4,16 @@ import { Mulligan } from "./components/mulligan";
 import { PlayerSelection } from "./components/player-selection";
 import { useDecks } from "./use-decks";
 
-import type { FactionSelection } from "./components/player-selection";
+import type { Card, CardFaction } from "./services/cards";
+import type { Selection } from "./domain";
 
 type AppState = "player-selection" | "deck-building";
 
 export function App() {
   const [appState, setAppState] = useState<AppState>("player-selection");
+  const [selectedFactions, setSelectedFactions] = useState<Set<CardFaction>>(
+    new Set()
+  );
   const {
     player1Deck,
     player2Deck,
@@ -17,9 +21,16 @@ export function App() {
     addCardToPlayer2Deck,
   } = useDecks();
 
-  const playersReady = (selection: FactionSelection) => {
-    console.log(selection);
+  const playersReady = (selection: Selection<CardFaction>) => {
     setAppState("deck-building");
+    setSelectedFactions(
+      new Set([selection.player1, selection.player2, "Basic"])
+    );
+  };
+
+  const mulliganStepReady = (selection: Selection<Card>) => {
+    addCardToPlayer1Deck(selection.player1);
+    addCardToPlayer2Deck(selection.player2);
   };
 
   if (appState === "player-selection") {
@@ -29,7 +40,10 @@ export function App() {
   return (
     <>
       <Deck playerDeck={player1Deck} />
-      <Mulligan />
+      <Mulligan
+        selectedFactions={selectedFactions}
+        onCardsSelected={mulliganStepReady}
+      />
       <Deck playerDeck={player2Deck} />
     </>
   );

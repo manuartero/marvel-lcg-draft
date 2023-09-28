@@ -1,14 +1,11 @@
 import { useState } from "react";
+import { ReadyButton } from "./ready-button";
 
 import type { CardFaction } from "../services/cards";
-
-export type FactionSelection = {
-  player1Faction: CardFaction;
-  player2Faction: CardFaction;
-};
+import type { Selection } from "../domain";
 
 type Props = {
-  onReady: (selection: FactionSelection) => void;
+  onReady: (selection: Selection<CardFaction>) => void;
 };
 
 export function PlayerSelection({ onReady }: Props) {
@@ -21,17 +18,11 @@ export function PlayerSelection({ onReady }: Props) {
       <Player title="Player 2" setter={setPlayer2Faction} />
       <div className="flex justify-center mt-4">
         {player1Faction && player2Faction && (
-          <button
-            className="bg-blue-500 text-white px-4 py-2 rounded-md font-semibold"
-            onClick={() =>
-              onReady({
-                player1Faction,
-                player2Faction,
-              })
-            }
-          >
-            READY!
-          </button>
+          <ReadyButton
+            onClick={() => {
+              onReady({ player1: player1Faction, player2: player2Faction });
+            }}
+          />
         )}
       </div>
     </section>

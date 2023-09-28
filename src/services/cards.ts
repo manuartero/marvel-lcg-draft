@@ -68,6 +68,23 @@ export type Card = {
   deckLimit: 1 | 2 | 3;
 };
 
-export function getCards(): Card[] {
+export function get3RandomCards(allowedFactions: Set<CardFaction>): Card[] {
+  const cards = getCards();
+  const randomCards: Card[] = [];
+
+  while (randomCards.length < 3) {
+    const randomCard = cards[Math.floor(Math.random() * cards.length)];
+    if (
+      !randomCards.includes(randomCard) &&
+      allowedFactions.has(randomCard.faction)
+    ) {
+      randomCards.push(randomCard);
+    }
+  }
+
+  return randomCards;
+}
+
+function getCards(): Card[] {
   return cards as Card[];
 }
