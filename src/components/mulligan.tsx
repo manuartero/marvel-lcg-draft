@@ -1,20 +1,18 @@
-import { useRef, useState } from "react";
-import { get3RandomCards } from "../services/cards";
 import c from "classnames";
-
-import type { Card, CardFaction } from "../services/cards";
-import type { Selection } from "../domain";
+import { useState } from "react";
 import { ReadyButton } from "./ready-button";
 
+import type { Selection } from "../domain";
+import type { Card } from "../services/cards";
+
 type Props = {
-  selectedFactions: Set<CardFaction>;
+  cards: Card[];
   onCardsSelected: (selection: Selection<Card>) => void;
 };
 
-export function Mulligan({ selectedFactions, onCardsSelected }: Props) {
+export function Mulligan({ cards, onCardsSelected }: Props) {
   const [player1Card, setPlayer1Card] = useState<Card>();
   const [player2Card, setPlayer2Card] = useState<Card>();
-  const cards = useRef(get3RandomCards(selectedFactions));
 
   const handleCardSelect = (card: Card) => {
     if (!player1Card) {
@@ -27,7 +25,7 @@ export function Mulligan({ selectedFactions, onCardsSelected }: Props) {
   return (
     <section className="min-h-screen flex items-center justify-center">
       <div className="flex space-x-4">
-        {cards.current.map((card) => (
+        {cards.map((card) => (
           <article
             key={card.code}
             className={c(
@@ -50,6 +48,8 @@ export function Mulligan({ selectedFactions, onCardsSelected }: Props) {
         {player1Card && player2Card && (
           <ReadyButton
             onClick={() => {
+              setPlayer1Card(undefined);
+              setPlayer2Card(undefined);
               onCardsSelected({ player1: player1Card, player2: player2Card });
             }}
           />

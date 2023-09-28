@@ -1,7 +1,7 @@
-import type { Card } from "../services/cards";
+import type { PlayerDeck } from "../domain";
 
 type Props = {
-  playerDeck: Card[];
+  playerDeck: PlayerDeck;
 };
 
 export function Deck({ playerDeck }: Props) {

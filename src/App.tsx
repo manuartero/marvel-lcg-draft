@@ -1,50 +1,47 @@
-import { useState } from "react";
 import { Deck } from "./components/deck";
 import { Mulligan } from "./components/mulligan";
 import { PlayerSelection } from "./components/player-selection";
 import { useDecks } from "./use-decks";
+import { useMulliganCards } from "./use-mulligan-cards";
 
+import type { PlayerDeck, Selection } from "./domain";
 import type { Card, CardFaction } from "./services/cards";
-import type { Selection } from "./domain";
-
-type AppState = "player-selection" | "deck-building";
 
 export function App() {
-  const [appState, setAppState] = useState<AppState>("player-selection");
-  const [selectedFactions, setSelectedFactions] = useState<Set<CardFaction>>(
-    new Set()
-  );
-  const {
-    player1Deck,
-    player2Deck,
-    addCardToPlayer1Deck,
-    addCardToPlayer2Deck,
-  } = useDecks();
+  const { player1Deck, player2Deck, addCardsToDecks, setFactions } = useDecks();
+  const { currentCards, mulligan } = useMulliganCards();
 
-  const playersReady = (selection: Selection<CardFaction>) => {
-    setAppState("deck-building");
-    setSelectedFactions(
-      new Set([selection.player1, selection.player2, "Basic"])
-    );
+  const appState = () => {
+    return player1Deck.faction && player2Deck.faction
+      ? "deck-building"
+      : "player-selection";
   };
 
-  const mulliganStepReady = (selection: Selection<Card>) => {
-    addCardToPlayer1Deck(selection.player1);
-    addCardToPlayer2Deck(selection.player2);
+  const handleFactionsSelected = (selection: Selection<CardFaction>) => {
+    setFactions(selection);
+    mulligan(selection.player1, selection.player2);
   };
 
-  if (appState === "player-selection") {
-    return <PlayerSelection onReady={playersReady} />;
+  const handleCardsSelected = (selection: Selection<Card>) => {
+    if (!player1Deck.faction || !player2Deck.faction) {
+      console.error(
+        "STATE ERROR: can't select cards if factions aren't selected"
+      );
+      return;
+    }
+    addCardsToDecks(selection);
+    mulligan(player1Deck.faction, player2Deck.faction);
+  };
+
+  if (appState() === "player-selection") {
+    return <PlayerSelection onReady={handleFactionsSelected} />;
   }
 
   return (
     <>
-      <Deck playerDeck={player1Deck} />
-      <Mulligan
-        selectedFactions={selectedFactions}
-        onCardsSelected={mulliganStepReady}
-      />
-      <Deck playerDeck={player2Deck} />
+      <Deck playerDeck={player1Deck as PlayerDeck} />
+      <Mulligan cards={currentCards} onCardsSelected={handleCardsSelected} />
+      <Deck playerDeck={player2Deck as PlayerDeck} />
     </>
   );
 }
