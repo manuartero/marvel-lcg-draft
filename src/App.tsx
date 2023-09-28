@@ -1,19 +1,23 @@
 import { useState } from "react";
+import { Deck } from "./components/deck";
+import { Mulligan } from "./components/mulligan";
 import { PlayerSelection } from "./components/player-selection";
+import { useDecks } from "./use-decks";
 
-import type { CardFaction } from "./services/cards";
+import type { FactionSelection } from "./components/player-selection";
 
-import "./App.css";
+type AppState = "player-selection" | "deck-building";
 
 export function App() {
-  const [appState, setAppState] = useState<
-    "player-selection" | "deck-building"
-  >("player-selection");
+  const [appState, setAppState] = useState<AppState>("player-selection");
+  const {
+    player1Deck,
+    player2Deck,
+    addCardToPlayer1Deck,
+    addCardToPlayer2Deck,
+  } = useDecks();
 
-  const playersReady = (selection: {
-    player1Faction: CardFaction;
-    player2Faction: CardFaction;
-  }) => {
+  const playersReady = (selection: FactionSelection) => {
     console.log(selection);
     setAppState("deck-building");
   };
@@ -22,5 +26,11 @@ export function App() {
     return <PlayerSelection onReady={playersReady} />;
   }
 
-  return <>TODO</>;
+  return (
+    <>
+      <Deck playerDeck={player1Deck} />
+      <Mulligan />
+      <Deck playerDeck={player2Deck} />
+    </>
+  );
 }
