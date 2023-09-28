@@ -5,7 +5,8 @@
     "type": "Ally",
     "package": "Core Set",
     "faction": "Aggression",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/01050.png"
   },
   {
     "code": "01051",
@@ -13,7 +14,8 @@
     "type": "Ally",
     "package": "Core Set",
     "faction": "Aggression",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/01051.png"
   },
   {
     "code": "01052",
@@ -21,7 +23,8 @@
     "type": "Event",
     "package": "Core Set",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01052.png"
   },
   {
     "code": "01053",
@@ -29,7 +32,8 @@
     "type": "Event",
     "package": "Core Set",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01053.png"
   },
   {
     "code": "01054",
@@ -37,7 +41,8 @@
     "type": "Event",
     "package": "Core Set",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01054.png"
   },
   {
     "code": "01055",
@@ -45,7 +50,8 @@
     "type": "Resource",
     "package": "Core Set",
     "faction": "Aggression",
-    "deckLimit": 2
+    "deckLimit": 2,
+    "image": "https://marvelcdb.com//bundles/cards/01055.png"
   },
   {
     "code": "01056",
@@ -53,7 +59,8 @@
     "type": "Support",
     "package": "Core Set",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01056.png"
   },
   {
     "code": "01057",
@@ -61,7 +68,8 @@
     "type": "Upgrade",
     "package": "Core Set",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01057.png"
   },
   {
     "code": "01058",
@@ -69,7 +77,8 @@
     "type": "Ally",
     "package": "Core Set",
     "faction": "Justice",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/01058.png"
   },
   {
     "code": "01059",
@@ -77,7 +86,8 @@
     "type": "Ally",
     "package": "Core Set",
     "faction": "Justice",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/01059.png"
   },
   {
     "code": "01060",
@@ -85,7 +95,8 @@
     "type": "Event",
     "package": "Core Set",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01060.png"
   },
   {
     "code": "01061",
@@ -93,7 +104,8 @@
     "type": "Event",
     "package": "Core Set",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01061.png"
   },
   {
     "code": "01062",
@@ -101,7 +113,8 @@
     "type": "Resource",
     "package": "Core Set",
     "faction": "Justice",
-    "deckLimit": 2
+    "deckLimit": 2,
+    "image": "https://marvelcdb.com//bundles/cards/01062.png"
   },
   {
     "code": "01063",
@@ -109,7 +122,8 @@
     "type": "Support",
     "package": "Core Set",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01063.png"
   },
   {
     "code": "01064",
@@ -117,7 +131,8 @@
     "type": "Support",
     "package": "Core Set",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01064.png"
   },
   {
     "code": "01065",
@@ -125,7 +140,8 @@
     "type": "Upgrade",
     "package": "Core Set",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01065.png"
   },
   {
     "code": "01066",
@@ -133,7 +149,8 @@
     "type": "Ally",
     "package": "Core Set",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/01066.png"
   },
   {
     "code": "01067",
@@ -141,7 +158,8 @@
     "type": "Ally",
     "package": "Core Set",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/01067.png"
   },
   {
     "code": "01068",
@@ -149,7 +167,8 @@
     "type": "Ally",
     "package": "Core Set",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/01068.png"
   },
   {
     "code": "01069",
@@ -157,7 +176,8 @@
     "type": "Event",
     "package": "Core Set",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01069.png"
   },
   {
     "code": "01070",
@@ -165,7 +185,8 @@
     "type": "Event",
     "package": "Core Set",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01070.png"
   },
   {
     "code": "01071",
@@ -173,7 +194,8 @@
     "type": "Event",
     "package": "Core Set",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01071.png"
   },
   {
     "code": "01072",
@@ -181,7 +203,8 @@
     "type": "Resource",
     "package": "Core Set",
     "faction": "Leadership",
-    "deckLimit": 2
+    "deckLimit": 2,
+    "image": "https://marvelcdb.com//bundles/cards/01072.png"
   },
   {
     "code": "01073",
@@ -189,7 +212,8 @@
     "type": "Support",
     "package": "Core Set",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/01073.png"
   },
   {
     "code": "01074",
@@ -197,7 +221,8 @@
     "type": "Upgrade",
     "package": "Core Set",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01074.png"
   },
   {
     "code": "01075",
@@ -205,7 +230,8 @@
     "type": "Ally",
     "package": "Core Set",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/01075.png"
   },
   {
     "code": "01076",
@@ -213,7 +239,8 @@
     "type": "Ally",
     "package": "Core Set",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/01076.png"
   },
   {
     "code": "01077",
@@ -221,7 +248,8 @@
     "type": "Event",
     "package": "Core Set",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01077.png"
   },
   {
     "code": "01078",
@@ -229,7 +257,8 @@
     "type": "Event",
     "package": "Core Set",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01078.png"
   },
   {
     "code": "01079",
@@ -237,7 +266,8 @@
     "type": "Resource",
     "package": "Core Set",
     "faction": "Protection",
-    "deckLimit": 2
+    "deckLimit": 2,
+    "image": "https://marvelcdb.com//bundles/cards/01079.png"
   },
   {
     "code": "01080",
@@ -245,7 +275,8 @@
     "type": "Support",
     "package": "Core Set",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01080.png"
   },
   {
     "code": "01081",
@@ -253,7 +284,8 @@
     "type": "Upgrade",
     "package": "Core Set",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01081.png"
   },
   {
     "code": "01082",
@@ -261,7 +293,8 @@
     "type": "Upgrade",
     "package": "Core Set",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01082.png"
   },
   {
     "code": "01083",
@@ -269,7 +302,8 @@
     "type": "Ally",
     "package": "Core Set",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/01083.png"
   },
   {
     "code": "01084",
@@ -277,7 +311,8 @@
     "type": "Ally",
     "package": "Core Set",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/01084.png"
   },
   {
     "code": "01085",
@@ -285,7 +320,8 @@
     "type": "Event",
     "package": "Core Set",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01085.png"
   },
   {
     "code": "01086",
@@ -293,7 +329,8 @@
     "type": "Event",
     "package": "Core Set",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01086.png"
   },
   {
     "code": "01087",
@@ -301,7 +338,8 @@
     "type": "Event",
     "package": "Core Set",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01087.png"
   },
   {
     "code": "01088",
@@ -309,7 +347,8 @@
     "type": "Resource",
     "package": "Core Set",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/01088.png"
   },
   {
     "code": "01089",
@@ -317,7 +356,8 @@
     "type": "Resource",
     "package": "Core Set",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/01089.png"
   },
   {
     "code": "01090",
@@ -325,7 +365,8 @@
     "type": "Resource",
     "package": "Core Set",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/01090.png"
   },
   {
     "code": "01091",
@@ -333,7 +374,8 @@
     "type": "Support",
     "package": "Core Set",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01091.png"
   },
   {
     "code": "01092",
@@ -341,7 +383,8 @@
     "type": "Support",
     "package": "Core Set",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01092.png"
   },
   {
     "code": "01093",
@@ -349,7 +392,8 @@
     "type": "Upgrade",
     "package": "Core Set",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/01093.png"
   },
   {
     "code": "03011",
@@ -357,15 +401,8 @@
     "type": "Ally",
     "package": "Captain America",
     "faction": "Leadership",
-    "deckLimit": 1
-  },
-  {
-    "code": "03012",
-    "name": "Hawkeye",
-    "type": "Ally",
-    "package": "Captain America",
-    "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/03011.png"
   },
   {
     "code": "03013",
@@ -373,7 +410,8 @@
     "type": "Ally",
     "package": "Captain America",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/03013.png"
   },
   {
     "code": "03014",
@@ -381,7 +419,8 @@
     "type": "Ally",
     "package": "Captain America",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/03014.png"
   },
   {
     "code": "03015",
@@ -389,15 +428,8 @@
     "type": "Event",
     "package": "Captain America",
     "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "03016",
-    "name": "Make the Call",
-    "type": "Event",
-    "package": "Captain America",
-    "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/03015.png"
   },
   {
     "code": "03017",
@@ -405,15 +437,8 @@
     "type": "Event",
     "package": "Captain America",
     "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "03018",
-    "name": "The Power of Leadership",
-    "type": "Resource",
-    "package": "Captain America",
-    "faction": "Leadership",
-    "deckLimit": 2
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/03017.png"
   },
   {
     "code": "03019",
@@ -421,39 +446,8 @@
     "type": "Support",
     "package": "Captain America",
     "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "03020",
-    "name": "Mockingbird",
-    "type": "Ally",
-    "package": "Captain America",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "03021",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Captain America",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "03022",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Captain America",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "03023",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Captain America",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/03019.png"
   },
   {
     "code": "03024",
@@ -461,7 +455,8 @@
     "type": "Support",
     "package": "Captain America",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/03024.png"
   },
   {
     "code": "03025",
@@ -469,7 +464,8 @@
     "type": "Upgrade",
     "package": "Captain America",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/03025.png"
   },
   {
     "code": "03031",
@@ -477,7 +473,8 @@
     "type": "Upgrade",
     "package": "Captain America",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/03031.png"
   },
   {
     "code": "03032",
@@ -485,7 +482,8 @@
     "type": "Upgrade",
     "package": "Captain America",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/03032.png"
   },
   {
     "code": "03033",
@@ -493,7 +491,8 @@
     "type": "Event",
     "package": "Captain America",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/03033.png"
   },
   {
     "code": "03034",
@@ -501,7 +500,8 @@
     "type": "Upgrade",
     "package": "Captain America",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/03034.png"
   },
   {
     "code": "04011",
@@ -509,7 +509,8 @@
     "type": "Ally",
     "package": "The Rise of Red Skull",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/04011.jpg"
   },
   {
     "code": "04012",
@@ -517,7 +518,8 @@
     "type": "Ally",
     "package": "The Rise of Red Skull",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/04012.jpg"
   },
   {
     "code": "04013",
@@ -525,7 +527,8 @@
     "type": "Ally",
     "package": "The Rise of Red Skull",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/04013.jpg"
   },
   {
     "code": "04014",
@@ -533,7 +536,8 @@
     "type": "Ally",
     "package": "The Rise of Red Skull",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/04014.jpg"
   },
   {
     "code": "04015",
@@ -541,7 +545,8 @@
     "type": "Upgrade",
     "package": "The Rise of Red Skull",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/04015.jpg"
   },
   {
     "code": "04016",
@@ -549,7 +554,8 @@
     "type": "Support",
     "package": "The Rise of Red Skull",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/04016.jpg"
   },
   {
     "code": "04017",
@@ -557,23 +563,8 @@
     "type": "Event",
     "package": "The Rise of Red Skull",
     "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "04018",
-    "name": "Lead from the Front",
-    "type": "Event",
-    "package": "The Rise of Red Skull",
-    "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "04019",
-    "name": "The Power of Leadership",
-    "type": "Resource",
-    "package": "The Rise of Red Skull",
-    "faction": "Leadership",
-    "deckLimit": 2
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/04017.jpg"
   },
   {
     "code": "04020",
@@ -581,15 +572,8 @@
     "type": "Ally",
     "package": "The Rise of Red Skull",
     "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "04021",
-    "name": "Avengers Tower",
-    "type": "Support",
-    "package": "The Rise of Red Skull",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/04020.jpg"
   },
   {
     "code": "04022",
@@ -597,31 +581,8 @@
     "type": "Event",
     "package": "The Rise of Red Skull",
     "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "04023",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "The Rise of Red Skull",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "04024",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "The Rise of Red Skull",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "04025",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "The Rise of Red Skull",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/04022.jpg"
   },
   {
     "code": "04035",
@@ -629,7 +590,8 @@
     "type": "Event",
     "package": "The Rise of Red Skull",
     "faction": "Aggression",
-    "deckLimit": 2
+    "deckLimit": 2,
+    "image": "https://marvelcdb.com//bundles/cards/04035.jpg"
   },
   {
     "code": "04036",
@@ -637,7 +599,8 @@
     "type": "Event",
     "package": "The Rise of Red Skull",
     "faction": "Leadership",
-    "deckLimit": 2
+    "deckLimit": 2,
+    "image": "https://marvelcdb.com//bundles/cards/04036.jpg"
   },
   {
     "code": "04037",
@@ -645,7 +608,8 @@
     "type": "Event",
     "package": "The Rise of Red Skull",
     "faction": "Protection",
-    "deckLimit": 2
+    "deckLimit": 2,
+    "image": "https://marvelcdb.com//bundles/cards/04037.jpg"
   },
   {
     "code": "04038",
@@ -653,7 +617,8 @@
     "type": "Event",
     "package": "The Rise of Red Skull",
     "faction": "Justice",
-    "deckLimit": 2
+    "deckLimit": 2,
+    "image": "https://marvelcdb.com//bundles/cards/04038.jpg"
   },
   {
     "code": "04040",
@@ -661,23 +626,8 @@
     "type": "Ally",
     "package": "The Rise of Red Skull",
     "faction": "Aggression",
-    "deckLimit": 1
-  },
-  {
-    "code": "04041",
-    "name": "Combat Training",
-    "type": "Upgrade",
-    "package": "The Rise of Red Skull",
-    "faction": "Aggression",
-    "deckLimit": 3
-  },
-  {
-    "code": "04042",
-    "name": "Tac Team",
-    "type": "Support",
-    "package": "The Rise of Red Skull",
-    "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/04040.jpg"
   },
   {
     "code": "04043",
@@ -685,7 +635,8 @@
     "type": "Event",
     "package": "The Rise of Red Skull",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/04043.jpg"
   },
   {
     "code": "04044",
@@ -693,7 +644,8 @@
     "type": "Event",
     "package": "The Rise of Red Skull",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/04044.jpg"
   },
   {
     "code": "04045",
@@ -701,15 +653,8 @@
     "type": "Ally",
     "package": "The Rise of Red Skull",
     "faction": "Justice",
-    "deckLimit": 1
-  },
-  {
-    "code": "04046",
-    "name": "Heroic Intuition",
-    "type": "Upgrade",
-    "package": "The Rise of Red Skull",
-    "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/04045.jpg"
   },
   {
     "code": "04047",
@@ -717,15 +662,8 @@
     "type": "Upgrade",
     "package": "The Rise of Red Skull",
     "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "04048",
-    "name": "Interrogation Room",
-    "type": "Support",
-    "package": "The Rise of Red Skull",
-    "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/04047.jpg"
   },
   {
     "code": "04049",
@@ -733,31 +671,8 @@
     "type": "Event",
     "package": "The Rise of Red Skull",
     "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "04050",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "The Rise of Red Skull",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "04051",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "The Rise of Red Skull",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "04052",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "The Rise of Red Skull",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/04049.jpg"
   },
   {
     "code": "05012",
@@ -765,15 +680,8 @@
     "type": "Ally",
     "package": "Ms. Marvel",
     "faction": "Protection",
-    "deckLimit": 1
-  },
-  {
-    "code": "05013",
-    "name": "Get Behind Me!",
-    "type": "Event",
-    "package": "Ms. Marvel",
-    "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/05012.png"
   },
   {
     "code": "05014",
@@ -781,7 +689,8 @@
     "type": "Event",
     "package": "Ms. Marvel",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/05014.png"
   },
   {
     "code": "05015",
@@ -789,15 +698,8 @@
     "type": "Event",
     "package": "Ms. Marvel",
     "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "05016",
-    "name": "The Power of Protection",
-    "type": "Resource",
-    "package": "Ms. Marvel",
-    "faction": "Protection",
-    "deckLimit": 2
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/05015.png"
   },
   {
     "code": "05017",
@@ -805,7 +707,8 @@
     "type": "Upgrade",
     "package": "Ms. Marvel",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/05017.png"
   },
   {
     "code": "05018",
@@ -813,39 +716,8 @@
     "type": "Ally",
     "package": "Ms. Marvel",
     "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "05019",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Ms. Marvel",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "05020",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Ms. Marvel",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "05021",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Ms. Marvel",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "05022",
-    "name": "Avengers Mansion",
-    "type": "Support",
-    "package": "Ms. Marvel",
-    "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/05018.png"
   },
   {
     "code": "05023",
@@ -853,7 +725,8 @@
     "type": "Upgrade",
     "package": "Ms. Marvel",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/05023.png"
   },
   {
     "code": "05024",
@@ -861,7 +734,8 @@
     "type": "Upgrade",
     "package": "Ms. Marvel",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/05024.png"
   },
   {
     "code": "05030",
@@ -869,7 +743,8 @@
     "type": "Event",
     "package": "Ms. Marvel",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/05030.png"
   },
   {
     "code": "05031",
@@ -877,7 +752,8 @@
     "type": "Event",
     "package": "Ms. Marvel",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/05031.png"
   },
   {
     "code": "05032",
@@ -885,7 +761,8 @@
     "type": "Event",
     "package": "Ms. Marvel",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/05032.png"
   },
   {
     "code": "05033",
@@ -893,7 +770,8 @@
     "type": "Upgrade",
     "package": "Ms. Marvel",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/05033.png"
   },
   {
     "code": "06011",
@@ -901,7 +779,8 @@
     "type": "Ally",
     "package": "Thor",
     "faction": "Aggression",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/06011.png"
   },
   {
     "code": "06012",
@@ -909,15 +788,8 @@
     "type": "Ally",
     "package": "Thor",
     "faction": "Aggression",
-    "deckLimit": 1
-  },
-  {
-    "code": "06013",
-    "name": "Chase Them Down",
-    "type": "Event",
-    "package": "Thor",
-    "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/06012.png"
   },
   {
     "code": "06014",
@@ -925,7 +797,8 @@
     "type": "Event",
     "package": "Thor",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/06014.jpg"
   },
   {
     "code": "06015",
@@ -933,15 +806,8 @@
     "type": "Event",
     "package": "Thor",
     "faction": "Aggression",
-    "deckLimit": 3
-  },
-  {
-    "code": "06016",
-    "name": "The Power of Aggression",
-    "type": "Resource",
-    "package": "Thor",
-    "faction": "Aggression",
-    "deckLimit": 2
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/06015.jpg"
   },
   {
     "code": "06017",
@@ -949,7 +815,8 @@
     "type": "Support",
     "package": "Thor",
     "faction": "Aggression",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/06017.png"
   },
   {
     "code": "06018",
@@ -957,7 +824,8 @@
     "type": "Upgrade",
     "package": "Thor",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/06018.png"
   },
   {
     "code": "06019",
@@ -965,7 +833,8 @@
     "type": "Upgrade",
     "package": "Thor",
     "faction": "Aggression",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/06019.png"
   },
   {
     "code": "06020",
@@ -973,7 +842,8 @@
     "type": "Ally",
     "package": "Thor",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/06020.jpg"
   },
   {
     "code": "06021",
@@ -981,39 +851,8 @@
     "type": "Event",
     "package": "Thor",
     "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "06022",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Thor",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "06023",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Thor",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "06024",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Thor",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "06025",
-    "name": "Avengers Mansion",
-    "type": "Support",
-    "package": "Thor",
-    "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/06021.jpg"
   },
   {
     "code": "06031",
@@ -1021,7 +860,8 @@
     "type": "Upgrade",
     "package": "Thor",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/06031.jpg"
   },
   {
     "code": "06032",
@@ -1029,7 +869,8 @@
     "type": "Event",
     "package": "Thor",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/06032.png"
   },
   {
     "code": "06033",
@@ -1037,7 +878,8 @@
     "type": "Event",
     "package": "Thor",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/06033.jpg"
   },
   {
     "code": "06034",
@@ -1045,7 +887,8 @@
     "type": "Upgrade",
     "package": "Thor",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/06034.jpg"
   },
   {
     "code": "08011",
@@ -1053,7 +896,8 @@
     "type": "Ally",
     "package": "Black Widow",
     "faction": "Justice",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/08011.jpg"
   },
   {
     "code": "08012",
@@ -1061,7 +905,8 @@
     "type": "Ally",
     "package": "Black Widow",
     "faction": "Justice",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/08012.jpg"
   },
   {
     "code": "08013",
@@ -1069,31 +914,8 @@
     "type": "Event",
     "package": "Black Widow",
     "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "08014",
-    "name": "The Power of Justice",
-    "type": "Resource",
-    "package": "Black Widow",
-    "faction": "Justice",
-    "deckLimit": 2
-  },
-  {
-    "code": "08015",
-    "name": "Interrogation Room",
-    "type": "Support",
-    "package": "Black Widow",
-    "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "08016",
-    "name": "Surveillance Team",
-    "type": "Support",
-    "package": "Black Widow",
-    "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/08013.jpg"
   },
   {
     "code": "08017",
@@ -1101,7 +923,8 @@
     "type": "Upgrade",
     "package": "Black Widow",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/08017.jpg"
   },
   {
     "code": "08018",
@@ -1109,39 +932,8 @@
     "type": "Upgrade",
     "package": "Black Widow",
     "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "08019",
-    "name": "Nick Fury",
-    "type": "Ally",
-    "package": "Black Widow",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "08020",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Black Widow",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "08021",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Black Widow",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "08022",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Black Widow",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/08018.jpg"
   },
   {
     "code": "08023",
@@ -1149,7 +941,8 @@
     "type": "Support",
     "package": "Black Widow",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/08023.jpg"
   },
   {
     "code": "08024",
@@ -1157,7 +950,8 @@
     "type": "Upgrade",
     "package": "Black Widow",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/08024.jpg"
   },
   {
     "code": "08030",
@@ -1165,7 +959,8 @@
     "type": "Upgrade",
     "package": "Black Widow",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/08030.jpg"
   },
   {
     "code": "08031",
@@ -1173,7 +968,8 @@
     "type": "Upgrade",
     "package": "Black Widow",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/08031.jpg"
   },
   {
     "code": "08032",
@@ -1181,7 +977,8 @@
     "type": "Upgrade",
     "package": "Black Widow",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/08032.jpg"
   },
   {
     "code": "08033",
@@ -1189,7 +986,8 @@
     "type": "Upgrade",
     "package": "Black Widow",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/08033.jpg"
   },
   {
     "code": "09012",
@@ -1197,7 +995,8 @@
     "type": "Ally",
     "package": "Doctor Strange",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/09012.jpg"
   },
   {
     "code": "09013",
@@ -1205,7 +1004,8 @@
     "type": "Ally",
     "package": "Doctor Strange",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/09013.jpg"
   },
   {
     "code": "09014",
@@ -1213,7 +1013,8 @@
     "type": "Ally",
     "package": "Doctor Strange",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/09014.jpg"
   },
   {
     "code": "09015",
@@ -1221,7 +1022,8 @@
     "type": "Event",
     "package": "Doctor Strange",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/09015.jpg"
   },
   {
     "code": "09016",
@@ -1229,23 +1031,8 @@
     "type": "Event",
     "package": "Doctor Strange",
     "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "09017",
-    "name": "The Power of Protection",
-    "type": "Resource",
-    "package": "Doctor Strange",
-    "faction": "Protection",
-    "deckLimit": 2
-  },
-  {
-    "code": "09018",
-    "name": "Med Team",
-    "type": "Support",
-    "package": "Doctor Strange",
-    "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/09016.jpg"
   },
   {
     "code": "09019",
@@ -1253,7 +1040,8 @@
     "type": "Support",
     "package": "Doctor Strange",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/09019.jpg"
   },
   {
     "code": "09020",
@@ -1261,7 +1049,8 @@
     "type": "Upgrade",
     "package": "Doctor Strange",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/09020.jpg"
   },
   {
     "code": "09021",
@@ -1269,39 +1058,8 @@
     "type": "Event",
     "package": "Doctor Strange",
     "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "09022",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Doctor Strange",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "09023",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Doctor Strange",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "09024",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Doctor Strange",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "09025",
-    "name": "Avengers Mansion",
-    "type": "Support",
-    "package": "Doctor Strange",
-    "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/09021.jpg"
   },
   {
     "code": "09026",
@@ -1309,7 +1067,8 @@
     "type": "Upgrade",
     "package": "Doctor Strange",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/09026.jpg"
   },
   {
     "code": "09037",
@@ -1317,7 +1076,8 @@
     "type": "Event",
     "package": "Doctor Strange",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/09037.jpg"
   },
   {
     "code": "09038",
@@ -1325,7 +1085,8 @@
     "type": "Event",
     "package": "Doctor Strange",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/09038.jpg"
   },
   {
     "code": "09039",
@@ -1333,7 +1094,8 @@
     "type": "Ally",
     "package": "Doctor Strange",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/09039.jpg"
   },
   {
     "code": "10011",
@@ -1341,7 +1103,8 @@
     "type": "Ally",
     "package": "Hulk",
     "faction": "Aggression",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/10011.jpg"
   },
   {
     "code": "10012",
@@ -1349,7 +1112,8 @@
     "type": "Ally",
     "package": "Hulk",
     "faction": "Aggression",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/10012.jpg"
   },
   {
     "code": "10013",
@@ -1357,7 +1121,8 @@
     "type": "Ally",
     "package": "Hulk",
     "faction": "Aggression",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/10013.jpg"
   },
   {
     "code": "10014",
@@ -1365,7 +1130,8 @@
     "type": "Event",
     "package": "Hulk",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/10014.jpg"
   },
   {
     "code": "10015",
@@ -1373,7 +1139,8 @@
     "type": "Event",
     "package": "Hulk",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/10015.jpg"
   },
   {
     "code": "10016",
@@ -1381,15 +1148,8 @@
     "type": "Event",
     "package": "Hulk",
     "faction": "Aggression",
-    "deckLimit": 3
-  },
-  {
-    "code": "10017",
-    "name": "The Power of Aggression",
-    "type": "Resource",
-    "package": "Hulk",
-    "faction": "Aggression",
-    "deckLimit": 2
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/10016.jpg"
   },
   {
     "code": "10018",
@@ -1397,7 +1157,8 @@
     "type": "Upgrade",
     "package": "Hulk",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/10018.jpg"
   },
   {
     "code": "10019",
@@ -1405,47 +1166,8 @@
     "type": "Event",
     "package": "Hulk",
     "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "10020",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Hulk",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "10021",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Hulk",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "10022",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Hulk",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "10023",
-    "name": "Avengers Mansion",
-    "type": "Support",
-    "package": "Hulk",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "10024",
-    "name": "Helicarrier",
-    "type": "Support",
-    "package": "Hulk",
-    "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/10019.jpg"
   },
   {
     "code": "10029",
@@ -1453,7 +1175,8 @@
     "type": "Support",
     "package": "Hulk",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/10029.jpg"
   },
   {
     "code": "10030",
@@ -1461,7 +1184,8 @@
     "type": "Event",
     "package": "Hulk",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/10030.jpg"
   },
   {
     "code": "10031",
@@ -1469,7 +1193,8 @@
     "type": "Upgrade",
     "package": "Hulk",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/10031.jpg"
   },
   {
     "code": "10032",
@@ -1477,7 +1202,8 @@
     "type": "Upgrade",
     "package": "Hulk",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/10032.jpg"
   },
   {
     "code": "12011",
@@ -1485,7 +1211,8 @@
     "type": "Ally",
     "package": "Ant-Man",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/12011.jpg"
   },
   {
     "code": "12012",
@@ -1493,7 +1220,8 @@
     "type": "Ally",
     "package": "Ant-Man",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/12012.jpg"
   },
   {
     "code": "12013",
@@ -1501,7 +1229,8 @@
     "type": "Ally",
     "package": "Ant-Man",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/12013.jpg"
   },
   {
     "code": "12014",
@@ -1509,7 +1238,8 @@
     "type": "Ally",
     "package": "Ant-Man",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/12014.jpg"
   },
   {
     "code": "12015",
@@ -1517,7 +1247,8 @@
     "type": "Event",
     "package": "Ant-Man",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/12015.jpg"
   },
   {
     "code": "12016",
@@ -1525,7 +1256,8 @@
     "type": "Event",
     "package": "Ant-Man",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/12016.jpg"
   },
   {
     "code": "12017",
@@ -1533,7 +1265,8 @@
     "type": "Upgrade",
     "package": "Ant-Man",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/12017.jpg"
   },
   {
     "code": "12018",
@@ -1541,47 +1274,8 @@
     "type": "Upgrade",
     "package": "Ant-Man",
     "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "12019",
-    "name": "First Aid",
-    "type": "Event",
-    "package": "Ant-Man",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "12020",
-    "name": "Swarm Tactics",
-    "type": "Event",
-    "package": "Ant-Man",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "12021",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Ant-Man",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "12022",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Ant-Man",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "12023",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Ant-Man",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/12018.jpg"
   },
   {
     "code": "12024",
@@ -1589,7 +1283,8 @@
     "type": "Support",
     "package": "Ant-Man",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/12024.jpg"
   },
   {
     "code": "12030",
@@ -1597,7 +1292,8 @@
     "type": "Event",
     "package": "Ant-Man",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/12030.jpg"
   },
   {
     "code": "12031",
@@ -1605,7 +1301,8 @@
     "type": "Event",
     "package": "Ant-Man",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/12031.jpg"
   },
   {
     "code": "12032",
@@ -1613,7 +1310,8 @@
     "type": "Event",
     "package": "Ant-Man",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/12032.jpg"
   },
   {
     "code": "12033",
@@ -1621,7 +1319,8 @@
     "type": "Event",
     "package": "Ant-Man",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/12033.jpg"
   },
   {
     "code": "13011",
@@ -1629,7 +1328,8 @@
     "type": "Ally",
     "package": "Wasp",
     "faction": "Aggression",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/13011.jpg"
   },
   {
     "code": "13012",
@@ -1637,7 +1337,8 @@
     "type": "Ally",
     "package": "Wasp",
     "faction": "Aggression",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/13012.jpg"
   },
   {
     "code": "13013",
@@ -1645,7 +1346,8 @@
     "type": "Event",
     "package": "Wasp",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/13013.jpg"
   },
   {
     "code": "13014",
@@ -1653,15 +1355,8 @@
     "type": "Event",
     "package": "Wasp",
     "faction": "Aggression",
-    "deckLimit": 3
-  },
-  {
-    "code": "13015",
-    "name": "The Power of Aggression",
-    "type": "Resource",
-    "package": "Wasp",
-    "faction": "Aggression",
-    "deckLimit": 2
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/13014.jpg"
   },
   {
     "code": "13016",
@@ -1669,7 +1364,8 @@
     "type": "Support",
     "package": "Wasp",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/13016.jpg"
   },
   {
     "code": "13017",
@@ -1677,7 +1373,8 @@
     "type": "Upgrade",
     "package": "Wasp",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/13017.jpg"
   },
   {
     "code": "13018",
@@ -1685,7 +1382,8 @@
     "type": "Ally",
     "package": "Wasp",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/13018.jpg"
   },
   {
     "code": "13019",
@@ -1693,7 +1391,8 @@
     "type": "Ally",
     "package": "Wasp",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/13019.jpg"
   },
   {
     "code": "13020",
@@ -1701,31 +1400,8 @@
     "type": "Event",
     "package": "Wasp",
     "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "13021",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Wasp",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "13022",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Wasp",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "13023",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Wasp",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/13020.jpg"
   },
   {
     "code": "13024",
@@ -1733,15 +1409,8 @@
     "type": "Resource",
     "package": "Wasp",
     "faction": "Basic",
-    "deckLimit": 2
-  },
-  {
-    "code": "13025",
-    "name": "Quincarrier",
-    "type": "Support",
-    "package": "Wasp",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 2,
+    "image": "https://marvelcdb.com//bundles/cards/13024.jpg"
   },
   {
     "code": "13031",
@@ -1749,7 +1418,8 @@
     "type": "Event",
     "package": "Wasp",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/13031.jpg"
   },
   {
     "code": "13032",
@@ -1757,7 +1427,8 @@
     "type": "Event",
     "package": "Wasp",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/13032.jpg"
   },
   {
     "code": "13033",
@@ -1765,7 +1436,8 @@
     "type": "Event",
     "package": "Wasp",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/13033.jpg"
   },
   {
     "code": "13034",
@@ -1773,7 +1445,8 @@
     "type": "Event",
     "package": "Wasp",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/13034.jpg"
   },
   {
     "code": "14012",
@@ -1781,7 +1454,8 @@
     "type": "Ally",
     "package": "Quicksilver",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/14012.jpg"
   },
   {
     "code": "14013",
@@ -1789,7 +1463,8 @@
     "type": "Ally",
     "package": "Quicksilver",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/14013.jpg"
   },
   {
     "code": "14014",
@@ -1797,7 +1472,8 @@
     "type": "Event",
     "package": "Quicksilver",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/14014.jpg"
   },
   {
     "code": "14015",
@@ -1805,15 +1481,8 @@
     "type": "Event",
     "package": "Quicksilver",
     "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "14016",
-    "name": "Armored Vest",
-    "type": "Upgrade",
-    "package": "Quicksilver",
-    "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/14015.jpg"
   },
   {
     "code": "14017",
@@ -1821,7 +1490,8 @@
     "type": "Upgrade",
     "package": "Quicksilver",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/14017.jpg"
   },
   {
     "code": "14018",
@@ -1829,31 +1499,8 @@
     "type": "Event",
     "package": "Quicksilver",
     "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "14019",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Quicksilver",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "14020",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Quicksilver",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "14021",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Quicksilver",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/14018.jpg"
   },
   {
     "code": "14022",
@@ -1861,7 +1508,8 @@
     "type": "Upgrade",
     "package": "Quicksilver",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/14022.jpg"
   },
   {
     "code": "14023",
@@ -1869,7 +1517,8 @@
     "type": "Upgrade",
     "package": "Quicksilver",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/14023.jpg"
   },
   {
     "code": "14029",
@@ -1877,7 +1526,8 @@
     "type": "Upgrade",
     "package": "Quicksilver",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/14029.jpg"
   },
   {
     "code": "14030",
@@ -1885,7 +1535,8 @@
     "type": "Upgrade",
     "package": "Quicksilver",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/14030.jpg"
   },
   {
     "code": "14031",
@@ -1893,7 +1544,8 @@
     "type": "Event",
     "package": "Quicksilver",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/14031.jpg"
   },
   {
     "code": "14032",
@@ -1901,7 +1553,8 @@
     "type": "Event",
     "package": "Quicksilver",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/14032.jpg"
   },
   {
     "code": "15010",
@@ -1909,7 +1562,8 @@
     "type": "Ally",
     "package": "Scarlet Witch",
     "faction": "Justice",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/15010.png"
   },
   {
     "code": "15011",
@@ -1917,7 +1571,8 @@
     "type": "Ally",
     "package": "Scarlet Witch",
     "faction": "Justice",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/15011.png"
   },
   {
     "code": "15012",
@@ -1925,7 +1580,8 @@
     "type": "Event",
     "package": "Scarlet Witch",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/15012.png"
   },
   {
     "code": "15013",
@@ -1933,7 +1589,8 @@
     "type": "Event",
     "package": "Scarlet Witch",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/15013.png"
   },
   {
     "code": "15014",
@@ -1941,7 +1598,8 @@
     "type": "Event",
     "package": "Scarlet Witch",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/15014.png"
   },
   {
     "code": "15015",
@@ -1949,31 +1607,8 @@
     "type": "Event",
     "package": "Scarlet Witch",
     "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "15016",
-    "name": "The Power of Justice",
-    "type": "Resource",
-    "package": "Scarlet Witch",
-    "faction": "Justice",
-    "deckLimit": 2
-  },
-  {
-    "code": "15017",
-    "name": "Heroic Intuition",
-    "type": "Upgrade",
-    "package": "Scarlet Witch",
-    "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "15018",
-    "name": "Order and Chaos",
-    "type": "Event",
-    "package": "Scarlet Witch",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/15015.png"
   },
   {
     "code": "15019",
@@ -1981,31 +1616,8 @@
     "type": "Event",
     "package": "Scarlet Witch",
     "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "15020",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Scarlet Witch",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "15021",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Scarlet Witch",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "15022",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Scarlet Witch",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/15019.png"
   },
   {
     "code": "15028",
@@ -2013,7 +1625,8 @@
     "type": "Event",
     "package": "Scarlet Witch",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/15028.png"
   },
   {
     "code": "15029",
@@ -2021,7 +1634,8 @@
     "type": "Event",
     "package": "Scarlet Witch",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/15029.png"
   },
   {
     "code": "15030",
@@ -2029,7 +1643,8 @@
     "type": "Event",
     "package": "Scarlet Witch",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/15030.png"
   },
   {
     "code": "15031",
@@ -2037,7 +1652,8 @@
     "type": "Event",
     "package": "Scarlet Witch",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/15031.png"
   },
   {
     "code": "16012",
@@ -2045,15 +1661,8 @@
     "type": "Ally",
     "package": "Galaxy's Most Wanted",
     "faction": "Protection",
-    "deckLimit": 1
-  },
-  {
-    "code": "16013",
-    "name": "Desperate Defense",
-    "type": "Event",
-    "package": "Galaxy's Most Wanted",
-    "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/16012.jpg"
   },
   {
     "code": "16014",
@@ -2061,15 +1670,8 @@
     "type": "Event",
     "package": "Galaxy's Most Wanted",
     "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "16015",
-    "name": "The Power of Protection",
-    "type": "Resource",
-    "package": "Galaxy's Most Wanted",
-    "faction": "Protection",
-    "deckLimit": 2
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/16014.jpg"
   },
   {
     "code": "16016",
@@ -2077,7 +1679,8 @@
     "type": "Upgrade",
     "package": "Galaxy's Most Wanted",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/16016.jpg"
   },
   {
     "code": "16017",
@@ -2085,15 +1688,8 @@
     "type": "Upgrade",
     "package": "Galaxy's Most Wanted",
     "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "16018",
-    "name": "Indomitable",
-    "type": "Upgrade",
-    "package": "Galaxy's Most Wanted",
-    "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/16017.jpg"
   },
   {
     "code": "16019",
@@ -2101,7 +1697,8 @@
     "type": "Ally",
     "package": "Galaxy's Most Wanted",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/16019.jpg"
   },
   {
     "code": "16020",
@@ -2109,31 +1706,8 @@
     "type": "Event",
     "package": "Galaxy's Most Wanted",
     "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "16021",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Galaxy's Most Wanted",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "16022",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Galaxy's Most Wanted",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "16023",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Galaxy's Most Wanted",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/16020.jpg"
   },
   {
     "code": "16024",
@@ -2141,7 +1715,8 @@
     "type": "Upgrade",
     "package": "Galaxy's Most Wanted",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/16024.jpg"
   },
   {
     "code": "16040",
@@ -2149,23 +1724,8 @@
     "type": "Ally",
     "package": "Galaxy's Most Wanted",
     "faction": "Aggression",
-    "deckLimit": 1
-  },
-  {
-    "code": "16041",
-    "name": "Chase Them Down",
-    "type": "Event",
-    "package": "Galaxy's Most Wanted",
-    "faction": "Aggression",
-    "deckLimit": 3
-  },
-  {
-    "code": "16042",
-    "name": "Into the Fray",
-    "type": "Event",
-    "package": "Galaxy's Most Wanted",
-    "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/16040.jpg"
   },
   {
     "code": "16043",
@@ -2173,15 +1733,8 @@
     "type": "Event",
     "package": "Galaxy's Most Wanted",
     "faction": "Aggression",
-    "deckLimit": 3
-  },
-  {
-    "code": "16044",
-    "name": "Relentless Assault",
-    "type": "Event",
-    "package": "Galaxy's Most Wanted",
-    "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/16043.jpg"
   },
   {
     "code": "16045",
@@ -2189,7 +1742,8 @@
     "type": "Upgrade",
     "package": "Galaxy's Most Wanted",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/16045.jpg"
   },
   {
     "code": "16046",
@@ -2197,7 +1751,8 @@
     "type": "Upgrade",
     "package": "Galaxy's Most Wanted",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/16046.jpg"
   },
   {
     "code": "16047",
@@ -2205,39 +1760,8 @@
     "type": "Ally",
     "package": "Galaxy's Most Wanted",
     "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "16048",
-    "name": "Flora and Fauna",
-    "type": "Event",
-    "package": "Galaxy's Most Wanted",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "16049",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Galaxy's Most Wanted",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "16050",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Galaxy's Most Wanted",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "16051",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Galaxy's Most Wanted",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/16047.jpg"
   },
   {
     "code": "16052",
@@ -2245,7 +1769,8 @@
     "type": "Upgrade",
     "package": "Galaxy's Most Wanted",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/16052.jpg"
   },
   {
     "code": "17011",
@@ -2253,7 +1778,8 @@
     "type": "Ally",
     "package": "Star-Lord",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/17011.png"
   },
   {
     "code": "17012",
@@ -2261,7 +1787,8 @@
     "type": "Ally",
     "package": "Star-Lord",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/17012.png"
   },
   {
     "code": "17013",
@@ -2269,7 +1796,8 @@
     "type": "Ally",
     "package": "Star-Lord",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/17013.png"
   },
   {
     "code": "17014",
@@ -2277,7 +1805,8 @@
     "type": "Event",
     "package": "Star-Lord",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/17014.png"
   },
   {
     "code": "17015",
@@ -2285,15 +1814,8 @@
     "type": "Event",
     "package": "Star-Lord",
     "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "17016",
-    "name": "Get Ready",
-    "type": "Event",
-    "package": "Star-Lord",
-    "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/17015.png"
   },
   {
     "code": "17017",
@@ -2301,15 +1823,8 @@
     "type": "Support",
     "package": "Star-Lord",
     "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "17018",
-    "name": "The Power of Leadership",
-    "type": "Resource",
-    "package": "Star-Lord",
-    "faction": "Leadership",
-    "deckLimit": 2
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/17017.png"
   },
   {
     "code": "17019",
@@ -2317,7 +1832,8 @@
     "type": "Upgrade",
     "package": "Star-Lord",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/17019.png"
   },
   {
     "code": "17020",
@@ -2325,7 +1841,8 @@
     "type": "Ally",
     "package": "Star-Lord",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/17020.png"
   },
   {
     "code": "17021",
@@ -2333,7 +1850,8 @@
     "type": "Support",
     "package": "Star-Lord",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/17021.png"
   },
   {
     "code": "17022",
@@ -2341,7 +1859,8 @@
     "type": "Support",
     "package": "Star-Lord",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/17022.png"
   },
   {
     "code": "17023",
@@ -2349,7 +1868,8 @@
     "type": "Upgrade",
     "package": "Star-Lord",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/17023.png"
   },
   {
     "code": "17028",
@@ -2357,7 +1877,8 @@
     "type": "Event",
     "package": "Star-Lord",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/17028.png"
   },
   {
     "code": "17029",
@@ -2365,7 +1886,8 @@
     "type": "Event",
     "package": "Star-Lord",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/17029.png"
   },
   {
     "code": "17030",
@@ -2373,15 +1895,8 @@
     "type": "Event",
     "package": "Star-Lord",
     "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "17031",
-    "name": "Enhanced Awareness",
-    "type": "Upgrade",
-    "package": "Star-Lord",
-    "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/17030.png"
   },
   {
     "code": "18011",
@@ -2389,7 +1904,8 @@
     "type": "Ally",
     "package": "Gamora",
     "faction": "Aggression",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/18011.png"
   },
   {
     "code": "18012",
@@ -2397,7 +1913,8 @@
     "type": "Event",
     "package": "Gamora",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/18012.png"
   },
   {
     "code": "18013",
@@ -2405,15 +1922,8 @@
     "type": "Event",
     "package": "Gamora",
     "faction": "Aggression",
-    "deckLimit": 3
-  },
-  {
-    "code": "18014",
-    "name": "Uppercut",
-    "type": "Event",
-    "package": "Gamora",
-    "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/18013.png"
   },
   {
     "code": "18015",
@@ -2421,7 +1931,8 @@
     "type": "Event",
     "package": "Gamora",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/18015.png"
   },
   {
     "code": "18016",
@@ -2429,15 +1940,8 @@
     "type": "Event",
     "package": "Gamora",
     "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "18017",
-    "name": "Combat Training",
-    "type": "Upgrade",
-    "package": "Gamora",
-    "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/18016.png"
   },
   {
     "code": "18018",
@@ -2445,7 +1949,8 @@
     "type": "Upgrade",
     "package": "Gamora",
     "faction": "Aggression",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/18018.png"
   },
   {
     "code": "18019",
@@ -2453,7 +1958,8 @@
     "type": "Ally",
     "package": "Gamora",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/18019.png"
   },
   {
     "code": "18020",
@@ -2461,31 +1967,8 @@
     "type": "Event",
     "package": "Gamora",
     "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "18021",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Gamora",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "18022",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Gamora",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "18023",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Gamora",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/18020.png"
   },
   {
     "code": "18029",
@@ -2493,7 +1976,8 @@
     "type": "Event",
     "package": "Gamora",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/18029.png"
   },
   {
     "code": "18030",
@@ -2501,7 +1985,8 @@
     "type": "Upgrade",
     "package": "Gamora",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/18030.png"
   },
   {
     "code": "18031",
@@ -2509,15 +1994,8 @@
     "type": "Event",
     "package": "Gamora",
     "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "18032",
-    "name": "Enhanced Reflexes",
-    "type": "Upgrade",
-    "package": "Gamora",
-    "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/18031.png"
   },
   {
     "code": "19012",
@@ -2525,7 +2003,8 @@
     "type": "Ally",
     "package": "Drax",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/19012.png"
   },
   {
     "code": "19013",
@@ -2533,15 +2012,8 @@
     "type": "Ally",
     "package": "Drax",
     "faction": "Protection",
-    "deckLimit": 1
-  },
-  {
-    "code": "19014",
-    "name": "Counter-Punch",
-    "type": "Event",
-    "package": "Drax",
-    "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/19013.png"
   },
   {
     "code": "19015",
@@ -2549,7 +2021,8 @@
     "type": "Event",
     "package": "Drax",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/19015.png"
   },
   {
     "code": "19016",
@@ -2557,7 +2030,8 @@
     "type": "Event",
     "package": "Drax",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/19016.png"
   },
   {
     "code": "19017",
@@ -2565,7 +2039,8 @@
     "type": "Event",
     "package": "Drax",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/19017.png"
   },
   {
     "code": "19018",
@@ -2573,15 +2048,8 @@
     "type": "Event",
     "package": "Drax",
     "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "19019",
-    "name": "Indomitable",
-    "type": "Upgrade",
-    "package": "Drax",
-    "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/19018.png"
   },
   {
     "code": "19020",
@@ -2589,39 +2057,8 @@
     "type": "Ally",
     "package": "Drax",
     "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "19021",
-    "name": "Athletic Conditioning",
-    "type": "Event",
-    "package": "Drax",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "19022",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Drax",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "19023",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Drax",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "19024",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Drax",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/19020.png"
   },
   {
     "code": "19030",
@@ -2629,7 +2066,8 @@
     "type": "Event",
     "package": "Drax",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/19030.png"
   },
   {
     "code": "19031",
@@ -2637,7 +2075,8 @@
     "type": "Event",
     "package": "Drax",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/19031.png"
   },
   {
     "code": "19032",
@@ -2645,15 +2084,8 @@
     "type": "Support",
     "package": "Drax",
     "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "19033",
-    "name": "Enhanced Physique",
-    "type": "Upgrade",
-    "package": "Drax",
-    "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/19032.png"
   },
   {
     "code": "20011",
@@ -2661,7 +2093,8 @@
     "type": "Ally",
     "package": "Venom",
     "faction": "Justice",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/20011.png"
   },
   {
     "code": "20012",
@@ -2669,7 +2102,8 @@
     "type": "Event",
     "package": "Venom",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/20012.png"
   },
   {
     "code": "20013",
@@ -2677,15 +2111,8 @@
     "type": "Event",
     "package": "Venom",
     "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "20014",
-    "name": "The Power of Justice",
-    "type": "Resource",
-    "package": "Venom",
-    "faction": "Justice",
-    "deckLimit": 2
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/20013.png"
   },
   {
     "code": "20015",
@@ -2693,7 +2120,8 @@
     "type": "Upgrade",
     "package": "Venom",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/20015.png"
   },
   {
     "code": "20016",
@@ -2701,39 +2129,8 @@
     "type": "Ally",
     "package": "Venom",
     "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "20017",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Venom",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "20018",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Venom",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "20019",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Venom",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "20020",
-    "name": "Resourceful",
-    "type": "Upgrade",
-    "package": "Venom",
-    "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/20016.png"
   },
   {
     "code": "20021",
@@ -2741,7 +2138,8 @@
     "type": "Upgrade",
     "package": "Venom",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/20021.png"
   },
   {
     "code": "20022",
@@ -2749,7 +2147,8 @@
     "type": "Upgrade",
     "package": "Venom",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/20022.png"
   },
   {
     "code": "20026",
@@ -2757,7 +2156,8 @@
     "type": "Event",
     "package": "Venom",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/20026.png"
   },
   {
     "code": "20027",
@@ -2765,7 +2165,8 @@
     "type": "Event",
     "package": "Venom",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/20027.png"
   },
   {
     "code": "20028",
@@ -2773,7 +2174,8 @@
     "type": "Event",
     "package": "Venom",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/20028.png"
   },
   {
     "code": "20029",
@@ -2781,7 +2183,8 @@
     "type": "Support",
     "package": "Venom",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/20029.png"
   },
   {
     "code": "21011",
@@ -2789,7 +2192,8 @@
     "type": "Ally",
     "package": "The Mad Titan's Shadow",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21011.png"
   },
   {
     "code": "21012",
@@ -2797,7 +2201,8 @@
     "type": "Ally",
     "package": "The Mad Titan's Shadow",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21012.png"
   },
   {
     "code": "21013",
@@ -2805,7 +2210,8 @@
     "type": "Ally",
     "package": "The Mad Titan's Shadow",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21013.png"
   },
   {
     "code": "21014",
@@ -2813,7 +2219,8 @@
     "type": "Ally",
     "package": "The Mad Titan's Shadow",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21014.png"
   },
   {
     "code": "21015",
@@ -2821,7 +2228,8 @@
     "type": "Support",
     "package": "The Mad Titan's Shadow",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/21015.png"
   },
   {
     "code": "21016",
@@ -2829,15 +2237,8 @@
     "type": "Event",
     "package": "The Mad Titan's Shadow",
     "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "21017",
-    "name": "Moxie",
-    "type": "Event",
-    "package": "The Mad Titan's Shadow",
-    "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/21016.png"
   },
   {
     "code": "21018",
@@ -2845,7 +2246,8 @@
     "type": "Resource",
     "package": "The Mad Titan's Shadow",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/21018.png"
   },
   {
     "code": "21019",
@@ -2853,23 +2255,8 @@
     "type": "Ally",
     "package": "The Mad Titan's Shadow",
     "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "21020",
-    "name": "Avengers Tower",
-    "type": "Support",
-    "package": "The Mad Titan's Shadow",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "21021",
-    "name": "Avengers Mansion",
-    "type": "Support",
-    "package": "The Mad Titan's Shadow",
-    "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21019.png"
   },
   {
     "code": "21022",
@@ -2877,31 +2264,8 @@
     "type": "Upgrade",
     "package": "The Mad Titan's Shadow",
     "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "21023",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "The Mad Titan's Shadow",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "21024",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "The Mad Titan's Shadow",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "21025",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "The Mad Titan's Shadow",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/21022.png"
   },
   {
     "code": "21041",
@@ -2909,7 +2273,8 @@
     "type": "Ally",
     "package": "The Mad Titan's Shadow",
     "faction": "Aggression",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21041.png"
   },
   {
     "code": "21042",
@@ -2917,7 +2282,8 @@
     "type": "Event",
     "package": "The Mad Titan's Shadow",
     "faction": "Aggression",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21042.png"
   },
   {
     "code": "21043",
@@ -2925,23 +2291,8 @@
     "type": "Event",
     "package": "The Mad Titan's Shadow",
     "faction": "Aggression",
-    "deckLimit": 1
-  },
-  {
-    "code": "21044",
-    "name": "Uppercut",
-    "type": "Event",
-    "package": "The Mad Titan's Shadow",
-    "faction": "Aggression",
-    "deckLimit": 3
-  },
-  {
-    "code": "21045",
-    "name": "Combat Training",
-    "type": "Upgrade",
-    "package": "The Mad Titan's Shadow",
-    "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21043.png"
   },
   {
     "code": "21046",
@@ -2949,7 +2300,8 @@
     "type": "Resource",
     "package": "The Mad Titan's Shadow",
     "faction": "Aggression",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21046.png"
   },
   {
     "code": "21047",
@@ -2957,7 +2309,8 @@
     "type": "Ally",
     "package": "The Mad Titan's Shadow",
     "faction": "Justice",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21047.png"
   },
   {
     "code": "21048",
@@ -2965,15 +2318,8 @@
     "type": "Event",
     "package": "The Mad Titan's Shadow",
     "faction": "Justice",
-    "deckLimit": 1
-  },
-  {
-    "code": "21049",
-    "name": "For Justice!",
-    "type": "Event",
-    "package": "The Mad Titan's Shadow",
-    "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21048.png"
   },
   {
     "code": "21050",
@@ -2981,15 +2327,8 @@
     "type": "Event",
     "package": "The Mad Titan's Shadow",
     "faction": "Justice",
-    "deckLimit": 1
-  },
-  {
-    "code": "21051",
-    "name": "Heroic Intuition",
-    "type": "Upgrade",
-    "package": "The Mad Titan's Shadow",
-    "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21050.png"
   },
   {
     "code": "21052",
@@ -2997,7 +2336,8 @@
     "type": "Resource",
     "package": "The Mad Titan's Shadow",
     "faction": "Justice",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21052.png"
   },
   {
     "code": "21053",
@@ -3005,7 +2345,8 @@
     "type": "Ally",
     "package": "The Mad Titan's Shadow",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21053.png"
   },
   {
     "code": "21054",
@@ -3013,7 +2354,8 @@
     "type": "Event",
     "package": "The Mad Titan's Shadow",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21054.png"
   },
   {
     "code": "21055",
@@ -3021,23 +2363,8 @@
     "type": "Event",
     "package": "The Mad Titan's Shadow",
     "faction": "Leadership",
-    "deckLimit": 1
-  },
-  {
-    "code": "21056",
-    "name": "Make the Call",
-    "type": "Event",
-    "package": "The Mad Titan's Shadow",
-    "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "21057",
-    "name": "Inspired",
-    "type": "Upgrade",
-    "package": "The Mad Titan's Shadow",
-    "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21055.png"
   },
   {
     "code": "21058",
@@ -3045,7 +2372,8 @@
     "type": "Resource",
     "package": "The Mad Titan's Shadow",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21058.png"
   },
   {
     "code": "21059",
@@ -3053,7 +2381,8 @@
     "type": "Ally",
     "package": "The Mad Titan's Shadow",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21059.png"
   },
   {
     "code": "21060",
@@ -3061,7 +2390,8 @@
     "type": "Event",
     "package": "The Mad Titan's Shadow",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21060.png"
   },
   {
     "code": "21061",
@@ -3069,23 +2399,8 @@
     "type": "Event",
     "package": "The Mad Titan's Shadow",
     "faction": "Protection",
-    "deckLimit": 1
-  },
-  {
-    "code": "21062",
-    "name": "Counter-Punch",
-    "type": "Event",
-    "package": "The Mad Titan's Shadow",
-    "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "21063",
-    "name": "Armored Vest",
-    "type": "Upgrade",
-    "package": "The Mad Titan's Shadow",
-    "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21061.png"
   },
   {
     "code": "21064",
@@ -3093,7 +2408,8 @@
     "type": "Resource",
     "package": "The Mad Titan's Shadow",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21064.png"
   },
   {
     "code": "21065",
@@ -3101,7 +2417,8 @@
     "type": "Ally",
     "package": "The Mad Titan's Shadow",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/21065.png"
   },
   {
     "code": "22011",
@@ -3109,7 +2426,8 @@
     "type": "Ally",
     "package": "Nebula",
     "faction": "Justice",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/22011.png"
   },
   {
     "code": "22012",
@@ -3117,7 +2435,8 @@
     "type": "Ally",
     "package": "Nebula",
     "faction": "Justice",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/22012.png"
   },
   {
     "code": "22013",
@@ -3125,7 +2444,8 @@
     "type": "Ally",
     "package": "Nebula",
     "faction": "Justice",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/22013.png"
   },
   {
     "code": "22014",
@@ -3133,7 +2453,8 @@
     "type": "Upgrade",
     "package": "Nebula",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/22014.png"
   },
   {
     "code": "22015",
@@ -3141,23 +2462,8 @@
     "type": "Event",
     "package": "Nebula",
     "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "22016",
-    "name": "Determination",
-    "type": "Resource",
-    "package": "Nebula",
-    "faction": "Justice",
-    "deckLimit": 1
-  },
-  {
-    "code": "22017",
-    "name": "The Power of Justice",
-    "type": "Resource",
-    "package": "Nebula",
-    "faction": "Justice",
-    "deckLimit": 2
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/22015.png"
   },
   {
     "code": "22018",
@@ -3165,31 +2471,8 @@
     "type": "Event",
     "package": "Nebula",
     "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "22019",
-    "name": "Heroic Intuition",
-    "type": "Upgrade",
-    "package": "Nebula",
-    "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "22020",
-    "name": "Cosmo",
-    "type": "Ally",
-    "package": "Nebula",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "22021",
-    "name": "Knowhere",
-    "type": "Support",
-    "package": "Nebula",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/22018.png"
   },
   {
     "code": "22022",
@@ -3197,39 +2480,8 @@
     "type": "Event",
     "package": "Nebula",
     "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "22023",
-    "name": "First Aid",
-    "type": "Event",
-    "package": "Nebula",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "22024",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Nebula",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "22025",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Nebula",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "22026",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Nebula",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/22022.png"
   },
   {
     "code": "22032",
@@ -3237,7 +2489,8 @@
     "type": "Upgrade",
     "package": "Nebula",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/22032.png"
   },
   {
     "code": "22033",
@@ -3245,7 +2498,8 @@
     "type": "Support",
     "package": "Nebula",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/22033.png"
   },
   {
     "code": "22034",
@@ -3253,7 +2507,8 @@
     "type": "Support",
     "package": "Nebula",
     "faction": "Protection",
-    "deckLimit": 2
+    "deckLimit": 2,
+    "image": "https://marvelcdb.com//bundles/cards/22034.png"
   },
   {
     "code": "22035",
@@ -3261,7 +2516,8 @@
     "type": "Upgrade",
     "package": "Nebula",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/22035.png"
   },
   {
     "code": "23012",
@@ -3269,7 +2525,8 @@
     "type": "Ally",
     "package": "War Machine",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/23012.png"
   },
   {
     "code": "23013",
@@ -3277,23 +2534,8 @@
     "type": "Ally",
     "package": "War Machine",
     "faction": "Leadership",
-    "deckLimit": 1
-  },
-  {
-    "code": "23014",
-    "name": "Falcon",
-    "type": "Ally",
-    "package": "War Machine",
-    "faction": "Leadership",
-    "deckLimit": 1
-  },
-  {
-    "code": "23015",
-    "name": "Goliath",
-    "type": "Ally",
-    "package": "War Machine",
-    "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/23013.png"
   },
   {
     "code": "23016",
@@ -3301,7 +2543,8 @@
     "type": "Support",
     "package": "War Machine",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/23016.png"
   },
   {
     "code": "23017",
@@ -3309,7 +2552,8 @@
     "type": "Event",
     "package": "War Machine",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/23017.png"
   },
   {
     "code": "23018",
@@ -3317,7 +2561,8 @@
     "type": "Event",
     "package": "War Machine",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/23018.png"
   },
   {
     "code": "23019",
@@ -3325,39 +2570,8 @@
     "type": "Event",
     "package": "War Machine",
     "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "23020",
-    "name": "Make the Call",
-    "type": "Event",
-    "package": "War Machine",
-    "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "23021",
-    "name": "Innovation",
-    "type": "Resource",
-    "package": "War Machine",
-    "faction": "Leadership",
-    "deckLimit": 1
-  },
-  {
-    "code": "23022",
-    "name": "Mockingbird",
-    "type": "Ally",
-    "package": "War Machine",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "23023",
-    "name": "Quincarrier",
-    "type": "Support",
-    "package": "War Machine",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/23019.png"
   },
   {
     "code": "23024",
@@ -3365,31 +2579,8 @@
     "type": "Event",
     "package": "War Machine",
     "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "23025",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "War Machine",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "23026",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "War Machine",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "23027",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "War Machine",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/23024.png"
   },
   {
     "code": "23032",
@@ -3397,7 +2588,8 @@
     "type": "Event",
     "package": "War Machine",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/23032.png"
   },
   {
     "code": "23033",
@@ -3405,7 +2597,8 @@
     "type": "Support",
     "package": "War Machine",
     "faction": "Justice",
-    "deckLimit": 2
+    "deckLimit": 2,
+    "image": "https://marvelcdb.com//bundles/cards/23033.png"
   },
   {
     "code": "23034",
@@ -3413,7 +2606,8 @@
     "type": "Event",
     "package": "War Machine",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/23034.png"
   },
   {
     "code": "23035",
@@ -3421,7 +2615,8 @@
     "type": "Upgrade",
     "package": "War Machine",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/23035.png"
   },
   {
     "code": "25013",
@@ -3429,7 +2624,8 @@
     "type": "Ally",
     "package": "Valkyrie",
     "faction": "Aggression",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/25013.png"
   },
   {
     "code": "25014",
@@ -3437,31 +2633,8 @@
     "type": "Ally",
     "package": "Valkyrie",
     "faction": "Aggression",
-    "deckLimit": 1
-  },
-  {
-    "code": "25015",
-    "name": "Angela",
-    "type": "Ally",
-    "package": "Valkyrie",
-    "faction": "Aggression",
-    "deckLimit": 1
-  },
-  {
-    "code": "25016",
-    "name": "Hall of Heroes",
-    "type": "Support",
-    "package": "Valkyrie",
-    "faction": "Aggression",
-    "deckLimit": 1
-  },
-  {
-    "code": "25017",
-    "name": "Combat Training",
-    "type": "Upgrade",
-    "package": "Valkyrie",
-    "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/25014.png"
   },
   {
     "code": "25018",
@@ -3469,7 +2642,8 @@
     "type": "Event",
     "package": "Valkyrie",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/25018.png"
   },
   {
     "code": "25019",
@@ -3477,7 +2651,8 @@
     "type": "Event",
     "package": "Valkyrie",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/25019.png"
   },
   {
     "code": "25020",
@@ -3485,23 +2660,8 @@
     "type": "Event",
     "package": "Valkyrie",
     "faction": "Aggression",
-    "deckLimit": 3
-  },
-  {
-    "code": "25021",
-    "name": "Audacity",
-    "type": "Resource",
-    "package": "Valkyrie",
-    "faction": "Aggression",
-    "deckLimit": 1
-  },
-  {
-    "code": "25022",
-    "name": "The Power of Aggression",
-    "type": "Resource",
-    "package": "Valkyrie",
-    "faction": "Aggression",
-    "deckLimit": 2
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/25020.png"
   },
   {
     "code": "25023",
@@ -3509,7 +2669,8 @@
     "type": "Support",
     "package": "Valkyrie",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/25023.png"
   },
   {
     "code": "25024",
@@ -3517,31 +2678,8 @@
     "type": "Event",
     "package": "Valkyrie",
     "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "25025",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Valkyrie",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "25026",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Valkyrie",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "25027",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Valkyrie",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/25024.png"
   },
   {
     "code": "25033",
@@ -3549,7 +2687,8 @@
     "type": "Event",
     "package": "Valkyrie",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/25033.png"
   },
   {
     "code": "25034",
@@ -3557,7 +2696,8 @@
     "type": "Support",
     "package": "Valkyrie",
     "faction": "Leadership",
-    "deckLimit": 2
+    "deckLimit": 2,
+    "image": "https://marvelcdb.com//bundles/cards/25034.png"
   },
   {
     "code": "25035",
@@ -3565,7 +2705,8 @@
     "type": "Upgrade",
     "package": "Valkyrie",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/25035.png"
   },
   {
     "code": "25036",
@@ -3573,7 +2714,8 @@
     "type": "Event",
     "package": "Valkyrie",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/25036.png"
   },
   {
     "code": "26013",
@@ -3581,7 +2723,8 @@
     "type": "Ally",
     "package": "Vision",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/26013.png"
   },
   {
     "code": "26014",
@@ -3589,7 +2732,8 @@
     "type": "Ally",
     "package": "Vision",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/26014.png"
   },
   {
     "code": "26015",
@@ -3597,7 +2741,8 @@
     "type": "Ally",
     "package": "Vision",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/26015.png"
   },
   {
     "code": "26016",
@@ -3605,15 +2750,8 @@
     "type": "Upgrade",
     "package": "Vision",
     "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "26017",
-    "name": "Indomitable",
-    "type": "Upgrade",
-    "package": "Vision",
-    "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/26016.png"
   },
   {
     "code": "26018",
@@ -3621,31 +2759,8 @@
     "type": "Event",
     "package": "Vision",
     "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "26019",
-    "name": "Side Step",
-    "type": "Event",
-    "package": "Vision",
-    "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "26020",
-    "name": "Get Behind Me!",
-    "type": "Event",
-    "package": "Vision",
-    "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "26021",
-    "name": "Preservation",
-    "type": "Resource",
-    "package": "Vision",
-    "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/26018.png"
   },
   {
     "code": "26022",
@@ -3653,15 +2768,8 @@
     "type": "Ally",
     "package": "Vision",
     "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "26023",
-    "name": "Avengers Mansion",
-    "type": "Support",
-    "package": "Vision",
-    "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/26022.png"
   },
   {
     "code": "26024",
@@ -3669,31 +2777,8 @@
     "type": "Event",
     "package": "Vision",
     "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "26025",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Vision",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "26026",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Vision",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "26027",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Vision",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/26024.png"
   },
   {
     "code": "26033",
@@ -3701,7 +2786,8 @@
     "type": "Support",
     "package": "Vision",
     "faction": "Aggression",
-    "deckLimit": 2
+    "deckLimit": 2,
+    "image": "https://marvelcdb.com//bundles/cards/26033.png"
   },
   {
     "code": "26034",
@@ -3709,7 +2795,8 @@
     "type": "Upgrade",
     "package": "Vision",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/26034.png"
   },
   {
     "code": "26035",
@@ -3717,7 +2804,8 @@
     "type": "Event",
     "package": "Vision",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/26035.png"
   },
   {
     "code": "26036",
@@ -3725,7 +2813,8 @@
     "type": "Event",
     "package": "Vision",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/26036.png"
   },
   {
     "code": "27010",
@@ -3733,7 +2822,8 @@
     "type": "Ally",
     "package": "Sinister Motives",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/27010.png"
   },
   {
     "code": "27011",
@@ -3741,7 +2831,8 @@
     "type": "Ally",
     "package": "Sinister Motives",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/27011.png"
   },
   {
     "code": "27012",
@@ -3749,7 +2840,8 @@
     "type": "Ally",
     "package": "Sinister Motives",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/27012.png"
   },
   {
     "code": "27013",
@@ -3757,7 +2849,8 @@
     "type": "Event",
     "package": "Sinister Motives",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/27013.png"
   },
   {
     "code": "27014",
@@ -3765,7 +2858,8 @@
     "type": "Event",
     "package": "Sinister Motives",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/27014.png"
   },
   {
     "code": "27015",
@@ -3773,7 +2867,8 @@
     "type": "Event",
     "package": "Sinister Motives",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/27015.png"
   },
   {
     "code": "27016",
@@ -3781,7 +2876,8 @@
     "type": "Event",
     "package": "Sinister Motives",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/27016.png"
   },
   {
     "code": "27017",
@@ -3789,7 +2885,8 @@
     "type": "Ally",
     "package": "Sinister Motives",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/27017.png"
   },
   {
     "code": "27018",
@@ -3797,7 +2894,8 @@
     "type": "Event",
     "package": "Sinister Motives",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/27018.png"
   },
   {
     "code": "27019",
@@ -3805,7 +2903,8 @@
     "type": "Event",
     "package": "Sinister Motives",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/27019.png"
   },
   {
     "code": "27020",
@@ -3813,7 +2912,8 @@
     "type": "Resource",
     "package": "Sinister Motives",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/27020.png"
   },
   {
     "code": "27021",
@@ -3821,7 +2921,8 @@
     "type": "Resource",
     "package": "Sinister Motives",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/27021.png"
   },
   {
     "code": "27022",
@@ -3829,7 +2930,8 @@
     "type": "Resource",
     "package": "Sinister Motives",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/27022.png"
   },
   {
     "code": "27023",
@@ -3837,7 +2939,8 @@
     "type": "Support",
     "package": "Sinister Motives",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/27023.png"
   },
   {
     "code": "27024",
@@ -3845,7 +2948,8 @@
     "type": "Upgrade",
     "package": "Sinister Motives",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/27024.png"
   },
   {
     "code": "27040",
@@ -3853,7 +2957,8 @@
     "type": "Ally",
     "package": "Sinister Motives",
     "faction": "Justice",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/27040.png"
   },
   {
     "code": "27041",
@@ -3861,7 +2966,8 @@
     "type": "Ally",
     "package": "Sinister Motives",
     "faction": "Justice",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/27041.png"
   },
   {
     "code": "27042",
@@ -3869,7 +2975,8 @@
     "type": "Event",
     "package": "Sinister Motives",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/27042.png"
   },
   {
     "code": "27043",
@@ -3877,7 +2984,8 @@
     "type": "Event",
     "package": "Sinister Motives",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/27043.png"
   },
   {
     "code": "27044",
@@ -3885,15 +2993,8 @@
     "type": "Support",
     "package": "Sinister Motives",
     "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "27045",
-    "name": "Surveillance Team",
-    "type": "Support",
-    "package": "Sinister Motives",
-    "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/27044.png"
   },
   {
     "code": "27046",
@@ -3901,7 +3002,8 @@
     "type": "Ally",
     "package": "Sinister Motives",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/27046.png"
   },
   {
     "code": "27047",
@@ -3909,7 +3011,8 @@
     "type": "Ally",
     "package": "Sinister Motives",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/27047.png"
   },
   {
     "code": "27048",
@@ -3917,7 +3020,8 @@
     "type": "Ally",
     "package": "Sinister Motives",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/27048.png"
   },
   {
     "code": "27049",
@@ -3925,39 +3029,8 @@
     "type": "Ally",
     "package": "Sinister Motives",
     "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "27050",
-    "name": "Young Love",
-    "type": "Event",
-    "package": "Sinister Motives",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "27051",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Sinister Motives",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "27052",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Sinister Motives",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "27053",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Sinister Motives",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/27049.png"
   },
   {
     "code": "27054",
@@ -3965,7 +3038,8 @@
     "type": "Support",
     "package": "Sinister Motives",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/27054.png"
   },
   {
     "code": "27055",
@@ -3973,7 +3047,8 @@
     "type": "Support",
     "package": "Sinister Motives",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/27055.png"
   },
   {
     "code": "27190",
@@ -3981,7 +3056,8 @@
     "type": "Ally",
     "package": "Sinister Motives",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/27190.png"
   },
   {
     "code": "27191",
@@ -3989,247 +3065,8 @@
     "type": "Upgrade",
     "package": "Sinister Motives",
     "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "28010",
-    "name": "The Locust",
-    "type": "Ally",
-    "package": "Nova",
-    "faction": "Aggression",
-    "deckLimit": 1
-  },
-  {
-    "code": "28011",
-    "name": "Chase Them Down",
-    "type": "Event",
-    "package": "Nova",
-    "faction": "Aggression",
-    "deckLimit": 3
-  },
-  {
-    "code": "28012",
-    "name": "Pitchback",
-    "type": "Event",
-    "package": "Nova",
-    "faction": "Aggression",
-    "deckLimit": 3
-  },
-  {
-    "code": "28013",
-    "name": "No Quarter",
-    "type": "Event",
-    "package": "Nova",
-    "faction": "Aggression",
-    "deckLimit": 3
-  },
-  {
-    "code": "28014",
-    "name": "One by One",
-    "type": "Event",
-    "package": "Nova",
-    "faction": "Aggression",
-    "deckLimit": 3
-  },
-  {
-    "code": "28015",
-    "name": "The Power of Aggression",
-    "type": "Resource",
-    "package": "Nova",
-    "faction": "Aggression",
-    "deckLimit": 2
-  },
-  {
-    "code": "28016",
-    "name": "Fluid Motion",
-    "type": "Upgrade",
-    "package": "Nova",
-    "faction": "Aggression",
-    "deckLimit": 3
-  },
-  {
-    "code": "28017",
-    "name": "Honed Technique",
-    "type": "Upgrade",
-    "package": "Nova",
-    "faction": "Aggression",
-    "deckLimit": 3
-  },
-  {
-    "code": "28018",
-    "name": "Moon Girl",
-    "type": "Ally",
-    "package": "Nova",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "28019",
-    "name": "Everyday Hero",
-    "type": "Resource",
-    "package": "Nova",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "28020",
-    "name": "Champions Mobile Bunker",
-    "type": "Support",
-    "package": "Nova",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "28026",
-    "name": "Yaw and Roll",
-    "type": "Event",
-    "package": "Nova",
-    "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "28027",
-    "name": "Height Advantage",
-    "type": "Upgrade",
-    "package": "Nova",
-    "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "29014",
-    "name": "Cloud 9",
-    "type": "Ally",
-    "package": "Ironheart",
-    "faction": "Leadership",
-    "deckLimit": 1
-  },
-  {
-    "code": "29015",
-    "name": "Falcon",
-    "type": "Ally",
-    "package": "Ironheart",
-    "faction": "Leadership",
-    "deckLimit": 1
-  },
-  {
-    "code": "29016",
-    "name": "Patriot",
-    "type": "Ally",
-    "package": "Ironheart",
-    "faction": "Leadership",
-    "deckLimit": 1
-  },
-  {
-    "code": "29017",
-    "name": "Go All Out",
-    "type": "Event",
-    "package": "Ironheart",
-    "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "29018",
-    "name": "Push Ahead",
-    "type": "Event",
-    "package": "Ironheart",
-    "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "29019",
-    "name": "Morale Boost",
-    "type": "Event",
-    "package": "Ironheart",
-    "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "29020",
-    "name": "R&D Facility",
-    "type": "Support",
-    "package": "Ironheart",
-    "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "29021",
-    "name": "The Power of Leadership",
-    "type": "Resource",
-    "package": "Ironheart",
-    "faction": "Leadership",
-    "deckLimit": 2
-  },
-  {
-    "code": "29022",
-    "name": "Agent 13",
-    "type": "Ally",
-    "package": "Ironheart",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "29023",
-    "name": "Snowguard",
-    "type": "Ally",
-    "package": "Ironheart",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "29024",
-    "name": "Vivian",
-    "type": "Ally",
-    "package": "Ironheart",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "29025",
-    "name": "\"Go for Champions!\"",
-    "type": "Event",
-    "package": "Ironheart",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "29026",
-    "name": "Helicarrier",
-    "type": "Support",
-    "package": "Ironheart",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "29027",
-    "name": "Ingenuity",
-    "type": "Upgrade",
-    "package": "Ironheart",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "29033",
-    "name": "Bombshell",
-    "type": "Ally",
-    "package": "Ironheart",
-    "faction": "Aggression",
-    "deckLimit": 1
-  },
-  {
-    "code": "29034",
-    "name": "Wasp",
-    "type": "Ally",
-    "package": "Ironheart",
-    "faction": "Justice",
-    "deckLimit": 1
-  },
-  {
-    "code": "29035",
-    "name": "Pinpoint",
-    "type": "Ally",
-    "package": "Ironheart",
-    "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/27191.png"
   },
   {
     "code": "30012",
@@ -4237,7 +3074,8 @@
     "type": "Ally",
     "package": "Spider-Ham",
     "faction": "Justice",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/30012.png"
   },
   {
     "code": "30013",
@@ -4245,7 +3083,8 @@
     "type": "Ally",
     "package": "Spider-Ham",
     "faction": "Justice",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/30013.png"
   },
   {
     "code": "30014",
@@ -4253,39 +3092,8 @@
     "type": "Event",
     "package": "Spider-Ham",
     "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "30015",
-    "name": "Great Responsibility",
-    "type": "Event",
-    "package": "Spider-Ham",
-    "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "30016",
-    "name": "Making an Entrance",
-    "type": "Event",
-    "package": "Spider-Ham",
-    "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "30017",
-    "name": "One Way or Another",
-    "type": "Event",
-    "package": "Spider-Ham",
-    "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "30018",
-    "name": "Followed",
-    "type": "Upgrade",
-    "package": "Spider-Ham",
-    "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/30014.png"
   },
   {
     "code": "30019",
@@ -4293,7 +3101,8 @@
     "type": "Upgrade",
     "package": "Spider-Ham",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/30019.png"
   },
   {
     "code": "30020",
@@ -4301,7 +3110,8 @@
     "type": "Ally",
     "package": "Spider-Ham",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/30020.png"
   },
   {
     "code": "30021",
@@ -4309,23 +3119,8 @@
     "type": "Ally",
     "package": "Spider-Ham",
     "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "30022",
-    "name": "Team-Building Exercise",
-    "type": "Support",
-    "package": "Spider-Ham",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "30023",
-    "name": "Web of Life and Destiny",
-    "type": "Support",
-    "package": "Spider-Ham",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/30021.png"
   },
   {
     "code": "30029",
@@ -4333,7 +3128,8 @@
     "type": "Upgrade",
     "package": "Spider-Ham",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/30029.png"
   },
   {
     "code": "31014",
@@ -4341,7 +3137,8 @@
     "type": "Ally",
     "package": "SP//dr",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/31014.png"
   },
   {
     "code": "31015",
@@ -4349,7 +3146,8 @@
     "type": "Ally",
     "package": "SP//dr",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/31015.png"
   },
   {
     "code": "31016",
@@ -4357,7 +3155,8 @@
     "type": "Event",
     "package": "SP//dr",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/31016.png"
   },
   {
     "code": "31017",
@@ -4365,15 +3164,8 @@
     "type": "Event",
     "package": "SP//dr",
     "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "31018",
-    "name": "Energy Barrier",
-    "type": "Upgrade",
-    "package": "SP//dr",
-    "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/31017.png"
   },
   {
     "code": "31019",
@@ -4381,7 +3173,8 @@
     "type": "Upgrade",
     "package": "SP//dr",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/31019.png"
   },
   {
     "code": "31020",
@@ -4389,7 +3182,8 @@
     "type": "Upgrade",
     "package": "SP//dr",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/31020.png"
   },
   {
     "code": "31021",
@@ -4397,7 +3191,8 @@
     "type": "Ally",
     "package": "SP//dr",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/31021.png"
   },
   {
     "code": "31022",
@@ -4405,7 +3200,8 @@
     "type": "Ally",
     "package": "SP//dr",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/31022.png"
   },
   {
     "code": "31023",
@@ -4413,7 +3209,8 @@
     "type": "Event",
     "package": "SP//dr",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/31023.png"
   },
   {
     "code": "31024",
@@ -4421,7 +3218,8 @@
     "type": "Upgrade",
     "package": "SP//dr",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/31024.png"
   },
   {
     "code": "31029",
@@ -4429,7 +3227,8 @@
     "type": "Upgrade",
     "package": "SP//dr",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/31029.png"
   },
   {
     "code": "32011",
@@ -4437,7 +3236,8 @@
     "type": "Ally",
     "package": "Mutant Genesis",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/32011.jpg"
   },
   {
     "code": "32012",
@@ -4445,7 +3245,8 @@
     "type": "Ally",
     "package": "Mutant Genesis",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/32012.jpg"
   },
   {
     "code": "32013",
@@ -4453,7 +3254,8 @@
     "type": "Upgrade",
     "package": "Mutant Genesis",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/32013.jpg"
   },
   {
     "code": "32014",
@@ -4461,7 +3263,8 @@
     "type": "Event",
     "package": "Mutant Genesis",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/32014.jpg"
   },
   {
     "code": "32015",
@@ -4469,7 +3272,8 @@
     "type": "Event",
     "package": "Mutant Genesis",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/32015.jpg"
   },
   {
     "code": "32016",
@@ -4477,7 +3281,8 @@
     "type": "Event",
     "package": "Mutant Genesis",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/32016.jpg"
   },
   {
     "code": "32017",
@@ -4485,7 +3290,8 @@
     "type": "Event",
     "package": "Mutant Genesis",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/32017.jpg"
   },
   {
     "code": "32018",
@@ -4493,7 +3299,8 @@
     "type": "Resource",
     "package": "Mutant Genesis",
     "faction": "Protection",
-    "deckLimit": 2
+    "deckLimit": 2,
+    "image": "https://marvelcdb.com//bundles/cards/32018.jpg"
   },
   {
     "code": "32019",
@@ -4501,7 +3308,8 @@
     "type": "Ally",
     "package": "Mutant Genesis",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/32019.jpg"
   },
   {
     "code": "32020",
@@ -4509,7 +3317,8 @@
     "type": "Support",
     "package": "Mutant Genesis",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/32020.jpg"
   },
   {
     "code": "32021",
@@ -4517,7 +3326,8 @@
     "type": "Event",
     "package": "Mutant Genesis",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/32021.jpg"
   },
   {
     "code": "32022",
@@ -4525,7 +3335,8 @@
     "type": "Resource",
     "package": "Mutant Genesis",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/32022.jpg"
   },
   {
     "code": "32023",
@@ -4533,7 +3344,8 @@
     "type": "Resource",
     "package": "Mutant Genesis",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/32023.jpg"
   },
   {
     "code": "32024",
@@ -4541,7 +3353,8 @@
     "type": "Resource",
     "package": "Mutant Genesis",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/32024.jpg"
   },
   {
     "code": "32041",
@@ -4549,7 +3362,8 @@
     "type": "Ally",
     "package": "Mutant Genesis",
     "faction": "Aggression",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/32041.jpg"
   },
   {
     "code": "32042",
@@ -4557,7 +3371,8 @@
     "type": "Ally",
     "package": "Mutant Genesis",
     "faction": "Aggression",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/32042.jpg"
   },
   {
     "code": "32043",
@@ -4565,7 +3380,8 @@
     "type": "Upgrade",
     "package": "Mutant Genesis",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/32043.jpg"
   },
   {
     "code": "32044",
@@ -4573,7 +3389,8 @@
     "type": "Upgrade",
     "package": "Mutant Genesis",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/32044.jpg"
   },
   {
     "code": "32045",
@@ -4581,7 +3398,8 @@
     "type": "Event",
     "package": "Mutant Genesis",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/32045.jpg"
   },
   {
     "code": "32046",
@@ -4589,7 +3407,8 @@
     "type": "Event",
     "package": "Mutant Genesis",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/32046.jpg"
   },
   {
     "code": "32047",
@@ -4597,7 +3416,8 @@
     "type": "Resource",
     "package": "Mutant Genesis",
     "faction": "Aggression",
-    "deckLimit": 2
+    "deckLimit": 2,
+    "image": "https://marvelcdb.com//bundles/cards/32047.jpg"
   },
   {
     "code": "32048",
@@ -4605,7 +3425,8 @@
     "type": "Ally",
     "package": "Mutant Genesis",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/32048.jpg"
   },
   {
     "code": "32049",
@@ -4613,15 +3434,8 @@
     "type": "Support",
     "package": "Mutant Genesis",
     "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "32050",
-    "name": "Shadow and Steel",
-    "type": "Event",
-    "package": "Mutant Genesis",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/32049.jpg"
   },
   {
     "code": "32051",
@@ -4629,31 +3443,8 @@
     "type": "Upgrade",
     "package": "Mutant Genesis",
     "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "32052",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Mutant Genesis",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "32053",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Mutant Genesis",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "32054",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Mutant Genesis",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/32051.jpg"
   },
   {
     "code": "33011",
@@ -4661,7 +3452,8 @@
     "type": "Ally",
     "package": "Cyclops",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/33011.jpg"
   },
   {
     "code": "33012",
@@ -4669,7 +3461,8 @@
     "type": "Ally",
     "package": "Cyclops",
     "faction": "Aggression",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/33012.jpg"
   },
   {
     "code": "33013",
@@ -4677,7 +3470,8 @@
     "type": "Ally",
     "package": "Cyclops",
     "faction": "Protection",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/33013.jpg"
   },
   {
     "code": "33014",
@@ -4685,7 +3479,8 @@
     "type": "Ally",
     "package": "Cyclops",
     "faction": "Justice",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/33014.jpg"
   },
   {
     "code": "33015",
@@ -4693,7 +3488,8 @@
     "type": "Upgrade",
     "package": "Cyclops",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/33015.jpg"
   },
   {
     "code": "33016",
@@ -4701,7 +3497,8 @@
     "type": "Upgrade",
     "package": "Cyclops",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/33016.jpg"
   },
   {
     "code": "33017",
@@ -4709,7 +3506,8 @@
     "type": "Event",
     "package": "Cyclops",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/33017.jpg"
   },
   {
     "code": "33018",
@@ -4717,7 +3515,8 @@
     "type": "Resource",
     "package": "Cyclops",
     "faction": "Leadership",
-    "deckLimit": 2
+    "deckLimit": 2,
+    "image": "https://marvelcdb.com//bundles/cards/33018.jpg"
   },
   {
     "code": "33019",
@@ -4725,7 +3524,8 @@
     "type": "Ally",
     "package": "Cyclops",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/33019.jpg"
   },
   {
     "code": "33020",
@@ -4733,7 +3533,8 @@
     "type": "Support",
     "package": "Cyclops",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/33020.jpg"
   },
   {
     "code": "33021",
@@ -4741,7 +3542,8 @@
     "type": "Support",
     "package": "Cyclops",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/33021.jpg"
   },
   {
     "code": "33022",
@@ -4749,7 +3551,8 @@
     "type": "Event",
     "package": "Cyclops",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/33022.jpg"
   },
   {
     "code": "33023",
@@ -4757,31 +3560,8 @@
     "type": "Event",
     "package": "Cyclops",
     "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "33024",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Cyclops",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "33025",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Cyclops",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "33026",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Cyclops",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/33023.jpg"
   },
   {
     "code": "33032",
@@ -4789,7 +3569,8 @@
     "type": "Upgrade",
     "package": "Cyclops",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/33032.jpg"
   },
   {
     "code": "33033",
@@ -4797,7 +3578,8 @@
     "type": "Upgrade",
     "package": "Cyclops",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/33033.jpg"
   },
   {
     "code": "33034",
@@ -4805,7 +3587,8 @@
     "type": "Upgrade",
     "package": "Cyclops",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/33034.jpg"
   },
   {
     "code": "33035",
@@ -4813,7 +3596,8 @@
     "type": "Upgrade",
     "package": "Cyclops",
     "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/33035.jpg"
   },
   {
     "code": "34014",
@@ -4821,7 +3605,8 @@
     "type": "Ally",
     "package": "Phoenix",
     "faction": "Justice",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/34014.jpg"
   },
   {
     "code": "34015",
@@ -4829,7 +3614,8 @@
     "type": "Ally",
     "package": "Phoenix",
     "faction": "Justice",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/34015.jpg"
   },
   {
     "code": "34016",
@@ -4837,7 +3623,8 @@
     "type": "Upgrade",
     "package": "Phoenix",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/34016.jpg"
   },
   {
     "code": "34017",
@@ -4845,7 +3632,8 @@
     "type": "Event",
     "package": "Phoenix",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/34017.jpg"
   },
   {
     "code": "34018",
@@ -4853,7 +3641,8 @@
     "type": "Event",
     "package": "Phoenix",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/34018.jpg"
   },
   {
     "code": "34019",
@@ -4861,7 +3650,8 @@
     "type": "Event",
     "package": "Phoenix",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/34019.jpg"
   },
   {
     "code": "34020",
@@ -4869,7 +3659,8 @@
     "type": "Resource",
     "package": "Phoenix",
     "faction": "Justice",
-    "deckLimit": 2
+    "deckLimit": 2,
+    "image": "https://marvelcdb.com//bundles/cards/34020.jpg"
   },
   {
     "code": "34021",
@@ -4877,7 +3668,8 @@
     "type": "Ally",
     "package": "Phoenix",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/34021.jpg"
   },
   {
     "code": "34022",
@@ -4885,15 +3677,8 @@
     "type": "Support",
     "package": "Phoenix",
     "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "34023",
-    "name": "Psychic Rapport",
-    "type": "Event",
-    "package": "Phoenix",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/34022.jpg"
   },
   {
     "code": "34024",
@@ -4901,31 +3686,8 @@
     "type": "Upgrade",
     "package": "Phoenix",
     "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "34025",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Phoenix",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "34026",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Phoenix",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "34027",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Phoenix",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/34024.jpg"
   },
   {
     "code": "34032",
@@ -4933,7 +3695,8 @@
     "type": "Event",
     "package": "Phoenix",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/34032.jpg"
   },
   {
     "code": "34033",
@@ -4941,7 +3704,8 @@
     "type": "Event",
     "package": "Phoenix",
     "faction": "Protection",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/34033.jpg"
   },
   {
     "code": "34034",
@@ -4949,7 +3713,8 @@
     "type": "Event",
     "package": "Phoenix",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/34034.jpg"
   },
   {
     "code": "34035",
@@ -4957,7 +3722,8 @@
     "type": "Event",
     "package": "Phoenix",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/34035.jpg"
   },
   {
     "code": "35013",
@@ -4965,7 +3731,8 @@
     "type": "Ally",
     "package": "Wolverine",
     "faction": "Aggression",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/35013.png"
   },
   {
     "code": "35014",
@@ -4973,7 +3740,8 @@
     "type": "Ally",
     "package": "Wolverine",
     "faction": "Aggression",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/35014.png"
   },
   {
     "code": "35015",
@@ -4981,7 +3749,8 @@
     "type": "Upgrade",
     "package": "Wolverine",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/35015.png"
   },
   {
     "code": "35016",
@@ -4989,7 +3758,8 @@
     "type": "Upgrade",
     "package": "Wolverine",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/35016.png"
   },
   {
     "code": "35017",
@@ -4997,7 +3767,8 @@
     "type": "Event",
     "package": "Wolverine",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/35017.png"
   },
   {
     "code": "35018",
@@ -5005,7 +3776,8 @@
     "type": "Event",
     "package": "Wolverine",
     "faction": "Aggression",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/35018.png"
   },
   {
     "code": "35019",
@@ -5013,23 +3785,8 @@
     "type": "Event",
     "package": "Wolverine",
     "faction": "Aggression",
-    "deckLimit": 3
-  },
-  {
-    "code": "35020",
-    "name": "Aggressive Energy",
-    "type": "Resource",
-    "package": "Wolverine",
-    "faction": "Aggression",
-    "deckLimit": 2
-  },
-  {
-    "code": "35021",
-    "name": "Colossus",
-    "type": "Ally",
-    "package": "Wolverine",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/35019.png"
   },
   {
     "code": "35022",
@@ -5037,7 +3794,8 @@
     "type": "Support",
     "package": "Wolverine",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/35022.png"
   },
   {
     "code": "35023",
@@ -5045,31 +3803,8 @@
     "type": "Event",
     "package": "Wolverine",
     "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "35024",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Wolverine",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "35025",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Wolverine",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "35026",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Wolverine",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/35023.png"
   },
   {
     "code": "35032",
@@ -5077,7 +3812,8 @@
     "type": "Support",
     "package": "Wolverine",
     "faction": "Justice",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/35032.png"
   },
   {
     "code": "35033",
@@ -5085,7 +3821,8 @@
     "type": "Ally",
     "package": "Wolverine",
     "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/35033.png"
   },
   {
     "code": "36014",
@@ -5093,7 +3830,8 @@
     "type": "Ally",
     "package": "Storm",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/36014.png"
   },
   {
     "code": "36015",
@@ -5101,7 +3839,8 @@
     "type": "Ally",
     "package": "Storm",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/36015.png"
   },
   {
     "code": "36016",
@@ -5109,7 +3848,8 @@
     "type": "Ally",
     "package": "Storm",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/36016.png"
   },
   {
     "code": "36017",
@@ -5117,7 +3857,8 @@
     "type": "Ally",
     "package": "Storm",
     "faction": "Leadership",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/36017.png"
   },
   {
     "code": "36018",
@@ -5125,7 +3866,8 @@
     "type": "Support",
     "package": "Storm",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/36018.png"
   },
   {
     "code": "36019",
@@ -5133,7 +3875,8 @@
     "type": "Upgrade",
     "package": "Storm",
     "faction": "Leadership",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/36019.png"
   },
   {
     "code": "36020",
@@ -5141,15 +3884,8 @@
     "type": "Event",
     "package": "Storm",
     "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "36021",
-    "name": "Effective Leadership",
-    "type": "Resource",
-    "package": "Storm",
-    "faction": "Leadership",
-    "deckLimit": 2
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/36020.png"
   },
   {
     "code": "36022",
@@ -5157,31 +3893,8 @@
     "type": "Ally",
     "package": "Storm",
     "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "36023",
-    "name": "The X-Jet",
-    "type": "Support",
-    "package": "Storm",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "36024",
-    "name": "Utopia",
-    "type": "Support",
-    "package": "Storm",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "36025",
-    "name": "X-Mansion",
-    "type": "Support",
-    "package": "Storm",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 1,
+    "image": "https://marvelcdb.com//bundles/cards/36022.png"
   },
   {
     "code": "36026",
@@ -5189,31 +3902,8 @@
     "type": "Upgrade",
     "package": "Storm",
     "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "36027",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Storm",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "36028",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Storm",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "36029",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Storm",
-    "faction": "Basic",
-    "deckLimit": 1
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/36026.png"
   },
   {
     "code": "36035",
@@ -5221,790 +3911,7 @@
     "type": "Support",
     "package": "Storm",
     "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "37011",
-    "name": "Bishop",
-    "type": "Ally",
-    "package": "Gambit",
-    "faction": "Justice",
-    "deckLimit": 1
-  },
-  {
-    "code": "37012",
-    "name": "Dazzler",
-    "type": "Ally",
-    "package": "Gambit",
-    "faction": "Justice",
-    "deckLimit": 1
-  },
-  {
-    "code": "37013",
-    "name": "Operative Skill",
-    "type": "Upgrade",
-    "package": "Gambit",
-    "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "37014",
-    "name": "Stealth Strike",
-    "type": "Event",
-    "package": "Gambit",
-    "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "37015",
-    "name": "Breaking and Entering",
-    "type": "Event",
-    "package": "Gambit",
-    "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "37016",
-    "name": "Passion for Justice",
-    "type": "Resource",
-    "package": "Gambit",
-    "faction": "Justice",
-    "deckLimit": 2
-  },
-  {
-    "code": "37017",
-    "name": "Professor X",
-    "type": "Ally",
-    "package": "Gambit",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "37018",
-    "name": "X-Mansion",
-    "type": "Support",
-    "package": "Gambit",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "37019",
-    "name": "Beauty and the Thief",
-    "type": "Event",
-    "package": "Gambit",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "37020",
-    "name": "Hit and Run",
-    "type": "Event",
-    "package": "Gambit",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "37021",
-    "name": "Mutant Education",
-    "type": "Event",
-    "package": "Gambit",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "37022",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Gambit",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "37023",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Gambit",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "37024",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Gambit",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "37030",
-    "name": "War Room",
-    "type": "Support",
-    "package": "Gambit",
-    "faction": "Aggression",
-    "deckLimit": 3
-  },
-  {
-    "code": "37031",
-    "name": "X-Men Instruction",
-    "type": "Event",
-    "package": "Gambit",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "38010",
-    "name": "Iceman",
-    "type": "Ally",
-    "package": "Rogue",
-    "faction": "Protection",
-    "deckLimit": 1
-  },
-  {
-    "code": "38011",
-    "name": "Karma",
-    "type": "Ally",
-    "package": "Rogue",
-    "faction": "Protection",
-    "deckLimit": 1
-  },
-  {
-    "code": "38012",
-    "name": "Armor",
-    "type": "Ally",
-    "package": "Rogue",
-    "faction": "Protection",
-    "deckLimit": 1
-  },
-  {
-    "code": "38013",
-    "name": "Unflappable",
-    "type": "Upgrade",
-    "package": "Rogue",
-    "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "38014",
-    "name": "Judoka Skill",
-    "type": "Upgrade",
-    "package": "Rogue",
-    "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "38015",
-    "name": "Preemptive Strike",
-    "type": "Event",
-    "package": "Rogue",
-    "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "38016",
-    "name": "Not Today!",
-    "type": "Event",
-    "package": "Rogue",
-    "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "38017",
-    "name": "Defensive Energy",
-    "type": "Resource",
-    "package": "Rogue",
-    "faction": "Protection",
-    "deckLimit": 2
-  },
-  {
-    "code": "38018",
-    "name": "Moira MacTaggert",
-    "type": "Support",
-    "package": "Rogue",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "38019",
-    "name": "X-Gene",
-    "type": "Upgrade",
-    "package": "Rogue",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "38020",
-    "name": "Beauty and the Thief",
-    "type": "Event",
-    "package": "Rogue",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "38021",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "Rogue",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "38022",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "Rogue",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "38023",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "Rogue",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "38028",
-    "name": "Med Lab",
-    "type": "Support",
-    "package": "Rogue",
-    "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "40014",
-    "name": "Caliban",
-    "type": "Ally",
-    "package": "NeXt Evolution",
-    "faction": "Leadership",
-    "deckLimit": 1
-  },
-  {
-    "code": "40015",
-    "name": "Fantomex",
-    "type": "Ally",
-    "package": "NeXt Evolution",
-    "faction": "Leadership",
-    "deckLimit": 1
-  },
-  {
-    "code": "40016",
-    "name": "Sunspot",
-    "type": "Ally",
-    "package": "NeXt Evolution",
-    "faction": "Leadership",
-    "deckLimit": 1
-  },
-  {
-    "code": "40017",
-    "name": "Mission Planning",
-    "type": "Event",
-    "package": "NeXt Evolution",
-    "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "40018",
-    "name": "Call for Backup",
-    "type": "Player Side Scheme",
-    "package": "NeXt Evolution",
-    "faction": "Leadership",
-    "deckLimit": 1
-  },
-  {
-    "code": "40019",
-    "name": "Lock and Load",
-    "type": "Player Side Scheme",
-    "package": "NeXt Evolution",
-    "faction": "Aggression",
-    "deckLimit": 1
-  },
-  {
-    "code": "40020",
-    "name": "Establish Perimeter",
-    "type": "Player Side Scheme",
-    "package": "NeXt Evolution",
-    "faction": "Protection",
-    "deckLimit": 1
-  },
-  {
-    "code": "40021",
-    "name": "E.V.A.",
-    "type": "Support",
-    "package": "NeXt Evolution",
-    "faction": "Leadership",
-    "deckLimit": 1
-  },
-  {
-    "code": "40022",
-    "name": "Uncanny X-Force",
-    "type": "Support",
-    "package": "NeXt Evolution",
-    "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "40023",
-    "name": "Mission Leader",
-    "type": "Upgrade",
-    "package": "NeXt Evolution",
-    "faction": "Leadership",
-    "deckLimit": 1
-  },
-  {
-    "code": "40024",
-    "name": "Deadpool",
-    "type": "Ally",
-    "package": "NeXt Evolution",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "40025",
-    "name": "Deathlok",
-    "type": "Ally",
-    "package": "NeXt Evolution",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "40026",
-    "name": "Frenemies",
-    "type": "Event",
-    "package": "NeXt Evolution",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "40027",
-    "name": "Build Support",
-    "type": "Player Side Scheme",
-    "package": "NeXt Evolution",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "40028",
-    "name": "The Power of the Mind",
-    "type": "Resource",
-    "package": "NeXt Evolution",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "40029",
-    "name": "Psimitar",
-    "type": "Upgrade",
-    "package": "NeXt Evolution",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "40030",
-    "name": "Sidearm",
-    "type": "Upgrade",
-    "package": "NeXt Evolution",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "40050",
-    "name": "Feral",
-    "type": "Ally",
-    "package": "NeXt Evolution",
-    "faction": "Justice",
-    "deckLimit": 1
-  },
-  {
-    "code": "40051",
-    "name": "Wolfsbane",
-    "type": "Ally",
-    "package": "NeXt Evolution",
-    "faction": "Justice",
-    "deckLimit": 1
-  },
-  {
-    "code": "40052",
-    "name": "Even the Odds",
-    "type": "Event",
-    "package": "NeXt Evolution",
-    "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "40053",
-    "name": "Team Investigation",
-    "type": "Event",
-    "package": "NeXt Evolution",
-    "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "40054",
-    "name": "Take Out the Guards",
-    "type": "Player Side Scheme",
-    "package": "NeXt Evolution",
-    "faction": "Justice",
-    "deckLimit": 1
-  },
-  {
-    "code": "40055",
-    "name": "Overwatch",
-    "type": "Upgrade",
-    "package": "NeXt Evolution",
-    "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "40056",
-    "name": "Atlas Bear",
-    "type": "Ally",
-    "package": "NeXt Evolution",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "40057",
-    "name": "White Fox",
-    "type": "Ally",
-    "package": "NeXt Evolution",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "40058",
-    "name": "The Posse",
-    "type": "Event",
-    "package": "NeXt Evolution",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "40059",
-    "name": "Superpower Training",
-    "type": "Player Side Scheme",
-    "package": "NeXt Evolution",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "40060",
-    "name": "Digging Deep",
-    "type": "Resource",
-    "package": "NeXt Evolution",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "40061",
-    "name": "Energy",
-    "type": "Resource",
-    "package": "NeXt Evolution",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "40062",
-    "name": "Genius",
-    "type": "Resource",
-    "package": "NeXt Evolution",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "40063",
-    "name": "Strength",
-    "type": "Resource",
-    "package": "NeXt Evolution",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "40064",
-    "name": "Sharpshooter",
-    "type": "Upgrade",
-    "package": "NeXt Evolution",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "40204",
-    "name": "Hope Summers",
-    "type": "Ally",
-    "package": "NeXt Evolution",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "41012",
-    "name": "Captain Britain",
-    "type": "Ally",
-    "package": "Psylocke",
-    "faction": "Justice",
-    "deckLimit": 1
-  },
-  {
-    "code": "41013",
-    "name": "Cypher",
-    "type": "Ally",
-    "package": "Psylocke",
-    "faction": "Justice",
-    "deckLimit": 1
-  },
-  {
-    "code": "41014",
-    "name": "Concussive Blow",
-    "type": "Event",
-    "package": "Psylocke",
-    "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "41015",
-    "name": "Upside the Head",
-    "type": "Event",
-    "package": "Psylocke",
-    "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "41016",
-    "name": "Lay the Trap",
-    "type": "Player Side Scheme",
-    "package": "Psylocke",
-    "faction": "Justice",
-    "deckLimit": 1
-  },
-  {
-    "code": "41017",
-    "name": "Float Like a Butterfly",
-    "type": "Upgrade",
-    "package": "Psylocke",
-    "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "41018",
-    "name": "Pete Wisdom",
-    "type": "Ally",
-    "package": "Psylocke",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "41019",
-    "name": "Directed Force",
-    "type": "Event",
-    "package": "Psylocke",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "41020",
-    "name": "Soaring Hearts",
-    "type": "Event",
-    "package": "Psylocke",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "41021",
-    "name": "The Power of the Mind",
-    "type": "Resource",
-    "package": "Psylocke",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "41022",
-    "name": "IPAC",
-    "type": "Support",
-    "package": "Psylocke",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "41023",
-    "name": "X-Bunker",
-    "type": "Support",
-    "package": "Psylocke",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "41024",
-    "name": "Telepathy",
-    "type": "Upgrade",
-    "package": "Psylocke",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "41030",
-    "name": "Psi-Bow Attack",
-    "type": "Event",
-    "package": "Psylocke",
-    "faction": "Aggression",
-    "deckLimit": 3
-  },
-  {
-    "code": "41031",
-    "name": "Domino",
-    "type": "Ally",
-    "package": "Psylocke",
-    "faction": "Leadership",
-    "deckLimit": 1
-  },
-  {
-    "code": "41032",
-    "name": "Psi-Flail Strike",
-    "type": "Event",
-    "package": "Psylocke",
-    "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "41033",
-    "name": "Telekinesis",
-    "type": "Upgrade",
-    "package": "Psylocke",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "42011",
-    "name": "Elixir",
-    "type": "Ally",
-    "package": "Angel",
-    "faction": "Protection",
-    "deckLimit": 1
-  },
-  {
-    "code": "42012",
-    "name": "Siryn",
-    "type": "Ally",
-    "package": "Angel",
-    "faction": "Protection",
-    "deckLimit": 1
-  },
-  {
-    "code": "42013",
-    "name": "Warpath",
-    "type": "Ally",
-    "package": "Angel",
-    "faction": "Protection",
-    "deckLimit": 1
-  },
-  {
-    "code": "42014",
-    "name": "Aerial Intervention",
-    "type": "Event",
-    "package": "Angel",
-    "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "42015",
-    "name": "Ever Vigilant",
-    "type": "Event",
-    "package": "Angel",
-    "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "42016",
-    "name": "Taunt",
-    "type": "Event",
-    "package": "Angel",
-    "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "42017",
-    "name": "Render Medical Aid",
-    "type": "Player Side Scheme",
-    "package": "Angel",
-    "faction": "Protection",
-    "deckLimit": 1
-  },
-  {
-    "code": "42018",
-    "name": "Angel's Aerie",
-    "type": "Support",
-    "package": "Angel",
-    "faction": "Protection",
-    "deckLimit": 1
-  },
-  {
-    "code": "42019",
-    "name": "Containment Strategy",
-    "type": "Upgrade",
-    "package": "Angel",
-    "faction": "Protection",
-    "deckLimit": 3
-  },
-  {
-    "code": "42020",
-    "name": "Cannonball",
-    "type": "Ally",
-    "package": "Angel",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "42021",
-    "name": "Soaring Hearts",
-    "type": "Event",
-    "package": "Angel",
-    "faction": "Basic",
-    "deckLimit": 1
-  },
-  {
-    "code": "42022",
-    "name": "The Power of Flight",
-    "type": "Resource",
-    "package": "Angel",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "42023",
-    "name": "Soaring Acrobatics",
-    "type": "Upgrade",
-    "package": "Angel",
-    "faction": "Basic",
-    "deckLimit": 3
-  },
-  {
-    "code": "42029",
-    "name": "Bombs Away",
-    "type": "Event",
-    "package": "Angel",
-    "faction": "Aggression",
-    "deckLimit": 3
-  },
-  {
-    "code": "42030",
-    "name": "Eyes in the Sky",
-    "type": "Upgrade",
-    "package": "Angel",
-    "faction": "Justice",
-    "deckLimit": 3
-  },
-  {
-    "code": "42031",
-    "name": "Flying Formation",
-    "type": "Event",
-    "package": "Angel",
-    "faction": "Leadership",
-    "deckLimit": 3
-  },
-  {
-    "code": "42032",
-    "name": "X-Force Recruit",
-    "type": "Upgrade",
-    "package": "Angel",
-    "faction": "Basic",
-    "deckLimit": 3
+    "deckLimit": 3,
+    "image": "https://marvelcdb.com//bundles/cards/36035.png"
   }
 ]
