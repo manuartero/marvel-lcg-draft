@@ -50,16 +50,12 @@ export type CardType =
   | "Resource"
   | "Player Side Scheme";
 
-type _CardType = CardType & ("Hero" | "Alter-Ego");
-
 export type CardFaction =
   | "Aggression"
   | "Justice"
   | "Leadership"
   | "Protection"
   | "Basic";
-
-type _CardFaction = CardFaction & ("Hero" | "Campaign");
 
 export type Card = {
   code: string; // id

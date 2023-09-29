@@ -44,7 +44,7 @@ export function Mulligan({ cards, className, onCardsSelected }: Props) {
             onClick={() => handleCardSelect(card)}
           >
             <img
-              src={`public/${card.code}.png`}
+              src={`/${card.code}.png`}
               style={{ width: "300px", height: "419px" }}
               alt={card.name}
             />
