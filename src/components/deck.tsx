@@ -3,24 +3,27 @@ import c from "classnames";
 import type { PlayerDeck } from "../domain";
 import type { Card, CardFaction, CardType } from "../services/cards";
 
+import "./../assets/deck.css";
+
 type Props = {
   className?: string;
   playerDeck: PlayerDeck;
+  player: "Player 1" | "Player 2";
 };
 
-export function Deck({ className, playerDeck }: Props) {
+export function Deck({ className, playerDeck, player }: Props) {
   const cardsSortedByType = sortCardsByType(playerDeck.cards);
 
   const getFactionClass = (faction: CardFaction) => {
     switch (faction) {
       case "Aggression":
-        return "border border-red-200 blur-red";
+        return "blur-red gradient-red";
       case "Leadership":
-        return "borderborder-blue-200 blur-blue";
+        return "blur-blue gradient-blue";
       case "Justice":
-        return "border border-yellow-200 blur-yellow";
+        return "blur-yellow gradient-yellow";
       case "Protection":
-        return "border border-green-200 blur-green";
+        return "blur-green gradient-green";
     }
   };
 
@@ -32,12 +35,18 @@ export function Deck({ className, playerDeck }: Props) {
         getFactionClass(playerDeck.faction)
       )}
     >
+      <h1 className={`faction-claim-${playerDeck.faction} text-xl`}>
+        {player}
+      </h1>
+      <div className={`faction-claim-decorator-${playerDeck.faction}`}></div>
       {Object.keys(cardsSortedByType).map((type) => (
         <div key={type}>
-          <h2 className="text-xl font-bold">{type}</h2>
+          <h2 className="text-xl font-bold cursor-pointer text-slate-300 hover:text-slate-50">
+            {type}
+          </h2>
           <ul className="mt-2">
             {cardsSortedByType[type as CardType].map((card) => (
-              <li key={card.name} className="mb-2">
+              <li key={card.name} className="mb-2 text-slate-400">
                 {card.name}
               </li>
             ))}

@@ -25,11 +25,7 @@ export function Mulligan({ cards, className, onCardsSelected }: Props) {
 
   return (
     <section
-      className={c(
-        className,
-        "flex items-center justify-center p-4",
-        "bg-gray-100"
-      )}
+      className={c(className, "flex flex-col items-center justify-center p-4")}
     >
       <div className="flex space-x-4">
         {cards.map((card) => (

@@ -4,6 +4,8 @@ import { ReadyButton } from "../elements/ready-button";
 import type { CardFaction } from "../services/cards";
 import type { Selection } from "../domain";
 
+import "./../assets/player-selection.css";
+
 type Props = {
   onReady: (selection: Selection<CardFaction>) => void;
 };
@@ -13,9 +15,17 @@ export function PlayerSelection({ onReady }: Props) {
   const [player2Faction, setPlayer2Faction] = useState<CardFaction>();
 
   return (
-    <section className="h-screen w-screen flex flex-col justify-center items-center bg-gray-200">
-      <Player title="Player 1" setter={setPlayer1Faction} />
-      <Player title="Player 2" setter={setPlayer2Faction} />
+    <section className="h-screen w-screen flex flex-col justify-center items-center">
+      <Player
+        faction={player1Faction}
+        title="Player 1"
+        setter={setPlayer1Faction}
+      />
+      <Player
+        faction={player2Faction}
+        title="Player 2"
+        setter={setPlayer2Faction}
+      />
       <div className="flex justify-center mt-4">
         {player1Faction && player2Faction && (
           <ReadyButton
@@ -32,33 +42,51 @@ export function PlayerSelection({ onReady }: Props) {
 type PlayerProps = {
   title: string;
   setter: React.Dispatch<React.SetStateAction<CardFaction | undefined>>;
+  faction: CardFaction | undefined;
 };
 
-function Player({ title, setter }: PlayerProps) {
+function Player({ title, setter, faction }: PlayerProps) {
   return (
-    <article className="w-1/2 bg-white p-4 rounded-lg shadow-lg mt-4">
-      <h2 className="text-2xl font-semibold mb-4">{title}</h2>
-      <section className="grid grid-cols-2 gap-4">
+    <article
+      id="color-picker-container"
+      className="w-1/2 bg-white p-4 rounded-lg shadow-lg mt-4"
+    >
+      <div className="flex items-center  mb-4">
+        <h2 className="text-2xl font-semibold me-1">{title}</h2>
+        {faction && (
+          <h2 className={`faction-claim-${faction}`}> - faction {faction}</h2>
+        )}
+      </div>
+
+      <section className="flex justify-around">
         <div
-          className="w-12 h-12 bg-red-500 cursor-pointer"
+          className={`color-box bg-red-500 cursor-pointer ${
+            faction === "Aggression" && "selected"
+          }`}
           onClick={() => {
             setter("Aggression");
           }}
         ></div>
         <div
-          className="w-12 h-12 bg-blue-500 cursor-pointer"
+          className={`color-box bg-blue-500 cursor-pointer ${
+            faction === "Leadership" && "selected"
+          }`}
           onClick={() => {
             setter("Leadership");
           }}
         ></div>
         <div
-          className="w-12 h-12 bg-yellow-500 cursor-pointer"
+          className={`color-box bg-yellow-500 cursor-pointer ${
+            faction === "Justice" && "selected"
+          }`}
           onClick={() => {
             setter("Justice");
           }}
         ></div>
         <div
-          className="w-12 h-12 bg-green-500 cursor-pointer"
+          className={`color-box bg-green-500 cursor-pointer ${
+            faction === "Protection" && "selected"
+          }`}
           onClick={() => {
             setter("Protection");
           }}
