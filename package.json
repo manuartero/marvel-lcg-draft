@@ -1,8 +1,14 @@
 {
-  "name": "marvel-lcg-mulligan",
-  "private": true,
-  "version": "0.0.0",
+  "name": "marvel-lcg-draft",
+  "description": "Prepare 2 decks for Marvel Champions: Draft rules",
+  "version": "0.1.0",
+  "private": false,
+  "license": "MIT",
   "type": "module",
+  "author": {
+    "name": "Manuel Artero",
+    "email": "manutero.developer@gmail.com"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
