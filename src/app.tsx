@@ -44,21 +44,29 @@ export function App() {
   };
 
   return (
-    <div className="flex flex-col h-screen">
+    <div id="main-app" className="flex flex-col h-screen">
       <Toolbar onCollection={handleShowCollection} />
       <main className="flex flex-grow">
         {appState() === "player-selection" && (
           <PlayerSelection onReady={handleFactionsSelected} />
         )}
         {appState() === "deck-building" && (
-          <div className="flex">
-            <Deck className="w-1/6" playerDeck={player1Deck as PlayerDeck} />
+          <div className="flex mt-5">
+            <Deck
+              className="w-1/6"
+              playerDeck={player1Deck as PlayerDeck}
+              player="Player 1"
+            />
             <Mulligan
               className="w-4/6"
               cards={currentCards}
               onCardsSelected={handleCardsSelected}
             />
-            <Deck className="w-1/6" playerDeck={player2Deck as PlayerDeck} />
+            <Deck
+              className="w-1/6"
+              playerDeck={player2Deck as PlayerDeck}
+              player="Player 2"
+            />
           </div>
         )}
       </main>
