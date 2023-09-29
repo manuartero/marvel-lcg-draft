@@ -9,6 +9,11 @@
     "name": "Manuel Artero",
     "email": "manutero.developer@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manuartero/marvel-lcg-draft"
+  },
+  "url": "https://marvel-lcg-draft-manu-artero.vercel.app/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
