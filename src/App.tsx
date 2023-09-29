@@ -1,9 +1,11 @@
 import { useState } from "react";
-import { CollectionDialog } from "./components/collection-dialog";
-import { Deck } from "./components/deck";
-import { Mulligan } from "./components/mulligan";
-import { PlayerSelection } from "./components/player-selection";
-import { Toolbar } from "./components/toolbar";
+import {
+  CollectionDialog,
+  Deck,
+  Mulligan,
+  PlayerSelection,
+  Toolbar,
+} from "./components";
 import { useDecks } from "./use-decks";
 import { useMulliganCards } from "./use-mulligan-cards";
 
@@ -13,7 +15,7 @@ import type { Card, CardFaction } from "./services/cards";
 export function App() {
   const { player1Deck, player2Deck, addCardsToDecks, setFactions } = useDecks();
   const { currentCards, mulligan } = useMulliganCards();
-  const [ showCollectionDialog, setShowCollectionDialog ] = useState(false);
+  const [showCollectionDialog, setShowCollectionDialog] = useState(false);
 
   const appState = () => {
     return player1Deck.faction && player2Deck.faction
@@ -21,7 +23,7 @@ export function App() {
       : "player-selection";
   };
 
-  const handleCollection = () => {
+  const handleShowCollection = () => {
     setShowCollectionDialog(true);
   };
 
@@ -41,30 +43,28 @@ export function App() {
     mulligan(player1Deck.faction, player2Deck.faction);
   };
 
-  if (appState() === "player-selection") {
-    return <PlayerSelection onReady={handleFactionsSelected} />;
-  }
-
   return (
-    <>
-      <Toolbar onCollection={handleCollection} />
-      <main className="flex justify-center">
-        <section className="w-1/6 p-2">
-          <Deck playerDeck={player1Deck as PlayerDeck} />
-        </section>
-        <section className="w-4/6 p-2 m-l8 mr-8 bg-gray-100">
-          <Mulligan
-            cards={currentCards}
-            onCardsSelected={handleCardsSelected}
-          />
-        </section>
-        <section className="w-1/6 p-2">
-          <Deck playerDeck={player2Deck as PlayerDeck} />
-        </section>
+    <div className="flex flex-col h-screen">
+      <Toolbar onCollection={handleShowCollection} />
+      <main className="flex flex-grow">
+        {appState() === "player-selection" && (
+          <PlayerSelection onReady={handleFactionsSelected} />
+        )}
+        {appState() === "deck-building" && (
+          <div className="flex">
+            <Deck className="w-1/6" playerDeck={player1Deck as PlayerDeck} />
+            <Mulligan
+              className="w-4/6"
+              cards={currentCards}
+              onCardsSelected={handleCardsSelected}
+            />
+            <Deck className="w-1/6" playerDeck={player2Deck as PlayerDeck} />
+          </div>
+        )}
       </main>
       {showCollectionDialog && (
         <CollectionDialog onClose={() => setShowCollectionDialog(false)} />
       )}
-    </>
+    </div>
   );
 }

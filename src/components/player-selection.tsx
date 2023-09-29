@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ReadyButton } from "./ready-button";
+import { ReadyButton } from "../elements/ready-button";
 
 import type { CardFaction } from "../services/cards";
 import type { Selection } from "../domain";

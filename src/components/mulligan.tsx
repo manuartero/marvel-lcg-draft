@@ -1,16 +1,17 @@
 import c from "classnames";
 import { useState } from "react";
-import { ReadyButton } from "./ready-button";
+import { ReadyButton } from "../elements/ready-button";
 
 import type { Selection } from "../domain";
 import type { Card } from "../services/cards";
 
 type Props = {
   cards: Card[];
-  onCardsSelected: (selection: Selection<Card>) => void;
+  className?: string;
+  onCardsSelected: (sel: Selection<Card>) => void;
 };
 
-export function Mulligan({ cards, onCardsSelected }: Props) {
+export function Mulligan({ cards, className, onCardsSelected }: Props) {
   const [player1Card, setPlayer1Card] = useState<Card>();
   const [player2Card, setPlayer2Card] = useState<Card>();
 
@@ -23,7 +24,13 @@ export function Mulligan({ cards, onCardsSelected }: Props) {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center">
+    <section
+      className={c(
+        className,
+        "flex items-center justify-center p-4",
+        "bg-gray-100"
+      )}
+    >
       <div className="flex space-x-4">
         {cards.map((card) => (
           <article
