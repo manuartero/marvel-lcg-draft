@@ -1,10 +1,11 @@
+import c from 'classnames';
 import { useState } from "react";
 import { ReadyButton } from "../elements/ready-button";
 
-import type { CardFaction } from "../services/cards";
 import type { Selection } from "../domain";
+import type { CardFaction } from "../services/cards";
 
-import "./../assets/player-selection.css";
+import "./player-selection.css";
 
 type Props = {
   onReady: (selection: Selection<CardFaction>) => void;
@@ -51,14 +52,16 @@ function Player({ title, setter, faction }: PlayerProps) {
       id="color-picker-container"
       className="w-1/2 bg-white p-4 rounded-lg shadow-lg mt-4"
     >
-      <div className="flex items-center  mb-4">
-        <h2 className="text-2xl font-semibold me-1">{title}</h2>
-        {faction && (
-          <h2 className={`faction-claim-${faction}`}> - faction {faction}</h2>
-        )}
+      <div className="flex items-center justify-between mb-4">
+        <div>
+          <h2 className="text-2xl font-semibold me-2">{title}</h2>
+        </div>
+        <div>
+          {faction && <h3 className={c(`faction-claim-${faction}`, 'mr-8')}>{faction}</h3>}
+        </div>
       </div>
 
-      <section className="flex justify-around">
+      <section className="flex justify-around mt-4 mb-4">
         <div
           className={`color-box bg-red-500 cursor-pointer ${
             faction === "Aggression" && "selected"
