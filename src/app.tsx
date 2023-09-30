@@ -2,7 +2,7 @@ import { useState } from "react";
 import {
   CollectionDialog,
   Deck,
-  Mulligan,
+  Draft,
   PlayerSelection,
   Toolbar,
 } from "./components";
@@ -51,13 +51,13 @@ export function App() {
           <PlayerSelection onReady={handleFactionsSelected} />
         )}
         {appState() === "deck-building" && (
-          <div className="flex mt-5">
+          <div className="flex">
             <Deck
               className="w-1/6"
               playerDeck={player1Deck as PlayerDeck}
               player="Player 1"
             />
-            <Mulligan
+            <Draft
               className="w-4/6"
               cards={currentCards}
               onCardsSelected={handleCardsSelected}

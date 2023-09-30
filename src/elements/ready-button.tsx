@@ -1,6 +1,6 @@
-type Props = {
-  onClick: () => void;
-};
+import type { ButtonHTMLAttributes } from "react";
+
+type Props = ButtonHTMLAttributes<HTMLButtonElement>;
 
 export function ReadyButton({ onClick }: Props) {
   return (

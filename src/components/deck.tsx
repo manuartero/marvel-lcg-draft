@@ -35,7 +35,7 @@ export function Deck({ className, playerDeck, player }: Props) {
         getFactionClass(playerDeck.faction)
       )}
     >
-      <h1 className={`faction-claim-${playerDeck.faction} text-xl`}>
+      <h1 className={c(`faction-claim-${playerDeck.faction}`, 'text-xl')}>
         {player}
       </h1>
       <div className={`faction-claim-decorator-${playerDeck.faction}`}></div>
