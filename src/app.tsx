@@ -9,13 +9,14 @@ import {
 import { useDecks } from "./use-decks";
 import { useMulliganCards } from "./use-mulligan-cards";
 
-import type { PlayerDeck, Selection } from "./domain";
+import type { Player, PlayerDeck, Selection } from "./domain";
 import type { Card, CardFaction } from "./services/cards";
 
 export function App() {
   const { player1Deck, player2Deck, addCardsToDecks, setFactions } = useDecks();
   const { currentCards, mulligan } = useMulliganCards();
   const [showCollectionDialog, setShowCollectionDialog] = useState(false);
+  const [startingPlayer, setStartingPlayer] = useState<Player>("Player 1");
 
   const appState = () => {
     return player1Deck.faction && player2Deck.faction
@@ -40,6 +41,9 @@ export function App() {
       return;
     }
     addCardsToDecks(selection);
+    setStartingPlayer((current) =>
+      current === "Player 1" ? "Player 2" : "Player 1"
+    );
     mulligan(player1Deck.faction, player2Deck.faction);
   };
 
@@ -59,6 +63,7 @@ export function App() {
             />
             <Draft
               className="w-4/6"
+              startingPlayer={startingPlayer}
               cards={currentCards}
               onCardsSelected={handleCardsSelected}
             />

@@ -1,4 +1,4 @@
-import c from 'classnames';
+import c from "classnames";
 import { useState } from "react";
 import { ReadyButton } from "../elements/ready-button";
 
@@ -15,6 +15,14 @@ export function PlayerSelection({ onReady }: Props) {
   const [player1Faction, setPlayer1Faction] = useState<CardFaction>();
   const [player2Faction, setPlayer2Faction] = useState<CardFaction>();
 
+  const isReady = player1Faction && player2Faction;
+
+  const handleReady = () => {
+    if (isReady) {
+      onReady({ player1: player1Faction, player2: player2Faction });
+    }
+  };
+
   return (
     <section className="h-screen w-screen flex flex-col justify-center items-center">
       <Player
@@ -28,13 +36,7 @@ export function PlayerSelection({ onReady }: Props) {
         setter={setPlayer2Faction}
       />
       <div className="flex justify-center mt-4">
-        {player1Faction && player2Faction && (
-          <ReadyButton
-            onClick={() => {
-              onReady({ player1: player1Faction, player2: player2Faction });
-            }}
-          />
-        )}
+        <ReadyButton disabled={!isReady} onClick={handleReady} />
       </div>
     </section>
   );
@@ -57,7 +59,9 @@ function Player({ title, setter, faction }: PlayerProps) {
           <h2 className="text-2xl font-semibold me-2">{title}</h2>
         </div>
         <div>
-          {faction && <h3 className={c(`faction-claim-${faction}`, 'mr-8')}>{faction}</h3>}
+          {faction && (
+            <h3 className={c(`faction-claim-${faction}`, "mr-8")}>{faction}</h3>
+          )}
         </div>
       </div>
 
