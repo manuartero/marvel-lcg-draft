@@ -92,36 +92,13 @@ export function Draft({
     >
       <div className="flex space-x-4 mb-8">
         {cards.map((card) => (
-          <article
+          <Card
             key={card.code}
-            className={c(
-              "relative",
-              "p-2 rounded-lg border-4-transparent",
-              "shadow-md hover:shadow-lg transition duration-300",
-              isSelected(card) && "border-4 border-white",
-              isDiscarded(card) && "blur-md blur-transition"
-            )}
-            onClick={() => handleSelectCard(card)}
-          >
-            <>
-              <img
-                src={`/${card.code}.png`}
-                style={{ width: "300px", height: "419px" }}
-                alt={card.name}
-              />
-              {isSelected(card) && (
-                <figcaption
-                  className={c(
-                    "absolute top-0 right-0",
-                    "bg-white px-2 py-1 text-gray-800 font-semibold",
-                    "rounded-tl-lg border-b-4 border-l-4 border-gray-800"
-                  )}
-                >
-                  {isSelected(card)}
-                </figcaption>
-              )}
-            </>
-          </article>
+            card={card}
+            isSelected={isSelected(card)}
+            isDiscarded={isDiscarded(card)}
+            onClick={handleSelectCard}
+          />
         ))}
       </div>
       {ready ? (
@@ -135,5 +112,47 @@ export function Draft({
         </h2>
       )}
     </section>
+  );
+}
+
+type CardProps = {
+  card: Card;
+  isSelected: Player | undefined;
+  isDiscarded: boolean | undefined;
+  onClick: (card: Card) => void;
+};
+
+function Card({ card, isSelected, isDiscarded, onClick }: CardProps) {
+  return (
+    <article
+      key={card.code}
+      className={c(
+        "relative",
+        "p-2 rounded-lg border-4-transparent",
+        "shadow-md hover:shadow-lg transition duration-300",
+        isSelected && "border-4 border-white",
+        isDiscarded && "blur-md blur-transition"
+      )}
+      onClick={() => onClick(card)}
+    >
+      <>
+        <img
+          src={`/${card.code}.png`}
+          style={{ width: "300px", height: "419px" }}
+          alt={card.name}
+        />
+        {isSelected && (
+          <figcaption
+            className={c(
+              "absolute top-0 right-0",
+              "bg-white px-2 py-1 text-gray-800 font-semibold",
+              "rounded-tl-lg border-b-4 border-l-4 border-gray-800"
+            )}
+          >
+            {isSelected}
+          </figcaption>
+        )}
+      </>
+    </article>
   );
 }
