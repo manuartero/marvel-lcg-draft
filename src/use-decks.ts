@@ -1,15 +1,15 @@
 import { useState } from "react";
 
-import type { Card, CardFaction } from "./services/cards";
-import type { Selection } from "./domain";
+import type { CardFaction } from "./services/cards";
+import type { DeckCard, Selection } from "./domain";
 
 export function useDecks() {
-  const [player1Cards, setPlayer1Cards] = useState<Card[]>([]);
-  const [player2Cards, setPlayer2Cards] = useState<Card[]>([]);
+  const [player1Cards, setPlayer1Cards] = useState<DeckCard[]>([]);
+  const [player2Cards, setPlayer2Cards] = useState<DeckCard[]>([]);
   const [player1Faction, setPlayer1Faction] = useState<CardFaction>();
   const [player2Faction, setPlayer2Faction] = useState<CardFaction>();
 
-  const addCardsToDecks = (sel: Selection<Card>) => {
+  const addCardsToDecks = (sel: Selection<DeckCard>) => {
     setPlayer1Cards((cards) => [...cards, sel.player1]);
     setPlayer2Cards((cards) => [...cards, sel.player2]);
   };

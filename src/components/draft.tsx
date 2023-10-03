@@ -2,14 +2,14 @@ import c from "classnames";
 import { useState } from "react";
 import { ReadyButton } from "../elements/ready-button";
 
-import type { Player, Selection } from "../domain";
+import type { DeckCard, Player, Selection } from "../domain";
 import type { Card } from "../services/cards";
 
 type Props = {
   cards: Card[];
   startingPlayer: Player;
   className?: string;
-  onCardsSelected: (sel: Selection<Card>) => void;
+  onCardsSelected: (sel: Selection<DeckCard>) => void;
 };
 
 export function Draft({
@@ -69,7 +69,16 @@ export function Draft({
     }
     setPlayer1Card(undefined);
     setPlayer2Card(undefined);
-    onCardsSelected({ player1: player1Card, player2: player2Card });
+    onCardsSelected({
+      player1: {
+        card: player1Card,
+        copies: 1,
+      },
+      player2: {
+        card: player2Card,
+        copies: 1,
+      },
+    });
   };
 
   const isDiscarded = (card: Card) => {

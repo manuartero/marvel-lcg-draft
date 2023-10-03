@@ -9,8 +9,8 @@ import {
 import { useDecks } from "./use-decks";
 import { useMulliganCards } from "./use-mulligan-cards";
 
-import type { Player, PlayerDeck, Selection } from "./domain";
-import type { Card, CardFaction } from "./services/cards";
+import type { DeckCard, Player, PlayerDeck, Selection } from "./domain";
+import type { CardFaction } from "./services/cards";
 
 export function App() {
   const { player1Deck, player2Deck, addCardsToDecks, setFactions } = useDecks();
@@ -33,14 +33,14 @@ export function App() {
     mulligan(selection.player1, selection.player2);
   };
 
-  const handleCardsSelected = (selection: Selection<Card>) => {
+  const handleCardsSelected = (sel: Selection<DeckCard>) => {
     if (!player1Deck.faction || !player2Deck.faction) {
       console.error(
         "STATE ERROR: can't select cards if factions aren't selected"
       );
       return;
     }
-    addCardsToDecks(selection);
+    addCardsToDecks(sel);
     setStartingPlayer((current) =>
       current === "Player 1" ? "Player 2" : "Player 1"
     );
