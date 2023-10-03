@@ -3,7 +3,7 @@ import c from "classnames";
 import type { PlayerDeck } from "../domain";
 import type { Card, CardFaction, CardType } from "../services/cards";
 
-import "./../assets/deck.css";
+import "./deck.css";
 
 type Props = {
   className?: string;
@@ -35,9 +35,18 @@ export function Deck({ className, playerDeck, player }: Props) {
         getFactionClass(playerDeck.faction)
       )}
     >
-      <h1 className={c(`faction-claim-${playerDeck.faction}`, 'text-xl')}>
-        {player}
-      </h1>
+      <div
+        className={c(
+          "flex justify-between",
+          `faction-claim-${playerDeck.faction}`
+        )}
+      >
+        <h1 className="text-xl">{player}</h1>
+        <h3>
+          <span>{playerDeck.cards.length}</span> / 25
+        </h3>
+      </div>
+
       <div className={`faction-claim-decorator-${playerDeck.faction}`}></div>
       {Object.keys(cardsSortedByType).map((type) => (
         <div key={type}>
