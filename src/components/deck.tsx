@@ -1,6 +1,6 @@
 import c from "classnames";
 
-import type { PlayerDeck } from "../domain";
+import type { Player, PlayerDeck } from "../domain";
 import type { Card, CardFaction, CardType } from "../services/cards";
 
 import "./deck.css";
@@ -8,22 +8,22 @@ import "./deck.css";
 type Props = {
   className?: string;
   playerDeck: PlayerDeck;
-  player: "Player 1" | "Player 2";
+  player: Player;
 };
 
 export function Deck({ className, playerDeck, player }: Props) {
   const cardsSortedByType = sortCardsByType(playerDeck.cards);
 
-  const getFactionClass = (faction: CardFaction) => {
+  const backgroundGradient = (faction: CardFaction) => {
     switch (faction) {
       case "Aggression":
-        return "blur-red gradient-red";
+        return `from-red-900 to-trasparent`;
       case "Leadership":
-        return "blur-blue gradient-blue";
+        return "from-blue-900 to-transparent";
       case "Justice":
-        return "blur-yellow gradient-yellow";
+        return "from-yellow-900 to-transparent";
       case "Protection":
-        return "blur-green gradient-green";
+        return "from-green-900 to-transparent";
     }
   };
 
@@ -32,7 +32,8 @@ export function Deck({ className, playerDeck, player }: Props) {
       className={c(
         className,
         "flex flex-col justify-around p-4 pb-32",
-        getFactionClass(playerDeck.faction)
+        player === "Player 1" ? "bg-gradient-to-r" : "bg-gradient-to-l",
+        backgroundGradient(playerDeck.faction)
       )}
     >
       <div

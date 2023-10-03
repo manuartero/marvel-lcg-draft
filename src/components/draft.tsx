@@ -90,6 +90,16 @@ export function Draft({
     <section
       className={c(className, "flex flex-col items-center justify-center p-4")}
     >
+      <h2 className="text-xl mb-4 text-gray-100 self-start">
+        {ready ? (
+          <>Change Anything?</>
+        ) : (
+          <>
+            <span className="font-semibold text-2xl mr-4">{currentPlayer}</span>
+            <span>select a card...</span>
+          </>
+        )}
+      </h2>
       <div className="flex space-x-4 mb-8">
         {cards.map((card) => (
           <Card
@@ -101,16 +111,10 @@ export function Draft({
           />
         ))}
       </div>
-      {ready ? (
-        <div className="flex justify-center mt-4">
-          <ReadyButton disabled={!ready} onClick={handleReady} />
-        </div>
-      ) : (
-        <h2 className="text-xl mb-4 text-gray-100 self-start">
-          <span className="font-semibold text-2xl mr-4"> {currentPlayer}</span>{" "}
-          select a card...
-        </h2>
-      )}
+
+      <div className="flex justify-center mt-4">
+        <ReadyButton disabled={!ready} onClick={handleReady} />
+      </div>
     </section>
   );
 }
@@ -128,10 +132,11 @@ function Card({ card, isSelected, isDiscarded, onClick }: CardProps) {
       key={card.code}
       className={c(
         "relative",
-        "p-2 rounded-lg border-4-transparent",
+        "p-2 rounded-lg border-4",
+        "min-w-[300px]",
         "shadow-md hover:shadow-lg transition duration-300",
-        isSelected && "border-4 border-white",
-        isDiscarded && "blur-md blur-transition"
+        isSelected ? "border-white border-transition" : "border-transparent",
+        isDiscarded && "blur-sm blur-transition"
       )}
       onClick={() => onClick(card)}
     >

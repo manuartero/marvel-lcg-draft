@@ -2,3 +2,7 @@
   filter: blur(0);
   transition: filter 0.5s ease-in-out;
 }
+
+.border-transition {
+  transition: border-color 0.5s ease-in-out;
+}

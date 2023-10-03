@@ -55,7 +55,7 @@ export function App() {
           <PlayerSelection onReady={handleFactionsSelected} />
         )}
         {appState() === "deck-building" && (
-          <div className="flex">
+          <>
             <Deck
               className="w-1/6"
               playerDeck={player1Deck as PlayerDeck}
@@ -72,7 +72,7 @@ export function App() {
               playerDeck={player2Deck as PlayerDeck}
               player="Player 2"
             />
-          </div>
+          </>
         )}
       </main>
       {showCollectionDialog && (
