@@ -1,11 +1,16 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-@import "./assets/colors.css";
 
 body {
   font-family: "Exo 2", sans-serif;
   background-color: var(--dark-blue);
   min-height: 100vh;
   margin: 0;
+}
+
+:root {
+  --dark-blue: #090e0f;
+  --medium-dark-blue: #0f191f;
+  --white: #ffffff;
 }

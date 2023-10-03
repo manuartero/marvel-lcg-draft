@@ -1,10 +1,11 @@
+import c from "classnames";
 import { useState } from "react";
 import { ReadyButton } from "../elements/ready-button";
 
-import type { CardFaction } from "../services/cards";
 import type { Selection } from "../domain";
+import type { CardFaction } from "../services/cards";
 
-import "./../assets/player-selection.css";
+import "./player-selection.css";
 
 type Props = {
   onReady: (selection: Selection<CardFaction>) => void;
@@ -13,6 +14,14 @@ type Props = {
 export function PlayerSelection({ onReady }: Props) {
   const [player1Faction, setPlayer1Faction] = useState<CardFaction>();
   const [player2Faction, setPlayer2Faction] = useState<CardFaction>();
+
+  const isReady = player1Faction && player2Faction;
+
+  const handleReady = () => {
+    if (isReady) {
+      onReady({ player1: player1Faction, player2: player2Faction });
+    }
+  };
 
   return (
     <section className="h-screen w-screen flex flex-col justify-center items-center">
@@ -27,13 +36,7 @@ export function PlayerSelection({ onReady }: Props) {
         setter={setPlayer2Faction}
       />
       <div className="flex justify-center mt-4">
-        {player1Faction && player2Faction && (
-          <ReadyButton
-            onClick={() => {
-              onReady({ player1: player1Faction, player2: player2Faction });
-            }}
-          />
-        )}
+        <ReadyButton disabled={!isReady} onClick={handleReady} />
       </div>
     </section>
   );
@@ -51,14 +54,18 @@ function Player({ title, setter, faction }: PlayerProps) {
       id="color-picker-container"
       className="w-1/2 bg-white p-4 rounded-lg shadow-lg mt-4"
     >
-      <div className="flex items-center  mb-4">
-        <h2 className="text-2xl font-semibold me-1">{title}</h2>
-        {faction && (
-          <h2 className={`faction-claim-${faction}`}> - faction {faction}</h2>
-        )}
+      <div className="flex items-center justify-between mb-4">
+        <div>
+          <h2 className="text-2xl font-semibold me-2">{title}</h2>
+        </div>
+        <div>
+          {faction && (
+            <h3 className={c(`faction-claim-${faction}`, "mr-8")}>{faction}</h3>
+          )}
+        </div>
       </div>
 
-      <section className="flex justify-around">
+      <section className="flex justify-around mt-4 mb-4">
         <div
           className={`color-box bg-red-500 cursor-pointer ${
             faction === "Aggression" && "selected"
