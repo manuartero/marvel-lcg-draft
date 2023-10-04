@@ -1,9 +1,8 @@
 import { useState } from "react";
 import c from "classnames";
-import { factionColor } from "../domain";
 
 import type { DeckCard, Player, PlayerDeck } from "../domain";
-import type { Card, CardType } from "../services/cards";
+import type { Card, CardFaction, CardType } from "../services/cards";
 
 import "./deck.css";
 
@@ -22,7 +21,7 @@ export function Deck({ className, playerDeck, player }: Props) {
         className,
         "flex flex-col justify-around p-4 pb-32",
         player === "Player 1" ? "bg-gradient-to-r" : "bg-gradient-to-l",
-        `from-${factionColor(playerDeck.faction)}-900 to-trasparent`
+        backgroundGradient(playerDeck.faction)
       )}
     >
       <div
@@ -109,4 +108,19 @@ function DeckCard({ card }: { card: Card }) {
       )}
     </div>
   );
+}
+
+function backgroundGradient(faction: CardFaction) {
+  switch (faction) {
+    case "Aggression":
+      return "from-red-900 to-transparent";
+    case "Justice":
+      return "from-yellow-900 to-transparent";
+    case "Leadership":
+      return "from-blue-900 to-transparent";
+    case "Protection":
+      return "from-green-900 to-transparent";
+    case "Basic":
+      return "from-gray-900 to-transparent";
+  }
 }

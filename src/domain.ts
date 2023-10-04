@@ -17,17 +17,3 @@ export type DeckCard = {
   copies: 1 | 2 | 3;
 };
 
-export function factionColor(faction: CardFaction) {
-  switch (faction) {
-    case "Aggression":
-      return "red";
-    case "Justice":
-      return "yellow";
-    case "Leadership":
-      return "blue";
-    case "Protection":
-      return "green";
-    case "Basic":
-      return "gray";
-  }
-}
