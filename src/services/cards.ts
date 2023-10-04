@@ -69,3 +69,9 @@ export type Card = {
 export function getCardPool(): Card[] {
   return cards as Card[];
 }
+
+export const BASIC_RESOURCES = [
+  '01088', // Energy
+  '01089', // Genius
+  '01090', // Strength
+]
