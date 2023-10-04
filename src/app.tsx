@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import {
   CollectionDialog,
   Deck,
@@ -6,17 +6,31 @@ import {
   PlayerSelection,
   Toolbar,
 } from "./components";
-import { useDecks } from "./use-decks";
-import { useMulliganCards } from "./use-mulligan-cards";
+import { useDecks } from "./hooks/use-decks";
+import { useDraft } from "./hooks/use-draft";
 
-import type { DeckCard, Player, PlayerDeck, Selection } from "./domain";
+import type { DeckCard, Player, PlayerDeck, Selection } from "./app-domain";
 import type { CardFaction } from "./services/cards";
 
 export function App() {
   const { player1Deck, player2Deck, addCardsToDecks, setFactions } = useDecks();
-  const { currentCards, mulligan } = useMulliganCards();
+  const { currentCards, draft } = useDraft();
   const [showCollectionDialog, setShowCollectionDialog] = useState(false);
   const [startingPlayer, setStartingPlayer] = useState<Player>("Player 1");
+
+  const handleEscapeKey = useCallback((event: KeyboardEvent) => {
+    if (event.key === "Escape" || event.key === "Esc") {
+      handleCloseCollection();
+    }
+  }, []);
+
+  useEffect(() => {
+    document.addEventListener("keydown", handleEscapeKey);
+
+    return () => {
+      document.removeEventListener("keydown", handleEscapeKey);
+    };
+  }, [handleEscapeKey]);
 
   const appState = () => {
     return player1Deck.faction && player2Deck.faction
@@ -28,9 +42,13 @@ export function App() {
     setShowCollectionDialog(true);
   };
 
+  const handleCloseCollection = () => {
+    setShowCollectionDialog(false);
+  };
+
   const handleFactionsSelected = (selection: Selection<CardFaction>) => {
     setFactions(selection);
-    mulligan(selection.player1, selection.player2);
+    draft(selection.player1, selection.player2);
   };
 
   const handleCardsSelected = (sel: Selection<DeckCard>) => {
@@ -44,7 +62,7 @@ export function App() {
     setStartingPlayer((current) =>
       current === "Player 1" ? "Player 2" : "Player 1"
     );
-    mulligan(player1Deck.faction, player2Deck.faction);
+    draft(player1Deck.faction, player2Deck.faction);
   };
 
   return (
@@ -76,7 +94,7 @@ export function App() {
         )}
       </main>
       {showCollectionDialog && (
-        <CollectionDialog onClose={() => setShowCollectionDialog(false)} />
+        <CollectionDialog onClose={handleCloseCollection} />
       )}
     </div>
   );
