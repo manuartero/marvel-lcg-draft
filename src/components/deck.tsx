@@ -1,8 +1,8 @@
 import { useState } from "react";
 import c from "classnames";
 
-import type { DeckCard, Player, PlayerDeck } from "../domain";
-import type { Card, CardFaction, CardType } from "../services/cards";
+import type { DeckCard, Player, PlayerDeck } from "domain";
+import type { Card, CardFaction, CardType } from "services/cards";
 
 import "./deck.css";
 

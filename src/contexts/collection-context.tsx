@@ -1,6 +1,6 @@
 import { createContext, useContext, useState } from "react";
-import { cardPackages } from "../services/cards";
-import type { CardPackage } from "../services/cards";
+import { cardPackages } from "services/cards";
+import type { CardPackage } from "services/cards";
 
 type CollectionContextType = {
   packages: Record<CardPackage, boolean>;

@@ -6,7 +6,7 @@ import {
   PlayerSelection,
   Toolbar,
 } from "./components";
-import { useDecks } from "./use-decks";
+import { useDecks } from "./hooks/use-decks";
 import { useDraft } from "./hooks/use-draft";
 
 import type { DeckCard, Player, PlayerDeck, Selection } from "./domain";

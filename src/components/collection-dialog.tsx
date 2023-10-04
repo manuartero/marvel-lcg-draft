@@ -1,8 +1,8 @@
-import { useCollectionContext } from "../contexts/collection-context";
-import { groupPackagesByWaves } from "../utils/collection-waves";
-import { Dialog } from "../elements/dialog";
+import { useCollectionContext } from "contexts/collection-context";
+import { groupPackagesByWaves } from "domain";
+import { Dialog } from "elements/dialog";
 
-import type { CardPackage } from "../services/cards";
+import type { CardPackage } from "services/cards";
 
 type CollectionDialogProps = {
   onClose: () => void;

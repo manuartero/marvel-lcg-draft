@@ -1,8 +1,8 @@
+import { useCollectionContext } from "contexts/collection-context";
 import { useState } from "react";
-import { useCollectionContext } from "../contexts/collection-context";
-import { getCardPool, BASIC_RESOURCES } from "../services/cards";
+import { BASIC_RESOURCES, getCardPool } from "services/cards";
 
-import type { Card, CardFaction, CardPackage } from "../services/cards";
+import type { Card, CardFaction, CardPackage } from "services/cards";
 
 const pool = getCardPool();
 const alreadyUsedCards: Card[] = [];
@@ -33,7 +33,7 @@ function get3RandomCards(
     cards.push(randomCard);
     remainingEligibleCards.splice(randomIndex, 1);
   }
-  
+
   return cards;
 }
 
