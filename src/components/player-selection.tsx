@@ -25,12 +25,12 @@ export function PlayerSelection({ onReady }: Props) {
 
   return (
     <section className="h-screen w-screen flex flex-col justify-center items-center">
-      <Player
+      <PlayerFaction
         faction={player1Faction}
         title="Player 1"
         setter={setPlayer1Faction}
       />
-      <Player
+      <PlayerFaction
         faction={player2Faction}
         title="Player 2"
         setter={setPlayer2Faction}
@@ -42,13 +42,13 @@ export function PlayerSelection({ onReady }: Props) {
   );
 }
 
-type PlayerProps = {
+type PlayerFactionProps = {
   title: string;
   setter: React.Dispatch<React.SetStateAction<CardFaction | undefined>>;
   faction: CardFaction | undefined;
 };
 
-function Player({ title, setter, faction }: PlayerProps) {
+function PlayerFaction({ title, setter, faction }: PlayerFactionProps) {
   return (
     <article
       id="color-picker-container"
@@ -65,11 +65,12 @@ function Player({ title, setter, faction }: PlayerProps) {
         </div>
       </div>
 
-      <section className="flex justify-around mt-4 mb-4">
+      <section className="flex justify-around mt-4 mb-4" role="group">
         <div
           className={`color-box bg-red-500 cursor-pointer ${
             faction === "Aggression" && "selected"
           }`}
+          aria-label="Aggression Faction"
           onClick={() => {
             setter("Aggression");
           }}
@@ -78,6 +79,7 @@ function Player({ title, setter, faction }: PlayerProps) {
           className={`color-box bg-blue-500 cursor-pointer ${
             faction === "Leadership" && "selected"
           }`}
+          aria-label="Leadership Faction"
           onClick={() => {
             setter("Leadership");
           }}
@@ -86,6 +88,7 @@ function Player({ title, setter, faction }: PlayerProps) {
           className={`color-box bg-yellow-500 cursor-pointer ${
             faction === "Justice" && "selected"
           }`}
+          aria-label="Justice Faction"
           onClick={() => {
             setter("Justice");
           }}
@@ -94,6 +97,7 @@ function Player({ title, setter, faction }: PlayerProps) {
           className={`color-box bg-green-500 cursor-pointer ${
             faction === "Protection" && "selected"
           }`}
+          aria-label="Protection Faction"
           onClick={() => {
             setter("Protection");
           }}

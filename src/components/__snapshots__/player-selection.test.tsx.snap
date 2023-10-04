@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PlayerSelection /> renders 1`] = `
+<DocumentFragment>
+  <section
+    class="h-screen w-screen flex flex-col justify-center items-center"
+  >
+    <article
+      class="w-1/2 bg-white p-4 rounded-lg shadow-lg mt-4"
+      id="color-picker-container"
+    >
+      <div
+        class="flex items-center justify-between mb-4"
+      >
+        <div>
+          <h2
+            class="text-2xl font-semibold me-2"
+          >
+            Player 1
+          </h2>
+        </div>
+        <div />
+      </div>
+      <section
+        class="flex justify-around mt-4 mb-4"
+        role="group"
+      >
+        <div
+          aria-label="Aggression Faction"
+          class="color-box bg-red-500 cursor-pointer false"
+        />
+        <div
+          aria-label="Leadership Faction"
+          class="color-box bg-blue-500 cursor-pointer false"
+        />
+        <div
+          aria-label="Justice Faction"
+          class="color-box bg-yellow-500 cursor-pointer false"
+        />
+        <div
+          aria-label="Protection Faction"
+          class="color-box bg-green-500 cursor-pointer false"
+        />
+      </section>
+    </article>
+    <article
+      class="w-1/2 bg-white p-4 rounded-lg shadow-lg mt-4"
+      id="color-picker-container"
+    >
+      <div
+        class="flex items-center justify-between mb-4"
+      >
+        <div>
+          <h2
+            class="text-2xl font-semibold me-2"
+          >
+            Player 2
+          </h2>
+        </div>
+        <div />
+      </div>
+      <section
+        class="flex justify-around mt-4 mb-4"
+        role="group"
+      >
+        <div
+          aria-label="Aggression Faction"
+          class="color-box bg-red-500 cursor-pointer false"
+        />
+        <div
+          aria-label="Leadership Faction"
+          class="color-box bg-blue-500 cursor-pointer false"
+        />
+        <div
+          aria-label="Justice Faction"
+          class="color-box bg-yellow-500 cursor-pointer false"
+        />
+        <div
+          aria-label="Protection Faction"
+          class="color-box bg-green-500 cursor-pointer false"
+        />
+      </section>
+    </article>
+    <div
+      class="flex justify-center mt-4"
+    >
+      <button
+        class="px-10 py-4 text-white font-semibold bg-sky-950  hover:bg-sky-700 rounded-md opacity-50 cursor-not-allowed"
+        disabled=""
+      >
+        READY!
+      </button>
+    </div>
+  </section>
+</DocumentFragment>
+`;
