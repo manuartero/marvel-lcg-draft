@@ -7,14 +7,14 @@ import {
   Toolbar,
 } from "./components";
 import { useDecks } from "./use-decks";
-import { useMulliganCards } from "./use-mulligan-cards";
+import { useDraft } from "./hooks/use-draft";
 
 import type { DeckCard, Player, PlayerDeck, Selection } from "./domain";
 import type { CardFaction } from "./services/cards";
 
 export function App() {
   const { player1Deck, player2Deck, addCardsToDecks, setFactions } = useDecks();
-  const { currentCards, mulligan } = useMulliganCards();
+  const { currentCards, draft } = useDraft();
   const [showCollectionDialog, setShowCollectionDialog] = useState(false);
   const [startingPlayer, setStartingPlayer] = useState<Player>("Player 1");
 
@@ -30,7 +30,7 @@ export function App() {
 
   const handleFactionsSelected = (selection: Selection<CardFaction>) => {
     setFactions(selection);
-    mulligan(selection.player1, selection.player2);
+    draft(selection.player1, selection.player2);
   };
 
   const handleCardsSelected = (sel: Selection<DeckCard>) => {
@@ -44,7 +44,7 @@ export function App() {
     setStartingPlayer((current) =>
       current === "Player 1" ? "Player 2" : "Player 1"
     );
-    mulligan(player1Deck.faction, player2Deck.faction);
+    draft(player1Deck.faction, player2Deck.faction);
   };
 
   return (
