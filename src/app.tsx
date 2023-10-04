@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import {
   CollectionDialog,
   Deck,
@@ -18,6 +18,20 @@ export function App() {
   const [showCollectionDialog, setShowCollectionDialog] = useState(false);
   const [startingPlayer, setStartingPlayer] = useState<Player>("Player 1");
 
+  const handleEscapeKey = useCallback((event: KeyboardEvent) => {
+    if (event.key === "Escape" || event.key === "Esc") {
+      handleCloseCollection();
+    }
+  }, []);
+
+  useEffect(() => {
+    document.addEventListener("keydown", handleEscapeKey);
+
+    return () => {
+      document.removeEventListener("keydown", handleEscapeKey);
+    };
+  }, [handleEscapeKey]);
+
   const appState = () => {
     return player1Deck.faction && player2Deck.faction
       ? "deck-building"
@@ -26,6 +40,10 @@ export function App() {
 
   const handleShowCollection = () => {
     setShowCollectionDialog(true);
+  };
+
+  const handleCloseCollection = () => {
+    setShowCollectionDialog(false);
   };
 
   const handleFactionsSelected = (selection: Selection<CardFaction>) => {
@@ -76,7 +94,7 @@ export function App() {
         )}
       </main>
       {showCollectionDialog && (
-        <CollectionDialog onClose={() => setShowCollectionDialog(false)} />
+        <CollectionDialog onClose={handleCloseCollection} />
       )}
     </div>
   );
