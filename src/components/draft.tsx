@@ -2,7 +2,7 @@ import c from "classnames";
 import { useState } from "react";
 import { ReadyButton } from "elements/ready-button";
 
-import type { DeckCard, Player, Selection } from "domain";
+import type { DeckCard, Player, Selection } from "app-domain";
 import type { Card } from "services/cards";
 
 type Props = {

@@ -2,7 +2,7 @@ import c from "classnames";
 import { useState } from "react";
 import { ReadyButton } from "elements/ready-button";
 
-import type { Selection } from "domain";
+import type { Selection } from "app-domain";
 import type { CardFaction } from "services/cards";
 
 import "./player-selection.css";

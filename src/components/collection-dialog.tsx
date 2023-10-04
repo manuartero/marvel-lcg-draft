@@ -1,5 +1,5 @@
 import { useCollectionContext } from "contexts/collection-context";
-import { groupPackagesByWaves } from "domain";
+import { groupPackagesByWaves } from "app-domain";
 import { Dialog } from "elements/dialog";
 
 import type { CardPackage } from "services/cards";
