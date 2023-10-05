@@ -1,6 +1,7 @@
 import c from "classnames";
-import { useState } from "react";
+import { Counter } from "elements/counter";
 import { ReadyButton } from "elements/ready-button";
+import { useState } from "react";
 
 import type { DeckCard, Player, Selection } from "app-domain";
 import type { Card } from "services/cards";
@@ -19,34 +20,34 @@ export function Draft({
   onCardsSelected,
 }: Props) {
   const [currentPlayer, setCurrentPlayer] = useState<Player>(startingPlayer);
-  const [player1Card, setPlayer1Card] = useState<Card>();
-  const [player2Card, setPlayer2Card] = useState<Card>();
+  const [player1, setPlayer1] = useState<DeckCard>();
+  const [player2, setPlayer2] = useState<DeckCard>();
 
-  const ready = player1Card && player2Card;
+  const ready = player1?.card && player2?.card;
 
   const handleSelectCard = (card: Card) => {
     const tryingToSelectAlreadySelectedCard =
       (!ready &&
         currentPlayer === "Player 1" &&
-        card.code === player2Card?.code) ||
+        card.code === player2?.card.code) ||
       (!ready &&
         currentPlayer === "Player 2" &&
-        card.code === player1Card?.code);
+        card.code === player1?.card.code);
 
     if (tryingToSelectAlreadySelectedCard) {
       return;
     }
 
     if (currentPlayer === "Player 1" || ready) {
-      if (card.code === player1Card?.code) {
-        setPlayer1Card(undefined);
+      if (card.code === player1?.card.code) {
+        setPlayer1(undefined);
         setCurrentPlayer("Player 1");
         return;
       }
     }
     if (currentPlayer === "Player 2" || ready) {
-      if (card.code === player2Card?.code) {
-        setPlayer2Card(undefined);
+      if (card.code === player2?.card.code) {
+        setPlayer2(undefined);
         setCurrentPlayer("Player 2");
         return;
       }
@@ -54,42 +55,51 @@ export function Draft({
 
     if (!ready) {
       if (currentPlayer === "Player 1") {
-        setPlayer1Card(card);
+        setPlayer1({ card, copies: 1 });
         setCurrentPlayer("Player 2");
       } else {
-        setPlayer2Card(card);
+        setPlayer2({ card, copies: 1 });
         setCurrentPlayer("Player 1");
       }
     }
+  };
+
+  const handleChangeCopies = (card: Card, copies: number) => {
+    if (card.code === player1?.card.code) {
+      setPlayer1({ card, copies });
+      return;
+    }
+    if (card.code === player2?.card.code) {
+      setPlayer2({ card, copies });
+      return;
+    }
+    console.error(
+      "STATE ERROR: Trying to change copies of a card that is not selected: %o",
+      card
+    );
   };
 
   const handleReady = () => {
     if (!ready) {
       return;
     }
-    setPlayer1Card(undefined);
-    setPlayer2Card(undefined);
+    setPlayer1(undefined);
+    setPlayer2(undefined);
     onCardsSelected({
-      player1: {
-        card: player1Card,
-        copies: 1,
-      },
-      player2: {
-        card: player2Card,
-        copies: 1,
-      },
+      player1,
+      player2,
     });
   };
 
   const isDiscarded = (card: Card) => {
-    return player1Card && player2Card && !isSelected(card);
+    return player1 && player2 && !isSelected(card);
   };
 
   const isSelected = (card: Card) => {
-    if (card.code === player1Card?.code) {
+    if (card.code === player1?.card.code) {
       return "Player 1";
     }
-    if (card.code === player2Card?.code) {
+    if (card.code === player2?.card.code) {
       return "Player 2";
     }
     return undefined;
@@ -104,7 +114,7 @@ export function Draft({
           <>Change Anything?</>
         ) : (
           <>
-            <span className="font-semibold text-2xl mr-4">{currentPlayer}</span>
+            <span className="font-semibold mr-4">{currentPlayer}</span>
             <span>select a card...</span>
           </>
         )}
@@ -117,6 +127,7 @@ export function Draft({
             isSelected={isSelected(card)}
             isDiscarded={isDiscarded(card)}
             onClick={handleSelectCard}
+            onChangeCopies={handleChangeCopies}
           />
         ))}
       </div>
@@ -133,9 +144,16 @@ type CardProps = {
   isSelected: Player | undefined;
   isDiscarded: boolean | undefined;
   onClick: (card: Card) => void;
+  onChangeCopies: (card: Card, copies: number) => void;
 };
 
-function Card({ card, isSelected, isDiscarded, onClick }: CardProps) {
+function Card({
+  card,
+  isSelected,
+  isDiscarded,
+  onClick,
+  onChangeCopies,
+}: CardProps) {
   return (
     <article
       key={card.code}
@@ -165,6 +183,17 @@ function Card({ card, isSelected, isDiscarded, onClick }: CardProps) {
           >
             {isSelected}
           </figcaption>
+        )}
+        {isSelected && (
+          <div
+            className="absolute bottom-0 left-0 right-0 px-1 py-4 bg-opacity-75 bg-white"
+            style={{ backdropFilter: "blur(10px)" }}
+          >
+            <Counter
+              onChange={(copies) => onChangeCopies(card, copies)}
+              maxValue={card.deckLimit}
+            />
+          </div>
         )}
       </>
     </article>

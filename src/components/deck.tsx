@@ -32,7 +32,7 @@ export function Deck({ className, playerDeck, player }: Props) {
       >
         <h1 className="text-xl">{player}</h1>
         <h3>
-          <span>{playerDeck.cards.length}</span> / 25
+          <span>{countCardsOnDeck(playerDeck.cards)}</span> / 25
         </h3>
       </div>
 
@@ -123,4 +123,8 @@ function backgroundGradient(faction: CardFaction) {
     case "Basic":
       return "from-gray-900 to-transparent";
   }
+}
+
+function countCardsOnDeck(cards: DeckCard[]) {
+  return cards.reduce((acc, { copies }) => acc + copies, 0);
 }

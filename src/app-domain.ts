@@ -16,7 +16,7 @@ export type PlayerDeck = {
 
 export type DeckCard = {
   card: Card;
-  copies: 1 | 2 | 3;
+  copies: number;
 };
 
 const BIG_BOXES: CardPackage[] = [
