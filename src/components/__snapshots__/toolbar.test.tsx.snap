@@ -7,25 +7,33 @@ exports[`<Toolbar /> renders 1`] = `
     id="Toolbar"
   >
     <button
+      aria-label="Collection"
       class="px-8 py-4 rounded-md text-xl"
     >
-      <div>
+      <div
+        class="relative"
+      >
         <svg
           aria-hidden="true"
-          class="svg-inline--fa fa-bars "
+          class="svg-inline--fa fa-list "
           color="white"
-          data-icon="bars"
+          data-icon="list"
           data-prefix="fas"
           focusable="false"
           role="img"
-          viewBox="0 0 448 512"
+          viewBox="0 0 512 512"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+            d="M40 48C26.7 48 16 58.7 16 72v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V72c0-13.3-10.7-24-24-24H40zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zM16 232v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V232c0-13.3-10.7-24-24-24H40c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V392c0-13.3-10.7-24-24-24H40z"
             fill="currentColor"
           />
         </svg>
+        <div
+          class="opacity-0 absolute z-10 bg-gray-800 text-white text-sm py-1 px-2 rounded-md top-full left-1/2 transform -translate-x-1/2 show-up-transition pointer-events-none"
+        >
+          Collection
+        </div>
       </div>
     </button>
   </nav>
