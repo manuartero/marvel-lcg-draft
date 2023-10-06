@@ -1,9 +1,10 @@
-import { useState } from "react";
 import c from "classnames";
 
 import type { DeckCard, Player, PlayerDeck } from "app-domain";
 import type { Card, CardFaction, CardType } from "services/cards";
 
+import { Tooltip } from "elements/tooltip";
+import { useBool } from "hooks/use-bool";
 import "./deck.css";
 
 type Props = {
@@ -75,37 +76,20 @@ function sortDeckByType(deckCards: DeckCard[]) {
 }
 
 function DeckCard({ card }: { card: Card }) {
-  const [showTooltip, setShowTooltip] = useState(false);
-
-  const toggleTooltip = () => {
-    setShowTooltip(!showTooltip);
-  };
+  const [showImage, toggleImage] = useBool();
 
   return (
     <div
       className="relative inline-block"
-      onMouseEnter={toggleTooltip}
-      onMouseLeave={toggleTooltip}
+      onMouseEnter={toggleImage}
+      onMouseLeave={toggleImage}
     >
       <div className="w-4 h-4 bg-gray-200 rounded-full"></div>
-      {showTooltip && (
-        <div
-          className={c(
-            "absolute top-0 left-0",
-            "bg-gray-800 rounded-md",
-            "p-2 w-[120px]",
-            "z-10"
-          )}
-        >
-          <div className="flex flex-col justify-center">
-            <img
-              src={`/${card.code}.png`}
-              className="mx-auto"
-              alt={card.name}
-            />
-          </div>
+      <Tooltip show={showImage}>
+        <div className="flex flex-col justify-center p-2 w-[120px]">
+          <img src={`/${card.code}.png`} className="mx-auto" alt={card.name} />
         </div>
-      )}
+      </Tooltip>
     </div>
   );
 }

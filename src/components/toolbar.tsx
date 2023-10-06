@@ -3,14 +3,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "./toolbar.css";
 import { Tooltip } from "elements/tooltip";
-import { useState } from "react";
+import { useBool } from "hooks/use-bool";
 
 type Props = {
   onCollection: () => void;
 };
 
 export function Toolbar({ onCollection }: Props) {
-  const [collectionTooltip, setCollectionTooltip] = useState(false);
+  const [collectionTooltip, toggleCollectionTooltip] = useBool();
 
   return (
     <nav
@@ -21,8 +21,8 @@ export function Toolbar({ onCollection }: Props) {
         className="px-8 py-4 rounded-md text-xl"
         aria-label="Collection"
         onClick={onCollection}
-        onMouseEnter={() => setCollectionTooltip(true)}
-        onMouseLeave={() => setCollectionTooltip(false)}
+        onMouseEnter={toggleCollectionTooltip}
+        onMouseLeave={toggleCollectionTooltip}
       >
         <div className="relative">
           <FontAwesomeIcon color="white" icon={faList} />
