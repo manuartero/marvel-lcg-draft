@@ -4,6 +4,8 @@ import {
   useCollectionContext,
 } from "./collection-context";
 
+jest.mock("./local-storage");
+
 describe("useCollectionContext()", () => {
   test("provides packages{} to children", () => {
     const { result } = renderHook(() => useCollectionContext(), {
