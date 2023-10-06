@@ -1,5 +1,7 @@
-import { useCollectionContext } from "contexts/collection-context";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { groupPackagesByWaves } from "app-domain";
+import { useCollectionContext } from "contexts/collection-context";
 import { Dialog } from "elements/dialog";
 
 import type { CardPackage } from "services/cards";
@@ -15,9 +17,11 @@ export function CollectionDialog({ onClose }: CollectionDialogProps) {
 
   return (
     <Dialog>
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center pr-8">
         <h2 className="text-2xl font-semibold">Collection</h2>
-        <button onClick={onClose}>X</button>
+        <button onClick={onClose}>
+          <FontAwesomeIcon color="green" icon={faCheck} size="xl" />
+        </button>
       </div>
       <div>
         {Object.keys(PACKAGES_GROUPED_BY_WAVE).map((key) => {
