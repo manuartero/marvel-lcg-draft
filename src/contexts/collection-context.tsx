@@ -1,9 +1,16 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 import { cardPackages } from "services/cards";
+import {
+  readCollectionFromLocalStorage,
+  writeCollectionToLocalStorage,
+} from "./local-storage";
+
 import type { CardPackage } from "services/cards";
 
+type Collection = Record<CardPackage, boolean>;
+
 type CollectionContextType = {
-  packages: Record<CardPackage, boolean>;
+  packages: Collection;
   togglePackage: (pkg: CardPackage) => void;
 };
 
@@ -12,7 +19,7 @@ const defaultPackages = cardPackages.reduce((acc, pkg) => {
     return { ...acc, [pkg]: true };
   }
   return { ...acc, [pkg]: false };
-}, {} as Record<CardPackage, boolean>);
+}, {} as Collection);
 
 const CollectionContext = createContext<CollectionContextType>({
   packages: defaultPackages,
@@ -24,11 +31,19 @@ interface Props {
 }
 
 export function CollectionContextProvider({ children }: Props): JSX.Element {
-  const [packages, setPackages] =
-    useState<Record<CardPackage, boolean>>(defaultPackages);
+  const [packages, setPackages] = useState<Collection>(defaultPackages);
+
+  useEffect(() => {
+    const savedPackages = readCollectionFromLocalStorage();
+    if (savedPackages) {
+      setPackages(savedPackages);
+    }
+  }, []);
 
   const togglePackage = (pkg: CardPackage) => {
-    setPackages((prev) => ({ ...prev, [pkg]: !prev[pkg] }));
+    const collection = { ...packages, [pkg]: !packages[pkg] };
+    setPackages(collection);
+    writeCollectionToLocalStorage(collection);
   };
 
   return (

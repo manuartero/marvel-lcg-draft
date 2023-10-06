@@ -66,7 +66,7 @@ export function App() {
   };
 
   return (
-    <div id="main-app" className="flex flex-col h-screen">
+    <div id="main-app" className="flex flex-col h-screen overflow-hidden">
       <Toolbar onCollection={handleShowCollection} />
       <main className="flex flex-grow">
         {appState() === "player-selection" && (

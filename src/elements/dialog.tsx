@@ -13,12 +13,12 @@ export function Dialog({ children }: Props) {
     >
       <div
         className={c(
-          "bg-white rounded-lg p-6 w-full max-w-screen-md overflow-y-auto",
-          "scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100"
+          "bg-white rounded-lg p-6 w-full max-w-screen-md",
+          "overflow-y-auto no-scrollbar"
         )}
         style={{
           width: "90%",
-          maxHeight: "80%",
+          maxHeight: "70%",
         }}
       >
         {children}
