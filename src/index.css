@@ -2,6 +2,21 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  }
+}
+
 body {
   font-family: "Exo 2", sans-serif;
   background-color: var(--dark-blue);
@@ -13,4 +28,13 @@ body {
   --dark-blue: #090e0f;
   --medium-dark-blue: #0f191f;
   --white: #ffffff;
+}
+
+.show-up-transition {
+  opacity: 1;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.border-transition {
+  transition: border-color 0.3s ease-in-out;
 }
