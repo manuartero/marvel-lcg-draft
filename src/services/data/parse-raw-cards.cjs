@@ -9,10 +9,12 @@ const https = require("https");
 const rawCards = require("./raw-cards.json");
 
 // CUSTOMIZE THE SCRIPT
-const WRITE_TO_FILE = true;
-const FETCH_IMAGES = true;
+const WRITE_TO_FILE = false;
+const FETCH_IMAGES = false;
+const FETCH_HEROES = true;
 
-/** filter any card that type_name is different from
+/**
+ * filter any card that type_name is different from
  *    "Ally" | "Event" | "Support" | "Upgrade" | "Resource" | "Player Side Scheme";
  * or faction_name is different from
  *    "Aggression" | "Justice" | "Leadership" | "Protection" | "Basic";
@@ -32,6 +34,16 @@ const FETCH_IMAGES = true;
  *  https://marvelcdb.com/bundles/cards/${card.code}.png
  *
  * and save it to /public/${card.code}.png
+ *
+ * ;
+ *
+ * for each hero:
+ *   code: string; // id
+ *   name: string;
+ *   package: CardPackage;
+ *   image: string;
+ *
+ * write the output to ./heroes.json
  */
 
 // --------------------------------------------------
@@ -56,11 +68,16 @@ const allowedFactionNames = [
 const cards = parseCards();
 
 if (WRITE_TO_FILE) {
-  writeCardsJson();
+  writeJSON(cards, "cards.json");
 }
 
 if (FETCH_IMAGES) {
   fetchImages();
+}
+
+if (FETCH_HEROES) {
+  const heroes = fetchHeroes();
+  writeJSON(heroes, "heroes.json");
 }
 
 console.log("--done--");
@@ -85,11 +102,23 @@ function parseCards() {
     }));
 }
 
-function writeCardsJson() {
+function fetchHeroes() {
+  console.log("fetching heroes...\n");
+  return rawCards
+    .filter((card) => card.type_name === "Hero")
+    .map((card) => ({
+      code: card.code,
+      name: card.name,
+      package: card.pack_name,
+      image: `https://marvelcdb.com/${card.imagesrc}`,
+    }));
+}
+
+function writeJSON(obj, fileName) {
   console.log("writing to file...\n");
   fs.writeFileSync(
-    path.join(__dirname, "cards.json"),
-    JSON.stringify(cards, null, 2)
+    path.join(__dirname, fileName),
+    JSON.stringify(obj, null, 2)
   );
 }
 
