@@ -3,17 +3,19 @@ import {
   CollectionDialog,
   Deck,
   Draft,
-  PlayerSelection,
+  HeroSelection,
+  FactionSelection,
   Toolbar,
 } from "./components";
 import { useDecks } from "./hooks/use-decks";
 import { useDraft } from "./hooks/use-draft";
 
 import type { DeckCard, Player, PlayerDeck, Selection } from "./app-domain";
-import type { CardFaction } from "./services/cards";
+import type { CardFaction, HeroCard } from "./services/cards";
 
 export function App() {
-  const { player1Deck, player2Deck, addCardsToDecks, setFactions } = useDecks();
+  const { player1Deck, player2Deck, setHeroes, setFactions, addCardsToDecks } =
+    useDecks();
   const { currentCards, draft } = useDraft();
   const [showCollectionDialog, setShowCollectionDialog] = useState(false);
   const [startingPlayer, setStartingPlayer] = useState<Player>("Player 1");
@@ -33,9 +35,13 @@ export function App() {
   }, [handleEscapeKey]);
 
   const appState = () => {
-    return player1Deck.faction && player2Deck.faction
-      ? "deck-building"
-      : "player-selection";
+    if (!player1Deck.hero || !player2Deck.hero) {
+      return "hero-selection";
+    }
+    if (!player1Deck.faction || !player2Deck.faction) {
+      return "faction-selection";
+    }
+    return "deck-building";
   };
 
   const handleShowCollection = () => {
@@ -44,6 +50,10 @@ export function App() {
 
   const handleCloseCollection = () => {
     setShowCollectionDialog(false);
+  };
+
+  const handleHeroesSelected = (selection: Selection<HeroCard>) => {
+    setHeroes(selection);
   };
 
   const handleFactionsSelected = (selection: Selection<CardFaction>) => {
@@ -69,8 +79,11 @@ export function App() {
     <div id="main-app" className="flex flex-col h-screen overflow-hidden">
       <Toolbar onCollection={handleShowCollection} />
       <main className="flex flex-grow">
-        {appState() === "player-selection" && (
-          <PlayerSelection onReady={handleFactionsSelected} />
+        {appState() === "hero-selection" && (
+          <HeroSelection onReady={handleHeroesSelected} />
+        )}
+        {appState() === "faction-selection" && (
+          <FactionSelection onReady={handleFactionsSelected} />
         )}
         {appState() === "deck-building" && (
           <>

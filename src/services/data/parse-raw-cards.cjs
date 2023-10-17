@@ -9,10 +9,13 @@ const https = require("https");
 const rawCards = require("./raw-cards.json");
 
 // CUSTOMIZE THE SCRIPT
-const WRITE_TO_FILE = true;
-const FETCH_IMAGES = true;
+const WRITE_TO_FILE = false;
+const FETCH_IMAGES = false;
+const FETCH_HEROES = true;
+const FETCH_HERO_IMAGES = true;
 
-/** filter any card that type_name is different from
+/**
+ * filter any card that type_name is different from
  *    "Ally" | "Event" | "Support" | "Upgrade" | "Resource" | "Player Side Scheme";
  * or faction_name is different from
  *    "Aggression" | "Justice" | "Leadership" | "Protection" | "Basic";
@@ -32,6 +35,16 @@ const FETCH_IMAGES = true;
  *  https://marvelcdb.com/bundles/cards/${card.code}.png
  *
  * and save it to /public/${card.code}.png
+ *
+ * ;
+ *
+ * for each hero:
+ *   code: string; // id
+ *   name: string;
+ *   package: CardPackage;
+ *   image: string;
+ *
+ * write the output to ./heroes.json
  */
 
 // --------------------------------------------------
@@ -53,14 +66,20 @@ const allowedFactionNames = [
   "Basic",
 ];
 
-const cards = parseCards();
-
 if (WRITE_TO_FILE) {
-  writeCardsJson();
+  const cards = parseCards();
+  writeJSON(cards, "cards.json");
+  if (FETCH_IMAGES) {
+    fetchImages(cards);
+  }
 }
 
-if (FETCH_IMAGES) {
-  fetchImages();
+if (FETCH_HEROES) {
+  const heroes = fetchHeroes();
+  writeJSON(heroes, "heroes.json");
+  if (FETCH_HERO_IMAGES) {
+    fetchImages(heroes);
+  }
 }
 
 console.log("--done--");
@@ -85,17 +104,36 @@ function parseCards() {
     }));
 }
 
-function writeCardsJson() {
+function fetchHeroes() {
+  console.log("fetching heroes...\n");
+  return rawCards
+    .filter((card) => card.type_name === "Hero")
+    .map((card) => ({
+      code: card.code,
+      name: card.name,
+      package: card.pack_name,
+      image: `https://marvelcdb.com/${card.imagesrc}`,
+    }));
+}
+
+function writeJSON(obj, fileName) {
   console.log("writing to file...\n");
   fs.writeFileSync(
-    path.join(__dirname, "cards.json"),
-    JSON.stringify(cards, null, 2)
+    path.join(__dirname, fileName),
+    JSON.stringify(obj, null, 2)
   );
 }
 
-async function fetchImages() {
+async function fetchImages(cards) {
   console.log("fetching images...\n");
-  cards.forEach(async (card, index) => {
+  for (let index = 0; index < cards.length; index++) {
+    const card = cards[index];
+
+    if (!card.code) {
+      console.warn("no card code: ", card);
+      continue;
+    }
+
     console.log(`fetching ${card.code}`);
     const url = card.image;
     const dest = path.join(
@@ -106,29 +144,36 @@ async function fetchImages() {
       "public",
       `${card.code}.png`
     );
-    const file = fs.createWriteStream(dest);
 
     try {
-      const request = https.get(url, async (response) => {
-        if (response.statusCode !== 200) {
-          throw new Error(`Failed to fetch ${url}`);
-        }
+      await fetchImage(url, dest);
+      console.log(`saved to ${dest}`);
 
-        response.pipe(file);
-
-        if (index < cards.length - 1) {
-          await delay(300); // 300 ms
-        }
-
-        console.log(`saved to ${dest}`);
-      });
-
-      request.on("error", () => {
-        fs.writeFileSync(dest, ""); // Create an empty file
-      });
+      if (index < cards.length - 1) {
+        await delay(300); // 300 ms
+      }
     } catch (err) {
       fs.writeFileSync(dest, ""); // Create an empty file
     }
+  }
+}
+
+async function fetchImage(url, dest) {
+  const file = fs.createWriteStream(dest);
+  return new Promise((resolve, reject) => {
+    const request = https.get(url, (response) => {
+      if (response.statusCode !== 200) {
+        reject(new Error(`Failed to fetch ${url}`));
+      }
+
+      response.pipe(file);
+      resolve();
+    });
+
+    request.on("error", (err) => {
+      fs.writeFileSync(dest, ""); // Create an empty file
+      reject(err);
+    });
   });
 }
 

@@ -1,4 +1,5 @@
 import cards from "./data/cards.json";
+import heroes from "./data/heroes.json";
 
 export const cardPackages = [
   "Core Set",
@@ -66,12 +67,28 @@ export type Card = {
   deckLimit: 1 | 2 | 3;
 };
 
+export type HeroCard = {
+  code: string; // id
+  name: string;
+  package: CardPackage;
+};
+
+
 export function getCardPool(): Card[] {
   return cards as Card[];
+}
+
+export function getHeroPool(): HeroCard[] {
+  return heroes as HeroCard[];
 }
 
 export const BASIC_RESOURCES = [
   '01088', // Energy
   '01089', // Genius
   '01090', // Strength
+]
+
+export const SPECIAL_HEROES  = [
+  '04031a', // Spider-Woman
+  '21031a' // Adam Warlock
 ]

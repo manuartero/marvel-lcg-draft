@@ -1,0 +1,314 @@
+[
+  {
+    "code": "01001a",
+    "name": "Spider-Man",
+    "package": "Core Set",
+    "image": "https://marvelcdb.com//bundles/cards/01001a.png"
+  },
+  {
+    "code": "01010a",
+    "name": "Captain Marvel",
+    "package": "Core Set",
+    "image": "https://marvelcdb.com//bundles/cards/01010a.png"
+  },
+  {
+    "code": "01019a",
+    "name": "She-Hulk",
+    "package": "Core Set",
+    "image": "https://marvelcdb.com//bundles/cards/01019a.png"
+  },
+  {
+    "code": "01029a",
+    "name": "Iron Man",
+    "package": "Core Set",
+    "image": "https://marvelcdb.com//bundles/cards/01029a.png"
+  },
+  {
+    "code": "01040a",
+    "name": "Black Panther",
+    "package": "Core Set",
+    "image": "https://marvelcdb.com//bundles/cards/01040a.png"
+  },
+  {
+    "code": "03001a",
+    "name": "Captain America",
+    "package": "Captain America",
+    "image": "https://marvelcdb.com//bundles/cards/03001a.png"
+  },
+  {
+    "code": "04001a",
+    "name": "Hawkeye",
+    "package": "The Rise of Red Skull",
+    "image": "https://marvelcdb.com//bundles/cards/04001a.png"
+  },
+  {
+    "code": "04031a",
+    "name": "Spider-Woman",
+    "package": "The Rise of Red Skull",
+    "image": "https://marvelcdb.com//bundles/cards/04031a.png"
+  },
+  {
+    "code": "05001a",
+    "name": "Ms. Marvel",
+    "package": "Ms. Marvel",
+    "image": "https://marvelcdb.com//bundles/cards/05001a.png"
+  },
+  {
+    "code": "06001a",
+    "name": "Thor",
+    "package": "Thor",
+    "image": "https://marvelcdb.com//bundles/cards/06001a.png"
+  },
+  {
+    "code": "08001a",
+    "name": "Black Widow",
+    "package": "Black Widow",
+    "image": "https://marvelcdb.com//bundles/cards/08001a.png"
+  },
+  {
+    "code": "09001a",
+    "name": "Doctor Strange",
+    "package": "Doctor Strange",
+    "image": "https://marvelcdb.com//bundles/cards/09001a.png"
+  },
+  {
+    "code": "10001a",
+    "name": "Hulk",
+    "package": "Hulk",
+    "image": "https://marvelcdb.com//bundles/cards/10001a.png"
+  },
+  {
+    "code": "12001a",
+    "name": "Ant-Man",
+    "package": "Ant-Man",
+    "image": "https://marvelcdb.com//bundles/cards/12001a.png"
+  },
+  {
+    "code": "12001c",
+    "name": "Ant-Man",
+    "package": "Ant-Man",
+    "image": "https://marvelcdb.com//bundles/cards/12001c.png"
+  },
+  {
+    "code": "13001a",
+    "name": "Wasp",
+    "package": "Wasp",
+    "image": "https://marvelcdb.com//bundles/cards/13001a.png"
+  },
+  {
+    "code": "13001c",
+    "name": "Wasp",
+    "package": "Wasp",
+    "image": "https://marvelcdb.com//bundles/cards/13001c.png"
+  },
+  {
+    "code": "14001a",
+    "name": "Quicksilver",
+    "package": "Quicksilver",
+    "image": "https://marvelcdb.com//bundles/cards/14001a.png"
+  },
+  {
+    "code": "15001a",
+    "name": "Scarlet Witch",
+    "package": "Scarlet Witch",
+    "image": "https://marvelcdb.com//bundles/cards/15001a.png"
+  },
+  {
+    "code": "16001a",
+    "name": "Groot",
+    "package": "Galaxy's Most Wanted",
+    "image": "https://marvelcdb.com//bundles/cards/16001a.png"
+  },
+  {
+    "code": "16029a",
+    "name": "Rocket Raccoon",
+    "package": "Galaxy's Most Wanted",
+    "image": "https://marvelcdb.com//bundles/cards/16029a.png"
+  },
+  {
+    "code": "17001a",
+    "name": "Star-Lord",
+    "package": "Star-Lord",
+    "image": "https://marvelcdb.com//bundles/cards/17001a.png"
+  },
+  {
+    "code": "18001a",
+    "name": "Gamora",
+    "package": "Gamora",
+    "image": "https://marvelcdb.com//bundles/cards/18001a.png"
+  },
+  {
+    "code": "19001a",
+    "name": "Drax",
+    "package": "Drax",
+    "image": "https://marvelcdb.com//bundles/cards/19001a.png"
+  },
+  {
+    "code": "20001a",
+    "name": "Venom",
+    "package": "Venom",
+    "image": "https://marvelcdb.com//bundles/cards/20001a.png"
+  },
+  {
+    "code": "21001a",
+    "name": "Spectrum",
+    "package": "The Mad Titan's Shadow",
+    "image": "https://marvelcdb.com//bundles/cards/21001a.png"
+  },
+  {
+    "code": "21031a",
+    "name": "Adam Warlock",
+    "package": "The Mad Titan's Shadow",
+    "image": "https://marvelcdb.com//bundles/cards/21031a.png"
+  },
+  {
+    "code": "22001a",
+    "name": "Nebula",
+    "package": "Nebula",
+    "image": "https://marvelcdb.com//bundles/cards/22001a.png"
+  },
+  {
+    "code": "23001a",
+    "name": "War Machine",
+    "package": "War Machine",
+    "image": "https://marvelcdb.com//bundles/cards/23001a.png"
+  },
+  {
+    "code": "25001a",
+    "name": "Valkyrie",
+    "package": "Valkyrie",
+    "image": "https://marvelcdb.com//bundles/cards/25001a.png"
+  },
+  {
+    "code": "26001a",
+    "name": "Vision",
+    "package": "Vision",
+    "image": "https://marvelcdb.com//bundles/cards/26001a.png"
+  },
+  {
+    "code": "27001a",
+    "name": "Ghost-Spider",
+    "package": "Sinister Motives",
+    "image": "https://marvelcdb.com//bundles/cards/27001a.png"
+  },
+  {
+    "code": "27030a",
+    "name": "Spider-Man",
+    "package": "Sinister Motives",
+    "image": "https://marvelcdb.com//bundles/cards/27030a.png"
+  },
+  {
+    "code": "28001a",
+    "name": "Nova",
+    "package": "Nova",
+    "image": "https://marvelcdb.com//bundles/cards/28001a.png"
+  },
+  {
+    "code": "29001a",
+    "name": "Ironheart",
+    "package": "Ironheart",
+    "image": "https://marvelcdb.com//bundles/cards/29001a.png"
+  },
+  {
+    "code": "29002a",
+    "name": "Ironheart",
+    "package": "Ironheart",
+    "image": "https://marvelcdb.com/undefined"
+  },
+  {
+    "code": "29003a",
+    "name": "Ironheart",
+    "package": "Ironheart",
+    "image": "https://marvelcdb.com/undefined"
+  },
+  {
+    "code": "30001a",
+    "name": "Spider-Ham",
+    "package": "Spider-Ham",
+    "image": "https://marvelcdb.com//bundles/cards/30001a.png"
+  },
+  {
+    "code": "31001a",
+    "name": "SP//dr Suit",
+    "package": "SP//dr",
+    "image": "https://marvelcdb.com//bundles/cards/31001a.png"
+  },
+  {
+    "code": "32001a",
+    "name": "Colossus",
+    "package": "Mutant Genesis",
+    "image": "https://marvelcdb.com//bundles/cards/32001a.png"
+  },
+  {
+    "code": "32030a",
+    "name": "Shadowcat",
+    "package": "Mutant Genesis",
+    "image": "https://marvelcdb.com//bundles/cards/32030a.png"
+  },
+  {
+    "code": "33001a",
+    "name": "Cyclops",
+    "package": "Cyclops",
+    "image": "https://marvelcdb.com//bundles/cards/33001a.png"
+  },
+  {
+    "code": "34001a",
+    "name": "Phoenix",
+    "package": "Phoenix",
+    "image": "https://marvelcdb.com//bundles/cards/34001a.png"
+  },
+  {
+    "code": "35001a",
+    "name": "Wolverine",
+    "package": "Wolverine",
+    "image": "https://marvelcdb.com//bundles/cards/35001a.png"
+  },
+  {
+    "code": "36001a",
+    "name": "Storm",
+    "package": "Storm",
+    "image": "https://marvelcdb.com//bundles/cards/36001a.png"
+  },
+  {
+    "code": "37001a",
+    "name": "Gambit",
+    "package": "Gambit",
+    "image": "https://marvelcdb.com//bundles/cards/37001a.png"
+  },
+  {
+    "code": "38001a",
+    "name": "Rogue",
+    "package": "Rogue",
+    "image": "https://marvelcdb.com//bundles/cards/38001a.png"
+  },
+  {
+    "code": "40001a",
+    "name": "Cable",
+    "package": "NeXt Evolution",
+    "image": "https://marvelcdb.com//bundles/cards/40001a.png"
+  },
+  {
+    "code": "40037a",
+    "name": "Domino",
+    "package": "NeXt Evolution",
+    "image": "https://marvelcdb.com//bundles/cards/40037a.png"
+  },
+  {
+    "code": "41001a",
+    "name": "Psylocke",
+    "package": "Psylocke",
+    "image": "https://marvelcdb.com//bundles/cards/41001a.png"
+  },
+  {
+    "code": "42001a",
+    "name": "Angel",
+    "package": "Angel",
+    "image": "https://marvelcdb.com//bundles/cards/42001a.png"
+  },
+  {
+    "code": "42001c",
+    "name": "Archangel",
+    "package": "Angel",
+    "image": "https://marvelcdb.com//bundles/cards/42001c.png"
+  }
+]

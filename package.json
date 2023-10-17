@@ -1,7 +1,7 @@
 {
   "name": "marvel-lcg-draft",
   "description": "Prepare 2 decks for Marvel Champions: Draft rules",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "private": false,
   "license": "MIT",
   "type": "module",
@@ -20,6 +20,7 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "blue-ball": "npm run lint && npm run test && npm run build && npm pack --dry-run",
+    "fetch-cards": "node src/services/data/parse-raw-cards.cjs",
     "preview": "vite preview"
   },
   "dependencies": {

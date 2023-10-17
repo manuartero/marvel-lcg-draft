@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Deckbuilder &middot; MarvelCDB</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="/icon-192.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/icon-120.png" />
+        
+    <link href='https://fonts.googleapis.com/css?family=Amiri:400,400italic,700,700italic|Julius+Sans+One|Open+Sans:400,400italic,700,700italic|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.1/jquery.qtip.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-markdown/2.9.0/css/bootstrap-markdown.min.css">
+        <link rel="stylesheet" href="/css/app.css" />
+		<!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+    <![endif]-->
+	  </head>
+  <body>
+  <div id="wrapper">
+      <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+                  <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+            <span class="icon icon-link-half-top"></span>
+            <span class="icon icon-link-half-bottom"></span>
+            MarvelCDB
+          </a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/decks">My Decks</a></li>
+            <li><a href="/decklists">Decklists</a></li>
+            <li><a href="/search">Cards</a></li>
+            <li class="hidden-sm"><a href="/reviews">Reviews</a></li>
+            <li class="hidden-sm"><a href="/rules">Rules</a></li>
+            <li class="hidden-sm"><a href="/faqs">FAQs</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown hidden-xs hidden-lg">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="fa fa-search"></span></a>
+                <div class="dropdown-menu">
+                  <form action="/find" target="_blank">
+                    <input type="text" placeholder="Card Search" class="form-control" name="q">
+                  </form>
+              </div>
+            </li>
+
+            <!-- locale selection -->
+
+                                                                        
+            <li id="login">
+                <a href="#" class="disabled"><span class="fa fa-user"></span></a>
+            </li>
+
+
+          </ul>
+          <form class="navbar-form navbar-right visible-lg-block visible-xs-block external" action="/find" target="_blank">
+            <div class="form-group">
+              <input type="text" placeholder="Card Search" class="form-control" name="q">
+            </div>
+          </form>
+        </div><!--/.navbar-collapse -->
+              </div>
+    </nav>
+
+<div class="container">
+    <div class="alert alert-danger" role="alert">That page doesn't exist!</div>
+</div>
+    <div id="push"></div>
+  </div>
+  <footer class="hidden-print">
+    <div class="container">
+
+<div class="row">
+    <div class="col-xs-12">
+
+    <ul class="list-inline">
+    <li><a href="/about">About</a></li>
+    <li><a href="/api/">API</a></li>
+    </ul>
+
+    <p>
+    Based on ThronesDB by Alsciende. Modified by Zzorba and Kam.
+    Contact:
+    <a href="https://reddit.com/user/kamalisk/" title="Reddit"><span class="fa fa-reddit"></span></a>
+    </p>
+    <p>
+    Please post bug reports and feature requests on <a href="https://github.com/zzorba/marvelsdb">GitHub</a>
+    </p>
+    <p>
+    I set up a <a href="https://www.patreon.com/kamalisk">Patreon</a> for those who want to help support the site.
+    </p>
+    <p>
+    The information presented on this site about Marvel Champions: The Card Game, both literal and graphical, is copyrighted by Fantasy Flight Games.
+    This website is not produced, endorsed, supported, or affiliated with Fantasy Flight Games.
+    </p>
+
+    </div>
+</div>
+
+    </div>
+    </footer>
+    <!--  card modal -->
+<div class="modal" id="cardModal" tabindex="-1" role="dialog" aria-labelledby="cardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="modal-title card-name">Modal title</h3>
+                <div class="row modal-deck-options">
+                    <div class="col-sm-7 text-center modal-deck-qty">
+                        Deck Quantity: <div class="btn-group modal-qty" data-toggle="buttons"></div>
+                    </div>
+                    <div class="col-sm-5 text-center modal-deck-ignore">
+                        Ignore Limit: <div class="btn-group modal-ignore" data-toggle="buttons"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-6 modal-image hidden-xs"></div>
+                    <div class="col-sm-6 modal-info card-content"></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a role="button" href="#" class="btn btn-default card-modal-link">Go to card page</a>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  /cardModal -->
+
+    <script src="/bundles/fosjsrouting/js/router.js"></script>
+    <script src="/js/routing?callback=fos.Router.setData"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.1/jquery.qtip.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.10.4/typeahead.jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.5/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.textcomplete/0.2.2/jquery.textcomplete.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/8.1.2/highcharts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/8.1.2/modules/drilldown.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-markdown/2.9.0/js/bootstrap-markdown.min.js"></script>
+    <script type="text/javascript">
+    var app = {};
+    moment.locale('en');
+    $(function() {
+            	});
+    </script>
+
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-83182253-2', 'auto');
+ga('send', 'pageview');
+</script>
+	
+		<script src="/js/app.js"></script>
+	
+	    </body>
+</html>
