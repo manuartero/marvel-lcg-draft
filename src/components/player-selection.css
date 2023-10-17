@@ -36,3 +36,7 @@
 .color-box.selected {
   opacity: 1;
 }
+
+.hero-min {
+  background-position: initial;
+}

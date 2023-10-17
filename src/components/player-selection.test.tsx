@@ -1,9 +1,17 @@
 import { render } from "@testing-library/react";
-import { PlayerSelection } from "./player-selection";
+import { HeroSelection, FactionSelection } from "./player-selection";
 
-describe("<PlayerSelection />", () => {
+describe("<HeroSelection />", () => {
+  test.skip("renders", () => {
+    const { asFragment } = render(<HeroSelection onReady={jest.fn()} />);
+    expect(asFragment()).toMatchSnapshot();
+  });
+  test.todo("calls onReady() when ready button is clicked");
+});
+
+describe("<FactionSelection />", () => {
   test("renders", () => {
-    const { asFragment } = render(<PlayerSelection onReady={jest.fn()} />);
+    const { asFragment } = render(<FactionSelection onReady={jest.fn()} />);
     expect(asFragment()).toMatchSnapshot();
   });
   test.todo("calls onReady() when ready button is clicked");

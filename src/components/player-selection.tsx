@@ -153,10 +153,11 @@ function PlayerRow<T>({
           <div
             key={option.key}
             className={c(
+              "hero-min",
               "color-box cursor-pointer",
               option.backgroundColor,
               value === option.value && "selected",
-              option.backgroundImage && "bg-cover bg-center bg-no-repeat"
+              option.backgroundImage && "bg-cover bg-no-repeat"
             )}
             aria-label={option.key}
             onClick={() => {
