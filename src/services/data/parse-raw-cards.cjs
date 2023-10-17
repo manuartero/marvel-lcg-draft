@@ -12,6 +12,7 @@ const rawCards = require("./raw-cards.json");
 const WRITE_TO_FILE = false;
 const FETCH_IMAGES = false;
 const FETCH_HEROES = true;
+const FETCH_HERO_IMAGES = true;
 
 /**
  * filter any card that type_name is different from
@@ -65,19 +66,20 @@ const allowedFactionNames = [
   "Basic",
 ];
 
-const cards = parseCards();
-
 if (WRITE_TO_FILE) {
+  const cards = parseCards();
   writeJSON(cards, "cards.json");
-}
-
-if (FETCH_IMAGES) {
-  fetchImages();
+  if (FETCH_IMAGES) {
+    fetchImages(cards);
+  }
 }
 
 if (FETCH_HEROES) {
   const heroes = fetchHeroes();
   writeJSON(heroes, "heroes.json");
+  if (FETCH_HERO_IMAGES) {
+    fetchImages(heroes);
+  }
 }
 
 console.log("--done--");
@@ -122,9 +124,16 @@ function writeJSON(obj, fileName) {
   );
 }
 
-async function fetchImages() {
+async function fetchImages(cards) {
   console.log("fetching images...\n");
-  cards.forEach(async (card, index) => {
+  for (let index = 0; index < cards.length; index++) {
+    const card = cards[index];
+
+    if (!card.code) {
+      console.warn("no card code: ", card);
+      continue;
+    }
+
     console.log(`fetching ${card.code}`);
     const url = card.image;
     const dest = path.join(
@@ -135,29 +144,36 @@ async function fetchImages() {
       "public",
       `${card.code}.png`
     );
-    const file = fs.createWriteStream(dest);
 
     try {
-      const request = https.get(url, async (response) => {
-        if (response.statusCode !== 200) {
-          throw new Error(`Failed to fetch ${url}`);
-        }
+      await fetchImage(url, dest);
+      console.log(`saved to ${dest}`);
 
-        response.pipe(file);
-
-        if (index < cards.length - 1) {
-          await delay(300); // 300 ms
-        }
-
-        console.log(`saved to ${dest}`);
-      });
-
-      request.on("error", () => {
-        fs.writeFileSync(dest, ""); // Create an empty file
-      });
+      if (index < cards.length - 1) {
+        await delay(300); // 300 ms
+      }
     } catch (err) {
       fs.writeFileSync(dest, ""); // Create an empty file
     }
+  }
+}
+
+async function fetchImage(url, dest) {
+  const file = fs.createWriteStream(dest);
+  return new Promise((resolve, reject) => {
+    const request = https.get(url, (response) => {
+      if (response.statusCode !== 200) {
+        reject(new Error(`Failed to fetch ${url}`));
+      }
+
+      response.pipe(file);
+      resolve();
+    });
+
+    request.on("error", (err) => {
+      fs.writeFileSync(dest, ""); // Create an empty file
+      reject(err);
+    });
   });
 }
 
