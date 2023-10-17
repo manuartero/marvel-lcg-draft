@@ -3,7 +3,7 @@ import {
   CollectionDialog,
   Deck,
   Draft,
-  PlayerSelection,
+  FactionSelection,
   Toolbar,
 } from "./components";
 import { useDecks } from "./hooks/use-decks";
@@ -70,7 +70,7 @@ export function App() {
       <Toolbar onCollection={handleShowCollection} />
       <main className="flex flex-grow">
         {appState() === "player-selection" && (
-          <PlayerSelection onReady={handleFactionsSelected} />
+          <FactionSelection onReady={handleFactionsSelected} />
         )}
         {appState() === "deck-building" && (
           <>

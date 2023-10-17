@@ -1,6 +1,6 @@
 import { cardPackages } from "services/cards";
 
-import type { Card, CardFaction, CardPackage } from "services/cards";
+import type { Card, CardFaction, CardPackage, HeroCard } from "services/cards";
 
 export type Player = "Player 1" | "Player 2";
 
@@ -10,8 +10,9 @@ export type Selection<T> = {
 };
 
 export type PlayerDeck = {
-  cards: DeckCard[];
+  hero: HeroCard;
   faction: CardFaction;
+  cards: DeckCard[];
 };
 
 export type DeckCard = {

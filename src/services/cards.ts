@@ -66,6 +66,13 @@ export type Card = {
   deckLimit: 1 | 2 | 3;
 };
 
+export type HeroCard = {
+  code: string; // id
+  name: string;
+  package: CardPackage;
+};
+
+
 export function getCardPool(): Card[] {
   return cards as Card[];
 }

@@ -3,37 +3,85 @@ import { useState } from "react";
 import { ReadyButton } from "elements/ready-button";
 
 import type { Selection } from "app-domain";
-import type { CardFaction } from "services/cards";
+import type { CardFaction, HeroCard } from "services/cards";
 
 import "./player-selection.css";
 
-type Props = {
-  onReady: (selection: Selection<CardFaction>) => void;
+type HeroSelectionProps = {
+  onReady: (sel: Selection<HeroCard>) => void;
 };
 
-export function PlayerSelection({ onReady }: Props) {
-  const [player1Faction, setPlayer1Faction] = useState<CardFaction>();
-  const [player2Faction, setPlayer2Faction] = useState<CardFaction>();
+export function HeroSelection({ onReady }: HeroSelectionProps) {
+  return <PlayerSelection onReady={onReady} options={[]} />;
+}
 
-  const isReady = player1Faction && player2Faction;
+type FactionSelectionProps = {
+  onReady: (sel: Selection<CardFaction>) => void;
+};
+
+const factions: PlayerOptions<CardFaction> = [
+  {
+    key: "Aggression Faction",
+    value: "Aggression",
+    backgroundColor: "bg-red-500",
+  },
+  {
+    key: "Leadership Faction",
+    value: "Leadership",
+    backgroundColor: "bg-blue-500",
+  },
+  {
+    key: "Justice Faction",
+    value: "Justice",
+    backgroundColor: "bg-yellow-500",
+  },
+  {
+    key: "Protection Faction",
+    value: "Protection",
+    backgroundColor: "bg-green-500",
+  },
+];
+
+export function FactionSelection({ onReady }: FactionSelectionProps) {
+  return <PlayerSelection onReady={onReady} options={factions} />;
+}
+
+type PlayerOptions<T> = {
+  key: string;
+  value: T;
+  backgroundColor: string;
+}[];
+
+type PlayerSelectionProps<T> = {
+  onReady: (sel: Selection<T>) => void;
+  options: PlayerOptions<T>;
+};
+
+function PlayerSelection<T>({ onReady, options }: PlayerSelectionProps<T>) {
+  const [player1Selection, setPlayer1Selection] = useState<T>();
+  const [player2Selection, setPlayer2Selection] = useState<T>();
+
+  const isReady = player1Selection && player2Selection;
 
   const handleReady = () => {
     if (isReady) {
-      onReady({ player1: player1Faction, player2: player2Faction });
+      onReady({ player1: player1Selection, player2: player2Selection });
     }
   };
 
   return (
     <section className="h-screen w-screen flex flex-col justify-center items-center">
-      <PlayerFaction
-        faction={player1Faction}
+      <PlayerRow
         title="Player 1"
-        setter={setPlayer1Faction}
+        value={player1Selection}
+        options={options}
+        setter={setPlayer1Selection}
       />
-      <PlayerFaction
-        faction={player2Faction}
+      <PlayerRow
         title="Player 2"
-        setter={setPlayer2Faction}
+        value={player2Selection}
+        options={options}
+        setter={setPlayer2Selection}
       />
       <div className="flex justify-center mt-4">
         <ReadyButton disabled={!isReady} onClick={handleReady} />
@@ -42,13 +90,19 @@ export function PlayerSelection({ onReady }: Props) {
   );
 }
 
-type PlayerFactionProps = {
+type PlayerFactionProps<T> = {
   title: string;
-  setter: React.Dispatch<React.SetStateAction<CardFaction | undefined>>;
-  faction: CardFaction | undefined;
+  value: T | undefined;
+  options: PlayerOptions<T>;
+  setter: React.Dispatch<React.SetStateAction<T | undefined>>;
 };
 
-function PlayerFaction({ title, setter, faction }: PlayerFactionProps) {
+function PlayerRow<T>({
+  title,
+  value,
+  options,
+  setter,
+}: PlayerFactionProps<T>) {
   return (
     <article
       id="color-picker-container"
@@ -59,49 +113,27 @@ function PlayerFaction({ title, setter, faction }: PlayerFactionProps) {
           <h2 className="text-2xl font-semibold me-2">{title}</h2>
         </div>
         <div>
-          {faction && (
-            <h3 className={c(`faction-claim-${faction}`, "mr-8")}>{faction}</h3>
+          {value && (
+            <h3 className={c(`faction-claim-${value}`, "mr-8")}>{value.toString()}</h3>
           )}
         </div>
       </div>
 
       <section className="flex justify-around mt-4 mb-4" role="group">
-        <div
-          className={`color-box bg-red-500 cursor-pointer ${
-            faction === "Aggression" && "selected"
-          }`}
-          aria-label="Aggression Faction"
-          onClick={() => {
-            setter("Aggression");
-          }}
-        ></div>
-        <div
-          className={`color-box bg-blue-500 cursor-pointer ${
-            faction === "Leadership" && "selected"
-          }`}
-          aria-label="Leadership Faction"
-          onClick={() => {
-            setter("Leadership");
-          }}
-        ></div>
-        <div
-          className={`color-box bg-yellow-500 cursor-pointer ${
-            faction === "Justice" && "selected"
-          }`}
-          aria-label="Justice Faction"
-          onClick={() => {
-            setter("Justice");
-          }}
-        ></div>
-        <div
-          className={`color-box bg-green-500 cursor-pointer ${
-            faction === "Protection" && "selected"
-          }`}
-          aria-label="Protection Faction"
-          onClick={() => {
-            setter("Protection");
-          }}
-        ></div>
+        {options.map((option) => (
+          <div
+            key={option.key}
+            className={c(
+              "color-box cursor-pointer",
+              option.backgroundColor,
+              value === option.value && "selected"
+            )}
+            aria-label={option.key}
+            onClick={() => {
+              setter(option.value);
+            }}
+          ></div>
+        ))}
       </section>
     </article>
   );
