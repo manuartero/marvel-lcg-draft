@@ -1,10 +1,16 @@
 import { useCollectionContext } from "contexts/collection-context";
 import { useState } from "react";
-import { BASIC_RESOURCES, getCardPool } from "services/cards";
+import {
+  BASIC_RESOURCES,
+  SPECIAL_HEROES,
+  getCardPool,
+  getHeroPool,
+} from "services/cards";
 
-import type { Card, CardFaction, CardPackage } from "services/cards";
+import type { Card, CardFaction, CardPackage, HeroCard } from "services/cards";
 
 const pool = getCardPool();
+const heroPool = getHeroPool();
 const alreadyUsedCards: Card[] = [];
 
 function get3RandomCards(
@@ -37,6 +43,32 @@ function get3RandomCards(
   return cards;
 }
 
+function get4RandomHeroes(
+  packages: Record<CardPackage, boolean>,
+  skipSpecialHeroes = true
+): HeroCard[] {
+  const heroes: HeroCard[] = [];
+
+  const remainingEligibleHeroes = heroPool.filter((card) => {
+    return (
+      !heroes.includes(card) &&
+      packages[card.package] &&
+      (!skipSpecialHeroes || !SPECIAL_HEROES.includes(card.code))
+    );
+  });
+
+  while (heroes.length < 4 && remainingEligibleHeroes.length >= 4) {
+    const randomIndex = Math.floor(
+      Math.random() * remainingEligibleHeroes.length
+    );
+    const randomHero = remainingEligibleHeroes[randomIndex];
+    heroes.push(randomHero);
+    remainingEligibleHeroes.splice(randomIndex, 1);
+  }
+
+  return heroes;
+}
+
 export function useDraft() {
   const { packages } = useCollectionContext();
   const [currentCards, setCurrentCards] = useState<Card[]>([]);
@@ -48,4 +80,10 @@ export function useDraft() {
   };
 
   return { currentCards, draft };
+}
+
+export function useHeroDraft() {
+  const { packages } = useCollectionContext();
+  const getHeroes = () => get4RandomHeroes(packages);
+  return { getHeroes };
 }

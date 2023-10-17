@@ -6,13 +6,35 @@ import type { Selection } from "app-domain";
 import type { CardFaction, HeroCard } from "services/cards";
 
 import "./player-selection.css";
+import { useHeroDraft } from "hooks/use-draft";
+
+type PlayerOptions<T> = {
+  key: string;
+  value: T;
+  backgroundColor?: string;
+  backgroundImage?: string;
+}[];
 
 type HeroSelectionProps = {
   onReady: (sel: Selection<HeroCard>) => void;
 };
 
+const heroAsOption = (hero: HeroCard) => ({
+  key: hero.name,
+  value: { ...hero, toString: () => hero.name },
+  backgroundImage: `/${hero.code}.png`,
+});
+
 export function HeroSelection({ onReady }: HeroSelectionProps) {
-  return <PlayerSelection onReady={onReady} options={[]} />;
+  const { getHeroes } = useHeroDraft();
+
+  return (
+    <PlayerSelection
+      onReady={onReady}
+      player1Options={getHeroes().map(heroAsOption)}
+      player2Options={getHeroes().map(heroAsOption)}
+    />
+  );
 }
 
 type FactionSelectionProps = {
@@ -43,21 +65,26 @@ const factions: PlayerOptions<CardFaction> = [
 ];
 
 export function FactionSelection({ onReady }: FactionSelectionProps) {
-  return <PlayerSelection onReady={onReady} options={factions} />;
+  return (
+    <PlayerSelection
+      onReady={onReady}
+      player1Options={factions}
+      player2Options={factions}
+    />
+  );
 }
-
-type PlayerOptions<T> = {
-  key: string;
-  value: T;
-  backgroundColor: string;
-}[];
 
 type PlayerSelectionProps<T> = {
   onReady: (sel: Selection<T>) => void;
-  options: PlayerOptions<T>;
+  player1Options: PlayerOptions<T>;
+  player2Options: PlayerOptions<T>;
 };
 
-function PlayerSelection<T>({ onReady, options }: PlayerSelectionProps<T>) {
+function PlayerSelection<T>({
+  onReady,
+  player1Options,
+  player2Options,
+}: PlayerSelectionProps<T>) {
   const [player1Selection, setPlayer1Selection] = useState<T>();
   const [player2Selection, setPlayer2Selection] = useState<T>();
 
@@ -74,14 +101,14 @@ function PlayerSelection<T>({ onReady, options }: PlayerSelectionProps<T>) {
       <PlayerRow
         title="Player 1"
         value={player1Selection}
-        options={options}
-        setter={setPlayer1Selection}
+        options={player1Options}
+        onSelect={setPlayer1Selection}
       />
       <PlayerRow
         title="Player 2"
         value={player2Selection}
-        options={options}
-        setter={setPlayer2Selection}
+        options={player2Options}
+        onSelect={setPlayer2Selection}
       />
       <div className="flex justify-center mt-4">
         <ReadyButton disabled={!isReady} onClick={handleReady} />
@@ -94,14 +121,14 @@ type PlayerFactionProps<T> = {
   title: string;
   value: T | undefined;
   options: PlayerOptions<T>;
-  setter: React.Dispatch<React.SetStateAction<T | undefined>>;
+  onSelect: React.Dispatch<React.SetStateAction<T | undefined>>;
 };
 
 function PlayerRow<T>({
   title,
   value,
   options,
-  setter,
+  onSelect,
 }: PlayerFactionProps<T>) {
   return (
     <article
@@ -114,7 +141,9 @@ function PlayerRow<T>({
         </div>
         <div>
           {value && (
-            <h3 className={c(`faction-claim-${value}`, "mr-8")}>{value.toString()}</h3>
+            <h3 className={c(`faction-claim-${value}`, "mr-8")}>
+              {value.toString()}
+            </h3>
           )}
         </div>
       </div>
@@ -126,12 +155,18 @@ function PlayerRow<T>({
             className={c(
               "color-box cursor-pointer",
               option.backgroundColor,
-              value === option.value && "selected"
+              value === option.value && "selected",
+              option.backgroundImage && "bg-cover bg-center bg-no-repeat"
             )}
             aria-label={option.key}
             onClick={() => {
-              setter(option.value);
+              onSelect(option.value);
             }}
+            style={
+              option.backgroundImage
+                ? { backgroundImage: `url(${option.backgroundImage})` }
+                : {}
+            }
           ></div>
         ))}
       </section>
