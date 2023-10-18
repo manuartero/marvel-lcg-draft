@@ -1,12 +1,12 @@
 import c from "classnames";
-import { useState } from "react";
 import { ReadyButton } from "elements/ready-button";
+import { useHeroDraft } from "hooks/use-draft";
+import { useState } from "react";
 
 import type { Selection } from "app-domain";
 import type { CardFaction, HeroCard } from "services/cards";
 
 import "./player-selection.css";
-import { useHeroDraft } from "hooks/use-draft";
 
 type PlayerOptions<T> = {
   key: string;
@@ -33,13 +33,10 @@ export function HeroSelection({ onReady }: HeroSelectionProps) {
       onReady={onReady}
       player1Options={getHeroes().map(heroAsOption)}
       player2Options={getHeroes().map(heroAsOption)}
+      compareChoices={(a, b) => a.code === b.code}
     />
   );
 }
-
-type FactionSelectionProps = {
-  onReady: (sel: Selection<CardFaction>) => void;
-};
 
 const factions: PlayerOptions<CardFaction> = [
   {
@@ -64,31 +61,46 @@ const factions: PlayerOptions<CardFaction> = [
   },
 ];
 
-export function FactionSelection({ onReady }: FactionSelectionProps) {
+type FactionSelectionProps = {
+  player1Hero: HeroCard;
+  player2Hero: HeroCard;
+  onReady: (sel: Selection<CardFaction>) => void;
+};
+
+export function FactionSelection(props: FactionSelectionProps) {
   return (
     <PlayerSelection
-      onReady={onReady}
       player1Options={factions}
       player2Options={factions}
+      {...props}
     />
   );
 }
 
 type PlayerSelectionProps<T> = {
-  onReady: (sel: Selection<T>) => void;
   player1Options: PlayerOptions<T>;
   player2Options: PlayerOptions<T>;
+  player1Hero?: HeroCard;
+  player2Hero?: HeroCard;
+  compareChoices?: (a: T, b: T) => boolean;
+  onReady: (sel: Selection<T>) => void;
 };
 
 function PlayerSelection<T>({
-  onReady,
   player1Options,
   player2Options,
+  player1Hero,
+  player2Hero,
+  compareChoices,
+  onReady,
 }: PlayerSelectionProps<T>) {
   const [player1Selection, setPlayer1Selection] = useState<T>();
   const [player2Selection, setPlayer2Selection] = useState<T>();
 
-  const isReady = player1Selection && player2Selection;
+  const isReady =
+    player1Selection &&
+    player2Selection &&
+    !compareChoices?.(player1Selection, player2Selection);
 
   const handleReady = () => {
     if (isReady) {
@@ -99,15 +111,17 @@ function PlayerSelection<T>({
   return (
     <section className="h-screen w-screen flex flex-col justify-center items-center">
       <PlayerRow
-        title="Player 1"
+        title={player1Hero?.name ?? "Player 1"}
         value={player1Selection}
         options={player1Options}
+        background={player1Hero?.code}
         onSelect={setPlayer1Selection}
       />
       <PlayerRow
-        title="Player 2"
+        title={player2Hero?.name ?? "Player 2"}
         value={player2Selection}
         options={player2Options}
+        background={player2Hero?.code}
         onSelect={setPlayer2Selection}
       />
       <div className="flex justify-center mt-4">
@@ -121,6 +135,7 @@ type PlayerFactionProps<T> = {
   title: string;
   value: T | undefined;
   options: PlayerOptions<T>;
+  background?: string;
   onSelect: React.Dispatch<React.SetStateAction<T | undefined>>;
 };
 
@@ -131,9 +146,10 @@ function PlayerRow<T>({
   onSelect,
 }: PlayerFactionProps<T>) {
   return (
-    <article
+    <div
       id="color-picker-container"
-      className="w-1/2 bg-white p-4 rounded-lg shadow-lg mt-4"
+      className={c("w-1/2 bg-white p-4 rounded-lg mt-4")}
+      // style={background ? { backgroundImage: `url(/${background}.png)` } : {}}
     >
       <div className="flex items-center justify-between mb-4">
         <div>
@@ -171,6 +187,6 @@ function PlayerRow<T>({
           ></div>
         ))}
       </section>
-    </article>
+    </div>
   );
 }

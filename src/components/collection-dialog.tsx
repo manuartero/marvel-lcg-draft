@@ -6,13 +6,13 @@ import { Dialog } from "elements/dialog";
 
 import type { CardPackage } from "services/cards";
 
-type CollectionDialogProps = {
+type Props = {
   onClose: () => void;
 };
 
 const PACKAGES_GROUPED_BY_WAVE = groupPackagesByWaves();
 
-export function CollectionDialog({ onClose }: CollectionDialogProps) {
+export function CollectionDialog({ onClose }: Props) {
   const { packages, togglePackage } = useCollectionContext();
 
   return (

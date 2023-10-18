@@ -26,7 +26,7 @@ const CollectionContext = createContext<CollectionContextType>({
   togglePackage: () => {},
 });
 
-interface Props {
+type Props = {
   children: React.ReactNode;
 }
 
