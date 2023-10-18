@@ -83,7 +83,11 @@ export function App() {
           <HeroSelection onReady={handleHeroesSelected} />
         )}
         {appState() === "faction-selection" && (
-          <FactionSelection onReady={handleFactionsSelected} />
+          <FactionSelection
+            player1Hero={player1Deck.hero}
+            player2Hero={player2Deck.hero}
+            onReady={handleFactionsSelected}
+          />
         )}
         {appState() === "deck-building" && (
           <>

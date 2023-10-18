@@ -31,7 +31,7 @@ export function Deck({ className, playerDeck, player }: Props) {
           `faction-claim-${playerDeck.faction}`
         )}
       >
-        <h1 className="text-xl">{player}</h1>
+        <h1 className="text-xl">{playerDeck.hero.name}</h1>
         <h3>
           <span>{countCardsOnDeck(playerDeck.cards)}</span> / 25
         </h3>
