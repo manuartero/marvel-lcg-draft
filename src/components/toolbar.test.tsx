@@ -3,7 +3,9 @@ import { Toolbar } from "./toolbar";
 
 describe("<Toolbar />", () => {
   it("renders", () => {
-    const { asFragment } = render(<Toolbar onCollection={jest.fn()} />);
+    const { asFragment } = render(
+      <Toolbar onDeckSettings={jest.fn()} onCollection={jest.fn()} />
+    );
     expect(asFragment()).toMatchSnapshot();
   });
 });

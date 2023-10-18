@@ -6,6 +6,7 @@ import {
   HeroSelection,
   FactionSelection,
   Toolbar,
+  DeckSizeDialog,
 } from "./components";
 import { useDecks } from "./hooks/use-decks";
 import { useDraft } from "./hooks/use-draft";
@@ -18,11 +19,12 @@ export function App() {
     useDecks();
   const { currentCards, draft } = useDraft();
   const [showCollectionDialog, setShowCollectionDialog] = useState(false);
+  const [showDeckSizeDialog, setShowDeckSizeDialog] = useState(false);
   const [startingPlayer, setStartingPlayer] = useState<Player>("Player 1");
 
   const handleEscapeKey = useCallback((event: KeyboardEvent) => {
     if (event.key === "Escape" || event.key === "Esc") {
-      handleCloseCollection();
+      closeCollection();
     }
   }, []);
 
@@ -44,11 +46,19 @@ export function App() {
     return "deck-building";
   };
 
-  const handleShowCollection = () => {
+  const showDeckSettings = () => {
+    setShowDeckSizeDialog(true);
+  };
+
+  const closeDeckSettings = () => {
+    setShowDeckSizeDialog(false);
+  };
+
+  const showCollection = () => {
     setShowCollectionDialog(true);
   };
 
-  const handleCloseCollection = () => {
+  const closeCollection = () => {
     setShowCollectionDialog(false);
   };
 
@@ -77,15 +87,15 @@ export function App() {
 
   return (
     <div id="main-app" className="flex flex-col h-screen overflow-hidden">
-      <Toolbar onCollection={handleShowCollection} />
+      <Toolbar onDeckSettings={showDeckSettings} onCollection={showCollection} />
       <main className="flex flex-grow">
         {appState() === "hero-selection" && (
           <HeroSelection onReady={handleHeroesSelected} />
         )}
         {appState() === "faction-selection" && (
           <FactionSelection
-            player1Hero={player1Deck.hero}
-            player2Hero={player2Deck.hero}
+            player1Hero={player1Deck.hero as HeroCard}
+            player2Hero={player2Deck.hero as HeroCard}
             onReady={handleFactionsSelected}
           />
         )}
@@ -110,9 +120,8 @@ export function App() {
           </>
         )}
       </main>
-      {showCollectionDialog && (
-        <CollectionDialog onClose={handleCloseCollection} />
-      )}
+      {showCollectionDialog && <CollectionDialog onClose={closeCollection} />}
+      {showDeckSizeDialog && <DeckSizeDialog onClose={closeDeckSettings} />}
     </div>
   );
 }

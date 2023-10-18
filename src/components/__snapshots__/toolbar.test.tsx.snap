@@ -7,6 +7,36 @@ exports[`<Toolbar /> renders 1`] = `
     id="Toolbar"
   >
     <button
+      aria-label="Deck Settings"
+      class="px-8 py-4 rounded-md text-xl"
+    >
+      <div
+        class="relative"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-dice-one "
+          color="white"
+          data-icon="dice-one"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM224 224a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"
+            fill="currentColor"
+          />
+        </svg>
+        <div
+          class="opacity-0 absolute z-10 bg-gray-800 text-white text-sm py-1 px-2 rounded-md top-full left-1/2 transform -translate-x-1/2 show-up-transition pointer-events-none"
+        >
+          Deck Size
+        </div>
+      </div>
+    </button>
+    <button
       aria-label="Collection"
       class="px-8 py-4 rounded-md text-xl"
     >

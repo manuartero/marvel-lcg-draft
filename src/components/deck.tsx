@@ -6,6 +6,7 @@ import type { Card, CardFaction, CardType } from "services/cards";
 import { Tooltip } from "elements/tooltip";
 import { useBool } from "hooks/use-bool";
 import "./deck.css";
+import { useDeckSettingsContext } from "contexts/deck-settings-context";
 
 type Props = {
   className?: string;
@@ -14,6 +15,7 @@ type Props = {
 };
 
 export function Deck({ className, playerDeck, player }: Props) {
+  const { deckSize } = useDeckSettingsContext();
   const deckSortedByType = sortDeckByType(playerDeck.cards);
 
   return (
@@ -33,7 +35,7 @@ export function Deck({ className, playerDeck, player }: Props) {
       >
         <h1 className="text-xl">{playerDeck.hero.name}</h1>
         <h3>
-          <span>{countCardsOnDeck(playerDeck.cards)}</span> / 25
+          <span>{countCardsOnDeck(playerDeck.cards)}</span> / {deckSize - 15}
         </h3>
       </div>
 
