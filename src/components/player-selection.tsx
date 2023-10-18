@@ -1,12 +1,12 @@
 import c from "classnames";
-import { useState } from "react";
 import { ReadyButton } from "elements/ready-button";
+import { useHeroDraft } from "hooks/use-draft";
+import { useState } from "react";
 
 import type { Selection } from "app-domain";
 import type { CardFaction, HeroCard } from "services/cards";
 
 import "./player-selection.css";
-import { useHeroDraft } from "hooks/use-draft";
 
 type PlayerOptions<T> = {
   key: string;
@@ -33,6 +33,7 @@ export function HeroSelection({ onReady }: HeroSelectionProps) {
       onReady={onReady}
       player1Options={getHeroes().map(heroAsOption)}
       player2Options={getHeroes().map(heroAsOption)}
+      compareChoices={(a, b) => a.code === b.code}
     />
   );
 }
@@ -81,6 +82,7 @@ type PlayerSelectionProps<T> = {
   player2Options: PlayerOptions<T>;
   player1Hero?: HeroCard;
   player2Hero?: HeroCard;
+  compareChoices?: (a: T, b: T) => boolean;
   onReady: (sel: Selection<T>) => void;
 };
 
@@ -89,12 +91,16 @@ function PlayerSelection<T>({
   player2Options,
   player1Hero,
   player2Hero,
+  compareChoices,
   onReady,
 }: PlayerSelectionProps<T>) {
   const [player1Selection, setPlayer1Selection] = useState<T>();
   const [player2Selection, setPlayer2Selection] = useState<T>();
 
-  const isReady = player1Selection && player2Selection;
+  const isReady =
+    player1Selection &&
+    player2Selection &&
+    !compareChoices?.(player1Selection, player2Selection);
 
   const handleReady = () => {
     if (isReady) {
