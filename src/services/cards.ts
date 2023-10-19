@@ -1,5 +1,5 @@
-import cards from "./data/cards.json";
-import heroes from "./data/heroes.json";
+import cards from "data/cards.json";
+import heroes from "data/heroes.json";
 
 export const cardPackages = [
   "Core Set",
