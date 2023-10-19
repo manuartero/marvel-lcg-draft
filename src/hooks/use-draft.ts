@@ -6,6 +6,7 @@ import {
   getCardPool,
   getHeroPool,
 } from "services/cards";
+import { pickN } from "services/random";
 
 import type { Card, CardFaction, CardPackage, HeroCard } from "services/cards";
 
@@ -13,33 +14,30 @@ const pool = getCardPool();
 const heroPool = getHeroPool();
 const alreadyUsedCards: Card[] = [];
 
+function hasCopiesLeft(card: Card) {
+  if (!alreadyUsedCards.includes(card)) {
+    return true;
+  }
+  const timesUsed = alreadyUsedCards.filter((c) => c.code === card.code).length;
+  return card.deckLimit > timesUsed;
+}
+
 function get3RandomCards(
   selectedFactions: Set<CardFaction>,
   packages: Record<CardPackage, boolean>,
   skipBasicResources = false
 ): Card[] {
-  const cards: Card[] = [];
-
   const remainingEligibleCards = pool.filter((card) => {
     return (
-      !cards.includes(card) &&
-      !alreadyUsedCards.includes(card) &&
+      hasCopiesLeft(card) &&
       selectedFactions.has(card.faction) &&
       packages[card.package] &&
       (!skipBasicResources || !BASIC_RESOURCES.includes(card.code))
     );
   });
 
-  while (cards.length < 3 && remainingEligibleCards.length >= 3) {
-    const randomIndex = Math.floor(
-      Math.random() * remainingEligibleCards.length
-    );
-    const randomCard = remainingEligibleCards[randomIndex];
-    alreadyUsedCards.push(randomCard);
-    cards.push(randomCard);
-    remainingEligibleCards.splice(randomIndex, 1);
-  }
-
+  const cards = pickN(remainingEligibleCards, 3);
+  alreadyUsedCards.push(...cards);
   return cards;
 }
 
@@ -47,25 +45,14 @@ function get4RandomHeroes(
   packages: Record<CardPackage, boolean>,
   skipSpecialHeroes = true
 ): HeroCard[] {
-  const heroes: HeroCard[] = [];
-
-  const remainingEligibleHeroes = heroPool.filter((card) => {
+  const remainingEligibleHeroes = heroPool.filter((hero) => {
     return (
-      !heroes.includes(card) &&
-      packages[card.package] &&
-      (!skipSpecialHeroes || !SPECIAL_HEROES.includes(card.code))
+      packages[hero.package] &&
+      (!skipSpecialHeroes || !SPECIAL_HEROES.includes(hero.code))
     );
   });
 
-  while (heroes.length < 4 && remainingEligibleHeroes.length >= 4) {
-    const randomIndex = Math.floor(
-      Math.random() * remainingEligibleHeroes.length
-    );
-    const randomHero = remainingEligibleHeroes[randomIndex];
-    heroes.push(randomHero);
-    remainingEligibleHeroes.splice(randomIndex, 1);
-  }
-
+  const heroes = pickN(remainingEligibleHeroes, 4);
   return heroes;
 }
 

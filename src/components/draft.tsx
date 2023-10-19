@@ -1,7 +1,7 @@
 import c from "classnames";
-import { Counter } from "elements/counter";
 import { ReadyButton } from "elements/ready-button";
 import { useState } from "react";
+import { DraftCard } from "elements/draft-card";
 
 import type { DeckCard, Player, Selection } from "app-domain";
 import type { Card } from "services/cards";
@@ -121,7 +121,7 @@ export function Draft({
       </h2>
       <div className="flex space-x-4 mb-8">
         {cards.map((card) => (
-          <Card
+          <DraftCard
             key={card.code}
             card={card}
             isSelected={isSelected(card)}
@@ -136,66 +136,5 @@ export function Draft({
         <ReadyButton disabled={!ready} onClick={handleReady} />
       </div>
     </section>
-  );
-}
-
-type CardProps = {
-  card: Card;
-  isSelected: Player | undefined;
-  isDiscarded: boolean | undefined;
-  onClick: (card: Card) => void;
-  onChangeCopies: (card: Card, copies: number) => void;
-};
-
-function Card({
-  card,
-  isSelected,
-  isDiscarded,
-  onClick,
-  onChangeCopies,
-}: CardProps) {
-  return (
-    <article
-      key={card.code}
-      className={c(
-        "relative",
-        "p-2 rounded-lg border-4",
-        "min-w-[300px]",
-        "shadow-md hover:shadow-lg transition duration-300",
-        isSelected ? "border-white border-transition" : "border-transparent",
-        isDiscarded && "blur-sm"
-      )}
-      onClick={() => onClick(card)}
-    >
-      <>
-        <img
-          src={`/${card.code}.png`}
-          style={{ width: "300px", height: "419px" }}
-          alt={card.name}
-        />
-        {isSelected && (
-          <figcaption
-            className={c(
-              "absolute top-0 right-0",
-              "bg-white px-2 py-1 text-gray-800 font-semibold",
-              "rounded-tl-lg border-b-4 border-l-4 border-gray-800"
-            )}
-          >
-            {isSelected}
-          </figcaption>
-        )}
-        {isSelected && (
-          <div
-            className="absolute bottom-0 left-0 right-0 px-1 py-4 bg-opacity-75 bg-white"
-            style={{ backdropFilter: "blur(10px)" }}
-          >
-            <Counter
-              onChange={(copies) => onChangeCopies(card, copies)}
-              maxValue={card.deckLimit}
-            />
-          </div>
-        )}
-      </>
-    </article>
   );
 }

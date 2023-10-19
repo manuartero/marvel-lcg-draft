@@ -4,7 +4,7 @@ import {
   useCollectionContext,
 } from "./collection-context";
 
-jest.mock("./local-storage");
+jest.mock("services/local-storage");
 
 describe("useCollectionContext()", () => {
   test("provides packages{} to children", () => {

@@ -3,7 +3,7 @@ import { cardPackages } from "services/cards";
 import {
   readCollectionFromLocalStorage,
   writeCollectionToLocalStorage,
-} from "./local-storage";
+} from "../services/local-storage";
 
 import type { CardPackage } from "services/cards";
 
