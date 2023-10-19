@@ -1,12 +1,13 @@
-import { useCallback, useEffect, useState } from "react";
+import { useKeyboard } from "hooks/use-keyboard";
+import { useState } from "react";
 import {
   CollectionDialog,
   Deck,
-  Draft,
-  HeroSelection,
-  FactionSelection,
-  Toolbar,
   DeckSizeDialog,
+  Draft,
+  FactionSelection,
+  HeroSelection,
+  Toolbar,
 } from "./components";
 import { useDecks } from "./hooks/use-decks";
 import { useDraft } from "./hooks/use-draft";
@@ -22,19 +23,22 @@ export function App() {
   const [showDeckSizeDialog, setShowDeckSizeDialog] = useState(false);
   const [startingPlayer, setStartingPlayer] = useState<Player>("Player 1");
 
-  const handleEscapeKey = useCallback((event: KeyboardEvent) => {
-    if (event.key === "Escape" || event.key === "Esc") {
+  useKeyboard({
+    Enter: () => {
+      closeDeckSettings();
       closeCollection();
-    }
-  }, []);
-
-  useEffect(() => {
-    document.addEventListener("keydown", handleEscapeKey);
-
-    return () => {
-      document.removeEventListener("keydown", handleEscapeKey);
-    };
-  }, [handleEscapeKey]);
+    },
+    Escape: () => {
+      closeDeckSettings();
+      closeCollection();
+    },
+    c: () => {
+      showCollection();
+    },
+    d: () => {
+      showDeckSettings();
+    },
+  });
 
   const appState = () => {
     if (!player1Deck.hero || !player2Deck.hero) {
@@ -48,6 +52,7 @@ export function App() {
 
   const showDeckSettings = () => {
     setShowDeckSizeDialog(true);
+    setShowCollectionDialog(false);
   };
 
   const closeDeckSettings = () => {
@@ -55,6 +60,7 @@ export function App() {
   };
 
   const showCollection = () => {
+    setShowDeckSizeDialog(false);
     setShowCollectionDialog(true);
   };
 
@@ -87,7 +93,10 @@ export function App() {
 
   return (
     <div id="main-app" className="flex flex-col h-screen overflow-hidden">
-      <Toolbar onDeckSettings={showDeckSettings} onCollection={showCollection} />
+      <Toolbar
+        onDeckSettings={showDeckSettings}
+        onCollection={showCollection}
+      />
       <main className="flex flex-grow">
         {appState() === "hero-selection" && (
           <HeroSelection onReady={handleHeroesSelected} />
