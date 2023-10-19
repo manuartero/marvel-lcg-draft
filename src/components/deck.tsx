@@ -16,7 +16,7 @@ type Props = {
 
 export function Deck({ className, playerDeck, player }: Props) {
   const { deckSize } = useDeckSettingsContext();
-  const deckSortedByType = sortDeckByType(playerDeck.cards);
+  const deckSortedByType = sortDeckByType(playerDeck);
 
   return (
     <section
@@ -60,10 +60,14 @@ export function Deck({ className, playerDeck, player }: Props) {
   );
 }
 
-function sortDeckByType(deckCards: DeckCard[]) {
-  return deckCards.reduce(
+function sortDeckByType(deck: PlayerDeck) {
+  return deck.cards.reduce(
     (acc, deckCard) => {
-      acc[deckCard.card.type].push(deckCard);
+      if (deckCard.card.faction !== deck.faction) {
+        acc["Resource"].push(deckCard);
+      } else {
+        acc[deckCard.card.type].push(deckCard);
+      }
       return acc;
     },
     {
