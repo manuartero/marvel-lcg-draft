@@ -4,10 +4,12 @@ type DraftMode = "pure-draft" | "sealed-deck";
 
 type RulesContextType = {
   mode: "pure-draft" | "sealed-deck";
+  setMode: (mode: DraftMode) => void;
 };
 
 const RulesConext = createContext<RulesContextType>({
   mode: "pure-draft",
+  setMode: () => {},
 });
 
 type Props = {
@@ -18,7 +20,9 @@ export function RulesContextProvider({ children }: Props) {
   const [mode, setMode] = useState<DraftMode>("pure-draft");
 
   return (
-    <RulesConext.Provider value={{ mode }}>{children}</RulesConext.Provider>
+    <RulesConext.Provider value={{ mode, setMode }}>
+      {children}
+    </RulesConext.Provider>
   );
 }
 
