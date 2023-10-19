@@ -166,7 +166,7 @@ function Card({
         "min-w-[300px]",
         "shadow-md hover:shadow-lg transition duration-300",
         isSelected ? "border-white border-transition" : "border-transparent",
-        isDiscarded && "blur-sm"
+        isDiscarded && "blur-sm opacity-40"
       )}
       onClick={() => onClick(card)}
     >
