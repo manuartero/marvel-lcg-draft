@@ -5,6 +5,7 @@ import { useState } from "react";
 
 import type { DeckCard, Player, Selection } from "app-domain";
 import type { Card } from "services/cards";
+import { useRulesContext } from "contexts/rules-context";
 
 type Props = {
   cards: Card[];
@@ -154,6 +155,8 @@ function Card({
   onClick,
   onChangeCopies,
 }: CardProps) {
+  const { mode } = useRulesContext();
+
   return (
     <article
       key={card.code}
@@ -184,7 +187,7 @@ function Card({
             {isSelected}
           </figcaption>
         )}
-        {isSelected && (
+        {mode !== "pure-draft" && isSelected && (
           <div
             className="absolute bottom-0 left-0 right-0 px-1 py-4 bg-opacity-75 bg-white"
             style={{ backdropFilter: "blur(10px)" }}
