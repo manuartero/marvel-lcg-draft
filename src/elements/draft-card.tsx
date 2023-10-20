@@ -28,9 +28,16 @@ export function DraftCard({
       className={c(
         "relative",
         "p-2 rounded-lg border-4",
-        "min-w-[300px]",
+        "min-w-[280px]",
+        "cursor-pointer",
         "shadow-md hover:shadow-lg transition duration-300",
-        isSelected ? "border-white border-transition" : "border-transparent",
+        isSelected ? "border-white border-transition" : "border-gray-900",
+        !isSelected &&
+          !isDiscarded &&
+          "opacity-80 hover:opacity-100 transition duration-300",
+        !isSelected &&
+          !isDiscarded &&
+          "hover:border-gray-800 transition duration-300",
         isDiscarded && "blur-sm opacity-40"
       )}
       onClick={() => onClick(card)}

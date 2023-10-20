@@ -1,7 +1,5 @@
 import { faList, faDiceOne } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import "./toolbar.css";
 import { Tooltip } from "elements/tooltip";
 import { useBool } from "hooks/use-bool";
 
@@ -17,7 +15,7 @@ export function Toolbar({ onDeckSettings, onCollection }: Props) {
   return (
     <nav
       id="Toolbar"
-      className="bg-gray-100 w-full p-2 flex items-end justify-end"
+      className="bg-gray-700 w-full flex items-end justify-end px-4"
     >
       <button
         className="px-8 py-4 rounded-md text-xl"
