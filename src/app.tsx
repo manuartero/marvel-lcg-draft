@@ -12,7 +12,13 @@ import {
 import { useDecks } from "./hooks/use-decks";
 import { useDraft } from "./hooks/use-draft";
 
-import type { DeckCard, Player, PlayerDeck, Selection } from "./app-domain";
+import {
+  countCardsOnDeck,
+  type DeckCard,
+  type Player,
+  type PlayerDeck,
+  type Selection,
+} from "./app-domain";
 import type { CardFaction, HeroCard } from "./services/cards";
 import { useDeckSettingsContext } from "contexts/deck-settings-context";
 
@@ -51,12 +57,19 @@ export function App() {
     }
     const targetDeckSize = deckSize - 15;
     if (
-      player1Deck.cards.length < targetDeckSize ||
-      player2Deck.cards.length < targetDeckSize
+      countCardsOnDeck(player1Deck.cards) < targetDeckSize ||
+      countCardsOnDeck(player2Deck.cards) < targetDeckSize
     ) {
       return "deck-building";
     }
     return "done";
+  };
+
+  const deckBuildingProgress = () => {
+    return (
+      ((countCardsOnDeck(player1Deck.cards) + 1) * 100) /
+      (deckSize - 15)
+    ).toFixed(2);
   };
 
   const showDeckSettings = () => {
@@ -94,6 +107,10 @@ export function App() {
       return;
     }
     addCardsToDecks(sel);
+    document.documentElement.style.setProperty(
+      "--deck-progress",
+      `${deckBuildingProgress()}%`
+    );
     setStartingPlayer((current) =>
       current === "Player 1" ? "Player 2" : "Player 1"
     );

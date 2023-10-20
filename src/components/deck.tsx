@@ -2,6 +2,7 @@ import c from "classnames";
 import { useDeckSettingsContext } from "contexts/deck-settings-context";
 import { Tooltip } from "elements/tooltip";
 import { useBool } from "hooks/use-bool";
+import { countCardsOnDeck } from "app-domain";
 
 import type { DeckCard, Player, PlayerDeck } from "app-domain";
 import type { Card, CardFaction, CardType } from "services/cards";
@@ -35,16 +36,16 @@ export function Deck({ className, playerDeck, player }: Props) {
       <div
         className={c(
           "flex justify-between",
-          `faction-claim-${playerDeck.faction}`
+          `faction-claim-${playerDeck.faction}`,
+          "relative deck-title"
         )}
       >
-        <h1 className="text-xl">{playerDeck.hero.name}</h1>
+        <h1 className={c("text-xl")}>{playerDeck.hero.name}</h1>
         <h3>
           <span>{countCardsOnDeck(playerDeck.cards)}</span> / {deckSize - 15}
         </h3>
       </div>
 
-      <div className={`faction-claim-decorator-${playerDeck.faction}`}></div>
       {Object.keys(deckSortedByType).map((type) => (
         <div key={type}>
           <h2 className="text-xl font-bold text-slate-300 hover:text-slate-50">
@@ -142,8 +143,4 @@ function factionColor(faction: CardFaction) {
     case "Basic":
       return "bg-gray-700";
   }
-}
-
-function countCardsOnDeck(cards: DeckCard[]) {
-  return cards.reduce((acc, { copies }) => acc + copies, 0);
 }
