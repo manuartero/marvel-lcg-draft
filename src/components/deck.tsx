@@ -1,17 +1,17 @@
 import c from "classnames";
+import { useDeckSettingsContext } from "contexts/deck-settings-context";
+import { Tooltip } from "elements/tooltip";
+import { useBool } from "hooks/use-bool";
 
 import type { DeckCard, Player, PlayerDeck } from "app-domain";
 import type { Card, CardFaction, CardType } from "services/cards";
 
-import { Tooltip } from "elements/tooltip";
-import { useBool } from "hooks/use-bool";
 import "./deck.css";
-import { useDeckSettingsContext } from "contexts/deck-settings-context";
 
 type Props = {
   className?: string;
   playerDeck: PlayerDeck;
-  player: Player;
+  player: Player | string;
 };
 
 export function Deck({ className, playerDeck, player }: Props) {
@@ -22,8 +22,11 @@ export function Deck({ className, playerDeck, player }: Props) {
     <section
       className={c(
         className,
-        "flex flex-col justify-around p-4 pb-32",
-        player === "Player 1" ? "bg-gradient-to-r" : "bg-gradient-to-l",
+        "flex flex-col justify-around p-4 pb-32 h-full",
+        "border-gray-700",
+        player === "Player 1" && "bg-gradient-to-r border-r-4",
+        player === "Player 2" && "bg-gradient-to-l border-l-4",
+        player !== "Player 1" && player !== "Player 2" && "bg-gradient-to-b border-4",
         backgroundGradient(playerDeck.faction)
       )}
     >
