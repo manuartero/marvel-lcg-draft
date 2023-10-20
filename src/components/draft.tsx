@@ -1,10 +1,11 @@
 import c from "classnames";
 import { ReadyButton } from "elements/ready-button";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { DraftCard } from "elements/draft-card";
 
 import type { DeckCard, Player, Selection } from "app-domain";
 import type { Card } from "services/cards";
+import { useKeyboard } from "hooks/use-keyboard";
 
 type Props = {
   cards: Card[];
@@ -22,6 +23,22 @@ export function Draft({
   const [currentPlayer, setCurrentPlayer] = useState<Player>(startingPlayer);
   const [player1, setPlayer1] = useState<DeckCard>();
   const [player2, setPlayer2] = useState<DeckCard>();
+
+  useKeyboard({
+    1: () => {
+      handleSelectCard(cards[0]);
+    },
+    2: () => {
+      handleSelectCard(cards[1]);
+    },
+    3: () => {
+      handleSelectCard(cards[2]);
+    },
+  });
+
+  useEffect(() => {
+    setCurrentPlayer(startingPlayer);
+  }, [startingPlayer]);
 
   const ready = player1?.card && player2?.card;
 

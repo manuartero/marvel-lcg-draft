@@ -24,7 +24,7 @@ export function Deck({ className, playerDeck, player }: Props) {
       className={c(
         className,
         "flex flex-col justify-around p-4 pb-32 h-full",
-        "border-gray-700",
+        "border-[var(--light-grey)]",
         player === "Player 1" && "bg-gradient-to-r border-r-4",
         player === "Player 2" && "bg-gradient-to-l border-l-4",
         player !== "Player 1" &&

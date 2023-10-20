@@ -28,6 +28,7 @@ body {
   --dark-blue: #090e0f;
   --medium-dark-blue: #0f191f;
   --white: #ffffff;
+  --light-grey: rgb(63, 72, 84); /* aprox. gray-600 */
 }
 
 .show-up-transition {
