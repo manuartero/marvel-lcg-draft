@@ -26,7 +26,9 @@ export function Deck({ className, playerDeck, player }: Props) {
         "border-gray-700",
         player === "Player 1" && "bg-gradient-to-r border-r-4",
         player === "Player 2" && "bg-gradient-to-l border-l-4",
-        player !== "Player 1" && player !== "Player 2" && "bg-gradient-to-b border-4",
+        player !== "Player 1" &&
+          player !== "Player 2" &&
+          "bg-gradient-to-b border-4",
         backgroundGradient(playerDeck.faction)
       )}
     >
@@ -64,9 +66,12 @@ export function Deck({ className, playerDeck, player }: Props) {
 }
 
 function sortDeckByType(deck: PlayerDeck) {
+  const cardIsUselessForThisDeck = ({ card }: DeckCard) =>
+    card.faction !== "Basic" && card.faction !== deck.faction;
+
   return deck.cards.reduce(
     (acc, deckCard) => {
-      if (deckCard.card.faction !== deck.faction) {
+      if (cardIsUselessForThisDeck(deckCard)) {
         acc["Resource"].push(deckCard);
       } else {
         acc[deckCard.card.type].push(deckCard);
