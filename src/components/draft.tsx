@@ -1,6 +1,6 @@
 import c from "classnames";
 import { ReadyButton } from "elements/ready-button";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { DraftCard } from "elements/draft-card";
 
 import type { DeckCard, Player, Selection } from "app-domain";
@@ -35,6 +35,10 @@ export function Draft({
       handleSelectCard(cards[2]);
     },
   });
+
+  useEffect(() => {
+    setCurrentPlayer(startingPlayer);
+  }, [startingPlayer]);
 
   const ready = player1?.card && player2?.card;
 
