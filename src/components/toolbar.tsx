@@ -15,7 +15,7 @@ export function Toolbar({ onDeckSettings, onCollection }: Props) {
   return (
     <nav
       id="Toolbar"
-      className="bg-gray-700 w-full flex items-end justify-end px-4"
+      className="bg-[var(--light-grey)] w-full flex items-end justify-end px-4"
     >
       <button
         className="px-8 py-4 rounded-md text-xl"
