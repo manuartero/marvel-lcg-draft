@@ -12,13 +12,21 @@ import {
 import { useDecks } from "./hooks/use-decks";
 import { useDraft } from "./hooks/use-draft";
 
-import type { DeckCard, Player, PlayerDeck, Selection } from "./app-domain";
+import {
+  countCardsOnDeck,
+  type DeckCard,
+  type Player,
+  type PlayerDeck,
+  type Selection,
+} from "./app-domain";
 import type { CardFaction, HeroCard } from "./services/cards";
+import { useDeckSettingsContext } from "contexts/deck-settings-context";
 
 export function App() {
   const { player1Deck, player2Deck, setHeroes, setFactions, addCardsToDecks } =
     useDecks();
   const { currentCards, draft } = useDraft();
+  const { deckSize } = useDeckSettingsContext();
   const [showCollectionDialog, setShowCollectionDialog] = useState(false);
   const [showDeckSizeDialog, setShowDeckSizeDialog] = useState(false);
   const [startingPlayer, setStartingPlayer] = useState<Player>("Player 1");
@@ -47,7 +55,21 @@ export function App() {
     if (!player1Deck.faction || !player2Deck.faction) {
       return "faction-selection";
     }
-    return "deck-building";
+    const targetDeckSize = deckSize - 15;
+    if (
+      countCardsOnDeck(player1Deck.cards) < targetDeckSize ||
+      countCardsOnDeck(player2Deck.cards) < targetDeckSize
+    ) {
+      return "deck-building";
+    }
+    return "done";
+  };
+
+  const deckBuildingProgress = () => {
+    return (
+      ((countCardsOnDeck(player1Deck.cards) + 1) * 100) /
+      (deckSize - 15)
+    ).toFixed(2);
   };
 
   const showDeckSettings = () => {
@@ -85,6 +107,10 @@ export function App() {
       return;
     }
     addCardsToDecks(sel);
+    document.documentElement.style.setProperty(
+      "--deck-progress",
+      `${deckBuildingProgress()}%`
+    );
     setStartingPlayer((current) =>
       current === "Player 1" ? "Player 2" : "Player 1"
     );
@@ -127,6 +153,20 @@ export function App() {
               player="Player 2"
             />
           </>
+        )}
+        {appState() === "done" && (
+          <div className="flex flex-grow justify-around items-center">
+            <Deck
+              className="w-2/6"
+              playerDeck={player1Deck as PlayerDeck}
+              player={player1Deck.hero?.name || "Player 1"}
+            />
+            <Deck
+              className="w-2/6"
+              playerDeck={player2Deck as PlayerDeck}
+              player={player2Deck.hero?.name || "Player 2"}
+            />
+          </div>
         )}
       </main>
       {showCollectionDialog && <CollectionDialog onClose={closeCollection} />}

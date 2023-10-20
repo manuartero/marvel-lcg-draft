@@ -55,3 +55,7 @@ export function groupPackagesByWaves(): Record<CardPackage, CardPackage[]> {
 
   return waves;
 }
+
+export function countCardsOnDeck(cards: DeckCard[]) {
+  return cards.reduce((acc, { copies }) => acc + copies, 0);
+}

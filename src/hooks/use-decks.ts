@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import type { DeckCard, Selection } from "app-domain";
-import type { CardFaction, HeroCard } from "services/cards";
+import type { Card, CardFaction, HeroCard } from "services/cards";
 
 export function useDecks() {
   const [player1Hero, setPlayer1Hero] = useState<HeroCard>();
@@ -14,7 +14,7 @@ export function useDecks() {
   const setHeroes = (sel: Selection<HeroCard>) => {
     setPlayer1Hero(sel.player1);
     setPlayer2Hero(sel.player2);
-  }
+  };
 
   const setFactions = (sel: Selection<CardFaction>) => {
     setPlayer1Faction(sel.player1);
@@ -22,10 +22,24 @@ export function useDecks() {
   };
 
   const addCardsToDecks = (sel: Selection<DeckCard>) => {
-    setPlayer1Cards((cards) => [...cards, sel.player1]);
-    setPlayer2Cards((cards) => [...cards, sel.player2]);
-  };
+    const { player1, player2 } = sel;
 
+    const player1Index = cardIndexInDeck(player1.card, player1Cards);
+    if (player1Index !== -1) {
+      player1Cards[player1Index].copies += player1.copies;
+      setPlayer1Cards([...player1Cards]);
+    } else {
+      setPlayer1Cards((cards) => [...cards, player1]);
+    }
+
+    const player2Index = cardIndexInDeck(player2.card, player2Cards);
+    if (player2Index !== -1) {
+      player2Cards[player2Index].copies += player2.copies;
+      setPlayer2Cards([...player2Cards]);
+    } else {
+      setPlayer2Cards((cards) => [...cards, player2]);
+    }
+  };
 
   return {
     player1Deck: {
@@ -42,4 +56,8 @@ export function useDecks() {
     setFactions,
     addCardsToDecks,
   };
+}
+
+function cardIndexInDeck(card: Card, deck: DeckCard[]) {
+  return deck.findIndex((c) => c.card.code === card.code);
 }

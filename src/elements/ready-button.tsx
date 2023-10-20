@@ -10,7 +10,7 @@ export function ReadyButton({ onClick, ...rest }: Props) {
       className={c(
         "px-10 py-4",
         "text-white font-semibold",
-        "bg-sky-950  hover:bg-sky-700 rounded-md",
+        "bg-gray-700  hover:bg-gray-500 rounded-md",
         rest.disabled && "opacity-50 cursor-not-allowed"
       )}
       onClick={onClick}

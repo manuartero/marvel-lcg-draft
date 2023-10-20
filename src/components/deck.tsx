@@ -1,17 +1,18 @@
 import c from "classnames";
+import { useDeckSettingsContext } from "contexts/deck-settings-context";
+import { Tooltip } from "elements/tooltip";
+import { useBool } from "hooks/use-bool";
+import { countCardsOnDeck } from "app-domain";
 
 import type { DeckCard, Player, PlayerDeck } from "app-domain";
 import type { Card, CardFaction, CardType } from "services/cards";
 
-import { Tooltip } from "elements/tooltip";
-import { useBool } from "hooks/use-bool";
 import "./deck.css";
-import { useDeckSettingsContext } from "contexts/deck-settings-context";
 
 type Props = {
   className?: string;
   playerDeck: PlayerDeck;
-  player: Player;
+  player: Player | string;
 };
 
 export function Deck({ className, playerDeck, player }: Props) {
@@ -22,24 +23,29 @@ export function Deck({ className, playerDeck, player }: Props) {
     <section
       className={c(
         className,
-        "flex flex-col justify-around p-4 pb-32",
-        player === "Player 1" ? "bg-gradient-to-r" : "bg-gradient-to-l",
+        "flex flex-col justify-around p-4 pb-32 h-full",
+        "border-gray-700",
+        player === "Player 1" && "bg-gradient-to-r border-r-4",
+        player === "Player 2" && "bg-gradient-to-l border-l-4",
+        player !== "Player 1" &&
+          player !== "Player 2" &&
+          "bg-gradient-to-b border-4",
         backgroundGradient(playerDeck.faction)
       )}
     >
       <div
         className={c(
           "flex justify-between",
-          `faction-claim-${playerDeck.faction}`
+          `faction-claim-${playerDeck.faction}`,
+          "relative deck-title"
         )}
       >
-        <h1 className="text-xl">{playerDeck.hero.name}</h1>
+        <h1 className={c("text-xl")}>{playerDeck.hero.name}</h1>
         <h3>
           <span>{countCardsOnDeck(playerDeck.cards)}</span> / {deckSize - 15}
         </h3>
       </div>
 
-      <div className={`faction-claim-decorator-${playerDeck.faction}`}></div>
       {Object.keys(deckSortedByType).map((type) => (
         <div key={type}>
           <h2 className="text-xl font-bold text-slate-300 hover:text-slate-50">
@@ -61,9 +67,12 @@ export function Deck({ className, playerDeck, player }: Props) {
 }
 
 function sortDeckByType(deck: PlayerDeck) {
+  const cardIsUselessForThisDeck = ({ card }: DeckCard) =>
+    card.faction !== "Basic" && card.faction !== deck.faction;
+
   return deck.cards.reduce(
     (acc, deckCard) => {
-      if (deckCard.card.faction !== deck.faction) {
+      if (cardIsUselessForThisDeck(deckCard)) {
         acc["Resource"].push(deckCard);
       } else {
         acc[deckCard.card.type].push(deckCard);
@@ -90,7 +99,13 @@ function DeckCard({ card }: { card: Card }) {
       onMouseEnter={toggleImage}
       onMouseLeave={toggleImage}
     >
-      <div className="w-4 h-4 bg-gray-200 rounded-full"></div>
+      <div
+        className={c(
+          "w-4 h-5 rounded-sm",
+          factionColor(card.faction),
+          "border-2 border-gray-300"
+        )}
+      ></div>
       <Tooltip show={showImage}>
         <div className="flex flex-col justify-center p-2 w-[120px]">
           <img src={`/${card.code}.png`} className="mx-auto" alt={card.name} />
@@ -115,6 +130,17 @@ function backgroundGradient(faction: CardFaction) {
   }
 }
 
-function countCardsOnDeck(cards: DeckCard[]) {
-  return cards.reduce((acc, { copies }) => acc + copies, 0);
+function factionColor(faction: CardFaction) {
+  switch (faction) {
+    case "Aggression":
+      return "bg-red-700";
+    case "Justice":
+      return "bg-yellow-700";
+    case "Leadership":
+      return "bg-blue-700";
+    case "Protection":
+      return "bg-green-700";
+    case "Basic":
+      return "bg-gray-700";
+  }
 }
