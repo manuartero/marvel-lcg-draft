@@ -98,7 +98,13 @@ function DeckCard({ card }: { card: Card }) {
       onMouseEnter={toggleImage}
       onMouseLeave={toggleImage}
     >
-      <div className="w-4 h-4 bg-gray-200 rounded-full"></div>
+      <div
+        className={c(
+          "w-4 h-5 rounded-sm",
+          factionColor(card.faction),
+          "border-2 border-gray-300"
+        )}
+      ></div>
       <Tooltip show={showImage}>
         <div className="flex flex-col justify-center p-2 w-[120px]">
           <img src={`/${card.code}.png`} className="mx-auto" alt={card.name} />
@@ -120,6 +126,21 @@ function backgroundGradient(faction: CardFaction) {
       return "from-green-900 to-transparent";
     case "Basic":
       return "from-gray-900 to-transparent";
+  }
+}
+
+function factionColor(faction: CardFaction) {
+  switch (faction) {
+    case "Aggression":
+      return "bg-red-700";
+    case "Justice":
+      return "bg-yellow-700";
+    case "Leadership":
+      return "bg-blue-700";
+    case "Protection":
+      return "bg-green-700";
+    case "Basic":
+      return "bg-gray-700";
   }
 }
 
