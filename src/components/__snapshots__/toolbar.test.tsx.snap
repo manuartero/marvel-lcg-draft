@@ -3,7 +3,7 @@
 exports[`<Toolbar /> renders 1`] = `
 <DocumentFragment>
   <nav
-    class="bg-gray-100 w-full p-2 flex items-end justify-end"
+    class="bg-gray-700 w-full flex items-end justify-end px-4"
     id="Toolbar"
   >
     <button
